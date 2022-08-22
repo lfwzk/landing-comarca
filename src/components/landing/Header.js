@@ -1,5 +1,7 @@
 import H2 from '@material-tailwind/react/Heading2';
 import LeadText from '@material-tailwind/react/LeadText';
+import { Button } from "@material-tailwind/react";
+
 
 export default function Header() {
     return (
@@ -8,14 +10,16 @@ export default function Header() {
             <div className="container max-w-8xl relative mx-auto">
                 <div className="items-center flex flex-wrap">
                     <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                        <H2 color="white">Your story starts with us.</H2>
+                        <H2 color="white">CO MARCA</H2>
                         <div className="text-gray-200">
                             <LeadText color="gray-200">
-                                This is a simple example of a Landing Page you
-                                can build using Material Tailwind. It features
-                                multiple components based on the Tailwind CSS
-                                and Material Design by Google.
+                                Un Cowork con propósito ❤
                             </LeadText>
+                            <div className="flex justify-center mt-10">
+                                <Button color="transparent"
+                                    className="bg-comarca text-white ml-4"
+                                    ripple="dark">Reservas</Button>
+                            </div>
                         </div>
                     </div>
                 </div>

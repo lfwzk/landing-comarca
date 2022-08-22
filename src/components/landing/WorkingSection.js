@@ -14,14 +14,14 @@ export default function WorkingSection() {
         <section className="pb-20 bg-gray-100 -mt-32">
             <div className="container max-w-7xl mx-auto px-4">
                 <div className="flex flex-wrap relative z-50">
-                    <StatusCard color="red" icon="stars" title="Awarded Agency">
+                    <StatusCard color="red" icon="stars" title="Calidad">
                         Divide details about your product or agency work into
                         parts. A paragraph describing a feature will be enough.
                     </StatusCard>
                     <StatusCard
                         color="lightBlue"
                         icon="autorenew"
-                        title="Free Revisions"
+                        title="Libre y cómodo"
                     >
                         Keep you user engaged by providing meaningful
                         information. Remember that by this time, the user is
@@ -30,7 +30,7 @@ export default function WorkingSection() {
                     <StatusCard
                         color="teal"
                         icon="fingerprint"
-                        title="Verified Company"
+                        title="Compañia con identidad"
                     >
                         Write a few lines about each one. A paragraph describing
                         a feature will be enough. Keep you user engaged!
