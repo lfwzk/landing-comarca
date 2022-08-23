@@ -68,7 +68,7 @@ export default function DefaultFooter() {
                             <div className="flex flex-wrap items-top">
                                 <div className="w-full lg:w-4/12 px-4 ml-auto md:mb-0 mb-8">
                                     <span className="block uppercase text-gray-900 text-sm font-serif font-medium mb-2">
-                                        Useful Links
+                                        Recursos
                                     </span>
                                     <ul className="list-unstyled">
                                         <li>
@@ -78,7 +78,7 @@ export default function DefaultFooter() {
                                                 rel="noreferrer"
                                                 className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                                             >
-                                                About Us
+                                                Sobre nosotros 
                                             </a>
                                         </li>
                                         <li>
@@ -97,7 +97,7 @@ export default function DefaultFooter() {
                                                 rel="noreferrer"
                                                 className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                                             >
-                                                Github
+                                                Desarrollo
                                             </a>
                                         </li>
                                         <li>
@@ -107,14 +107,14 @@ export default function DefaultFooter() {
                                                 rel="noreferrer"
                                                 className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                                             >
-                                                Free Products
+                                                Nuestros productos 
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="w-full lg:w-4/12 px-4">
                                     <span className="block uppercase text-gray-900 text-sm font-serif font-medium mb-2">
-                                        Other Resources
+                                        Importante 
                                     </span>
                                     <ul className="list-unstyled">
                                         <li>
@@ -124,7 +124,7 @@ export default function DefaultFooter() {
                                                 rel="noreferrer"
                                                 className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                                             >
-                                                MIT License
+                                                MIT Licencia
                                             </a>
                                         </li>
                                         <li>
@@ -134,7 +134,7 @@ export default function DefaultFooter() {
                                                 rel="noreferrer"
                                                 className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                                             >
-                                                Contribute
+                                                Contribuir 
                                             </a>
                                         </li>
                                         <li>
@@ -144,7 +144,7 @@ export default function DefaultFooter() {
                                                 rel="noreferrer"
                                                 className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                                             >
-                                                Code of Conduct
+                                                Codigo de conducta
                                             </a>
                                         </li>
                                         <li>
@@ -154,7 +154,7 @@ export default function DefaultFooter() {
                                                 rel="noreferrer"
                                                 className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                                             >
-                                                Contact Us
+                                                Contacto
                                             </a>
                                         </li>
                                     </ul>

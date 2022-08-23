@@ -43,7 +43,7 @@ export default function DefaultNavbar() {
                     <Nav>
                         <div className="flex flex-col z-50 lg:flex-row lg:items-center">
                             <NavLink
-                                href="https://material-tailwind.com/documentation/quick-start?ref=mtk"
+                                href="/"
                                 target="_blank"
                                 rel="noreferrer"
                                 ripple="light"
@@ -52,11 +52,10 @@ export default function DefaultNavbar() {
                                 &nbsp;Home 
                             </NavLink>
                             <NavLink
-                                href="https://material-tailwind.com/components?ref=mtk"
-                                target="_blank"
-                                rel="noreferrer"
-                                ripple="light"
-                            >
+                                href="/services"
+                               
+                                                            >
+                                 <Link to="/login"></Link>
                                 <Icon name="apps" size="2xl" />
                                 &nbsp;Servicios
                             </NavLink>
