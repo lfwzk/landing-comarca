@@ -12,7 +12,7 @@ export default function SimpleFooter() {
                                     rel="noreferrer"
                                     className="text-white font-medium block pb-2 text-sm"
                                 >
-                                    MIT License
+                                    Licencia 
                                 </a>
                             </li>
                             <li>
@@ -22,7 +22,7 @@ export default function SimpleFooter() {
                                     rel="noreferrer"
                                     className="text-white font-medium block pb-2 text-sm"
                                 >
-                                    Contribute
+                                    Nuestras reglas 
                                 </a>
                             </li>
                             <li>
@@ -32,7 +32,7 @@ export default function SimpleFooter() {
                                     rel="noreferrer"
                                     className="text-white font-medium block pb-2 text-sm"
                                 >
-                                    Code of Conduct
+                                    Codigo de Conducta
                                 </a>
                             </li>
                             <li>
@@ -42,7 +42,7 @@ export default function SimpleFooter() {
                                     rel="noreferrer"
                                     className="text-white font-medium block pb-2 text-sm"
                                 >
-                                    Contact Us
+                                   Contáctanos 
                                 </a>
                             </li>
                         </ul>
@@ -51,12 +51,12 @@ export default function SimpleFooter() {
                             Copyright © {new Date().getFullYear()} Material
                             Tailwind by{' '}
                             <a
-                                href="https://www.creative-tim.com?ref=mtk"
+                                href="/"
                                 className="text-white"
                             >
-                                Creative Tim
+                               Comarca | v1.0 beta 
                             </a>
-                            .
+                            
                         </div>
                     </div>
                 </div>

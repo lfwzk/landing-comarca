@@ -6,24 +6,19 @@ export default function ContactSection() {
     return (
         <section className="pb-20 relative block bg-gray-100">
             <div className="container max-w-7xl mx-auto px-4 lg:pt-24">
-                <Title heading="Build something">
-                    Put the potentially record low maximum sea ice extent tihs
-                    year down to low ice. According to the National Oceanic and
-                    Atmospheric Administration, Ted, Scambos.
+                <Title heading="Construye algo interesante">
+                    Bienvenido a Comarca una comunidad de emprendedores y creativos que buscan un espacio para trabajar.
                 </Title>
 
                 <div className="flex flex-wrap -mt-12 justify-center">
-                    <ContactCard icon="stars" title="Excelent Services">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                    <ContactCard icon="home" title="Servicios excelentes">
+                        Aqui se aprende mucho donde tenemos un ambiente de trabajo muy agradable.
                     </ContactCard>
-                    <ContactCard icon="insert_chart" title="Grow Your Market">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                    <ContactCard icon="insert_chart" title="Lidera en el mercado">
+                        Aqui se aprende mucho donde tenemos un ambiente de trabajo muy agradable.
                     </ContactCard>
-                    <ContactCard icon="launch" title="Launch Time">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                    <ContactCard icon="stars" title="Ahorra tiempo ">
+                        Con Comarca puedes ahorrar tiempo y dinero en tu negocio. donde tenemos un ambiente de trabajo muy agradable.
                     </ContactCard>
                 </div>
 

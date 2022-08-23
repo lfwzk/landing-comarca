@@ -9,10 +9,8 @@ export default function TeamSection() {
     return (
         <section className="pt-20 pb-48">
             <div className="container max-w-7xl mx-auto px-4">
-                <Title heading="Here are our heroes">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record maximum.
+                <Title heading="EL EQUIPO DE COMARCA">
+                    Los miembros de comarca
                 </Title>
                 <div className="flex flex-wrap">
                     <TeamCard

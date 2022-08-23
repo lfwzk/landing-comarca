@@ -17,7 +17,7 @@ export default function DefaultFooter() {
                             </div>
                             <div className="flex gap-2 mt-6 md:justify-start md:mb-0 mb-8 justify-center">
                                 <a
-                                    href="https://www.facebook.com/CreativeTim"
+                                    href="https://www.facebook.com/CoMarcaCoworkconProposito"
                                     className="grid place-items-center bg-white text-blue-600 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -49,17 +49,7 @@ export default function DefaultFooter() {
                                         name="fab fa-instagram"
                                     />
                                 </a>
-                                <a
-                                    href="https://www.dribbble.com/creativetim"
-                                    className="grid place-items-center bg-white text-pink-400 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <Icon
-                                        family="font-awesome"
-                                        name="fab fa-dribbble"
-                                    />
-                                </a>
+                           
                                 <a
                                     href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w"
                                     className="grid place-items-center bg-white text-red-600 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none"
@@ -71,17 +61,7 @@ export default function DefaultFooter() {
                                         name="fab fa-youtube"
                                     />
                                 </a>
-                                <a
-                                    href="https://github.com/creativetimofficial"
-                                    className="grid place-items-center bg-white text-gray-900 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <Icon
-                                        family="font-awesome"
-                                        name="fab fa-github"
-                                    />
-                                </a>
+                            
                             </div>
                         </div>
                         <div className="w-full lg:w-6/12 px-4">
@@ -187,7 +167,7 @@ export default function DefaultFooter() {
                         <div className="w-full md:w-4/12 px-4 mx-auto text-center">
                             <div className="text-sm text-gray-700 font-medium py-1">
                                 Copyright © {new Date().getFullYear()} 
-                                {' '} Co Marca {' '}
+                                {' '} Co Marca {' '} | v1.0.0 beta
                                
                             </div>
                         </div>

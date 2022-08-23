@@ -109,7 +109,7 @@ export default function DefaultNavbar() {
                             >
                                 <Icon
                                     family="font-awesome"
-                                    name="fab fa-github"
+                                    name="fab fa-file"
                                     size="xl"
                                 />
                                 &nbsp;Blog
