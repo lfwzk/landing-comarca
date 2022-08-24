@@ -5,18 +5,19 @@ import WorkingSection from "components/landing/WorkingSection";
 //import TeamSection from "components/landing/TeamSection";
 import ContactSection from "components/landing/ContactSection";
 import Mapview from "components/Maps/Mapview.js";
+import Review from "components/landing/Review";
 
 export default function Landing() {
   return (
     <>
-      <div className="absolute w-full z-20">
+      <div className="absolute w-full z-20 ">
         <DefaultNavbar />
       </div>
       <main>
         <Header />
         <WorkingSection />
         {/* <TeamSection /> */}
-
+        <Review />
         <ContactSection />
         <Mapview />
       </main>

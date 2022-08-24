@@ -10,7 +10,7 @@ module.exports = {
       sans: ["Roboto", "sans-serif"],
       serif: ['"Roboto Slab"', "serif"],
       body: ["Roboto", "sans-serif"],
-      exo: ["Exo", "sans-serif"],
+      exo: ["Exo 2"],
     },
     extend: {
       backgroundImage: () => ({
@@ -24,7 +24,11 @@ module.exports = {
     },
   },
   variants: {
+    content: [
+      "./src/**/*.{html,js}",
+      "./node_modules/tw-elements/dist/js/**/*.js",
+    ],
     extend: {},
   },
-  plugins: [],
+  plugins: [require("tw-elements/dist/plugin")],
 };
