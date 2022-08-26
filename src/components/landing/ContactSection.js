@@ -1,11 +1,11 @@
 import Title from "components/landing/Title";
 import ContactCard from "components/landing/ContactCard";
-import Form from "components/landing/Form";
+//import Form from "components/landing/Form";
 
 export default function ContactSection() {
   return (
-    <section className="pb-20 relative block bg-gray-100">
-      <div className="container max-w-7xl mx-auto px-4 lg:pt-24">
+    <section className="pb-20 relative block bg-gray-100 font-exo">
+      <div className="container max-w-7xl mx-auto px-4 lg:pt-24 ">
         <Title heading="Construye algo interesante">
           Bienvenido a Comarca una comunidad de emprendedores y creativos que
           buscan un espacio para trabajar.

@@ -12,6 +12,7 @@ import Dropdown from "@material-tailwind/react/Dropdown";
 import DropdownItem from "@material-tailwind/react/DropdownItem";
 import Icon from "@material-tailwind/react/Icon";
 import Button from "@material-tailwind/react/Button";
+import img from "../assets/img/icons/cw11.png";
 
 export default function DefaultNavbar() {
   const [openNavbar, setOpenNavbar] = useState(false);
@@ -26,10 +27,9 @@ export default function DefaultNavbar() {
             rel="noreferrer"
             className="flex items-center"
           >
+            <img src={img} className="mr-4 h-6 sm:h-9" />
             <NavbarBrand>CO MARCA</NavbarBrand>
           </a>
-          {/* <img src="./assets/img/cw11.svg" class="mr-3 h-6 sm:h-9"/> */}
-
           <NavbarToggler
             onClick={() => setOpenNavbar(!openNavbar)}
             color="white"

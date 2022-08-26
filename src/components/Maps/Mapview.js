@@ -5,7 +5,7 @@ const Mapview = () => {
   return (
     <>
       <div className="container max-w-7xl mx-auto px-4 lg:pt-24">
-        <Title heading="VISITANOS">
+        <Title heading="Nos encontramos">
           Direccion: Av. Montenegro Nro 1017 Zona San Miguel Edificio Emporio
           Sub suelo oficina 17 Ciudad La Paz, La Paz, Bolivia Telefono: (591)
           71520591 Email: info@comarca-cowork.com

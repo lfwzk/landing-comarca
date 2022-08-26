@@ -1,5 +1,5 @@
 //  import { Switch, Route, Redirect, Router } from "react-router-dom";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Landing from "pages/Landing";
 import Profile from "pages/Profile";
 import Login from "pages/Login";

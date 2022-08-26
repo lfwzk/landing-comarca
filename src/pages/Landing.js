@@ -19,6 +19,7 @@ export default function Landing() {
         {/* <TeamSection /> */}
         <Review />
         <ContactSection />
+
         <Mapview />
       </main>
 

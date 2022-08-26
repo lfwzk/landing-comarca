@@ -13,7 +13,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import '@material-tailwind/react/tailwind.css';
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,600;1,100;1,300;1,400&display=swap');
+
 
 @layer utilities {
     .-translate-x-1\/2 {
