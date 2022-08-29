@@ -27,7 +27,7 @@ export default function DefaultNavbar() {
             rel="noreferrer"
             className="flex items-center"
           >
-            <img src={img} className="mr-4 h-6 sm:h-9" />
+            <img src={img} className="mr-4 h-6 sm:h-9" alt="logo" />
             <NavbarBrand>CO MARCA</NavbarBrand>
           </a>
           <NavbarToggler
@@ -38,7 +38,7 @@ export default function DefaultNavbar() {
 
         <NavbarCollapse open={openNavbar}>
           <Nav>
-            <div className="flex flex-col z-50 lg:flex-row lg:items-center">
+            <div className="flex flex-col z-50 lg:flex-row lg:items-center fixed w-full  top-0 left-0 border-b ">
               <NavLink href="/" target="_blank" rel="noreferrer" ripple="light">
                 <Icon name="home" size="2xl" />
                 &nbsp;Home
