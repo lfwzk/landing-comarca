@@ -79,28 +79,28 @@ export default function Navbar() {
             <nav className="hidden lg:uppercase lg:text-gray-500 lg:tracking-wide lg:font-bold lg:text-xs lg:space-x-4 lg:flex ">
               <a
                 href="/"
-                className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current"
+                className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-comarca hover:border-current"
               >
                 Home
               </a>
 
               <a
                 href="/services"
-                className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current"
+                className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-comarcaBlue hover:border-current"
               >
                 Servicios
               </a>
 
               <a
-                href="/products"
-                className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current"
+                href="/group"
+                className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-comarcaYellow hover:border-current"
               >
                 Grupo
               </a>
 
               <a
-                href="/contact"
-                className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current"
+                href="/blog"
+                className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-comarcaPurple hover:border-current"
               >
                 Blog
               </a>
@@ -111,7 +111,7 @@ export default function Navbar() {
                 <span>
                   <a
                     href="/cart"
-                    className="block p-6 border-b-4 border-transparent hover:border-red-700"
+                    className="block p-6 border-b-4 border-transparent hover:border-comarcaBlue hover:text-current"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -135,8 +135,8 @@ export default function Navbar() {
 
                 <span>
                   <a
-                    href="/account"
-                    className="block p-6 border-b-4 border-transparent hover:border-red-700"
+                    href="/profile"
+                    className="block p-6 border-b-4 border-transparent hover:border-comarcaPurple hover:border-current"
                   >
                     <svg
                       className="w-4 h-4"
@@ -160,8 +160,8 @@ export default function Navbar() {
                 <span className="hidden sm:block">
                   <div className="sm:gap-4 sm:flex">
                     <a
-                      className="block px-5 py-2.5 text-sm font-medium text-white bg-teal-600 hover:bg-teal-500 transition rounded-md shadow bg-comarca"
-                      href="/"
+                      className="block px-5 py-2.5 text-sm font-medium text-white bg-teal-600 hover:bg-comarcaOrange transition rounded-md shadow bg-comarca"
+                      href="/login"
                     >
                       Login
                     </a>
@@ -182,40 +182,33 @@ export default function Navbar() {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a
+                  href="/"
+                  className="hover:bg-comarcaOrange text-black block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Home
+                </a>
+
+                <a
+                  href="/services"
+                  className="text-gray-300 hover:bg-comarcaBlue hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Servicios
+                </a>
+
                 <button
                   href="#"
-                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-300 hover:bg-comarcaPurple hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Dashboard
+                  Grupo
                 </button>
 
                 <button
                   href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-300 hover:bg-comarca hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Team
-                </button>
-
-                <button
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Projects
-                </button>
-
-                <button
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Calendar
-                </button>
-
-                <button
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Reports
+                  Login
                 </button>
               </div>
             </div>

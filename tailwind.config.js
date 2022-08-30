@@ -5,6 +5,11 @@ module.exports = {
   theme: {
     colors: {
       comarca: "#f03648",
+      comarcaGray: "#EAEAEA",
+      comarcaPurple: "#6B0D9E",
+      comarcaBlue: "#03989E",
+      comarcaYellow: "#EBFC20",
+      comarcaOrange: "#FAB328",
     },
     fontFamily: {
       sans: ["Roboto", "sans-serif"],

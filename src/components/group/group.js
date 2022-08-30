@@ -1,10 +1,11 @@
-import react from "react";
-
+import Nav from "components/Nav";
+import Promotional from "pages/Promotional";
 const Group = () => {
   return (
-    <div>
-      <h1>Group</h1>
-    </div>
+    <>
+      <Nav />
+      <Promotional />
+    </>
   );
 };
 export default Group;

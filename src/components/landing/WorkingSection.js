@@ -49,8 +49,11 @@ export default function WorkingSection() {
               también porque queremos trabajar en un ambiente agradable y con
               gente que comparte nuestros intereses.
             </LeadText>
-            <a href="/" className="font-medium text-red-500 mt-2 inline-block ">
-              Read More
+            <a
+              href="/services"
+              className="font-medium text-red-500 mt-2 inline-block hover:text-comarcaBlue"
+            >
+              Leer más
             </a>
           </div>
 
