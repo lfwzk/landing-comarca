@@ -25,6 +25,8 @@ module.exports = {
           "linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url('/src/assets/img/background-comarca.jpg')",
         "profile-background":
           "linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url('/src/assets/img/background-1920x1080.jpg')",
+        "background-comarca-services":
+          "linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url('/src/assets/img/spaces/Comarca/sala1.jpg')",
       }),
     },
   },

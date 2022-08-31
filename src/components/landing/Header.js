@@ -21,6 +21,7 @@ export default function Header() {
                   color="transparent"
                   className="bg-comarca text-white ml-4"
                   ripple="dark"
+                  href="/services"
                 >
                   Reservas
                 </Button>

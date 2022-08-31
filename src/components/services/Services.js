@@ -2,49 +2,46 @@ import React from "react";
 import Nav from "components/Nav";
 import Products from "./Products";
 import DefaultFooter from "components/DefaultFooter";
+import LeadText from "@material-tailwind/react/LeadText";
+import { Button } from "@material-tailwind/react";
+//import img from "assets/img/bg-landing-background.jpg";
 
 export default function Services() {
   return (
     <>
-      <div className="absolute w-full z-20  fixed-top">
-        <Nav />
-      </div>
-
+      <Nav />
       <main>
-        <section className="bg-gray-50">
-          <div className="max-w-screen-xl px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex">
-            <div className="max-w-xl mx-auto text-center">
-              <h1 className="text-3xl font-extrabold sm:text-5xl">
-                Espacios Cómodos
-                <strong className="p-8 font-extrabold text-comarcaBlue sm:block">
-                  Comarca Spaces
-                </strong>
-              </h1>
+        <div className="relative pt-16 pb-32 flex content-center items-center justify-center h-screen ">
+          <div className="bg-background-comarca-services bg-cover bg-center absolute top-0 w-full h-full" />
+          <div className="container max-w-8xl relative mx-auto font-serif">
+            <div className="items-center flex flex-wrap ">
+              <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center  ">
+                <h1 className="text-6xl text-gray-200 font-exo">
+                  {" "}
+                  Nuestros servicios
+                </h1>
 
-              <p className="mt-4 sm:leading-relaxed sm:text-xl">
-                Tenemos los mejores espacios adaptados a tus necesidades.
-              </p>
-
-              <div className="flex flex-wrap justify-center gap-4 mt-8">
-                <a
-                  className="block w-full px-12 py-3 text-sm font-medium text-white bg-comarca rounded shadow sm:w-auto active:bg-red-500 hover:bg-comarcaBlue focus:outline-none focus:ring"
-                  href="/get-started"
-                >
-                  Get Started
-                </a>
-
-                <a
-                  className="block w-full px-12 py-3 text-sm font-medium text-gray-600 rounded shadow sm:w-auto hover:text-comarcaBlue active:text-red-500 focus:outline-none focus:ring"
-                  href="/about"
-                >
-                  Learn More
-                </a>
+                <div className="text-gray-200 font-exo">
+                  <LeadText color="gray-200">
+                    Podras encontrar el lugar perfecto para tu evento.
+                  </LeadText>
+                  <div className="flex justify-center mt-10">
+                    <Button
+                      color="transparent"
+                      className="bg-comarcaBlue text-white ml-4"
+                      ripple="dark"
+                    >
+                      Empecemos
+                    </Button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </section>
-        <Products />
+        </div>
       </main>
+      <Products />
+
       <DefaultFooter />
     </>
   );

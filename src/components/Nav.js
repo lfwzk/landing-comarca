@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <header className="border-b border-gray-100 bg-white fixed-top">
+      <header className="border-b border-gray-100 bg-white fixed-top font-exo">
         <div className="flex items-center justify-between h-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
           <div className="flex items-center">
             {/* <button type="button" className="p-2 sm:mr-4 lg:hidden">
@@ -76,7 +76,7 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center justify-end flex-1 ">
-            <nav className="hidden lg:uppercase lg:text-gray-500 lg:tracking-wide lg:font-bold lg:text-xs lg:space-x-4 lg:flex ">
+            <nav className="hidden lg:uppercase lg:text-gray-500 lg:tracking-wide lg:font-exo lg:text-xs lg:space-x-4 lg:flex ">
               <a
                 href="/"
                 className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-comarca hover:border-current"
@@ -185,14 +185,14 @@ export default function Navbar() {
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
                   href="/"
-                  className="hover:bg-comarcaOrange text-black block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:bg-comarcaOrange text-black block px-3 py-2 rounded-md text-base font-exo"
                 >
                   Home
                 </a>
 
                 <a
                   href="/services"
-                  className="text-gray-300 hover:bg-comarcaBlue hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-300 hover:bg-comarcaBlue hover:text-white block px-3 py-2 rounded-md text-base font-exo"
                 >
                   Servicios
                 </a>
