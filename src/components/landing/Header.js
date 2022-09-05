@@ -9,10 +9,7 @@ export default function Header() {
       <div className="container max-w-8xl relative mx-auto font-serif">
         <div className="items-center flex flex-wrap ">
           <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center  ">
-            {/* <H2 color="white" className="font-serif">
-              CO MARCA
-            </H2> */}
-            <h1 className="text-6xl text-gray-200 font-exo"> CO MARCA</h1>
+            <h1 className="text-6xl font-exo text-gray-200 "> CO MARCA</h1>
 
             <div className="text-gray-200 font-exo">
               <LeadText color="gray-200">Un Cowork con propósito ❤</LeadText>
@@ -21,9 +18,8 @@ export default function Header() {
                   color="transparent"
                   className="bg-comarca text-white ml-4"
                   ripple="dark"
-                  href="/services"
                 >
-                  Reservas
+                  <a href="/services">Reservas</a>
                 </Button>
               </div>
             </div>

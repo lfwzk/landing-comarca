@@ -5,11 +5,14 @@ import DefaultFooter from "components/DefaultFooter";
 import LeadText from "@material-tailwind/react/LeadText";
 import { Button } from "@material-tailwind/react";
 //import img from "assets/img/bg-landing-background.jpg";
-
+//import { Route, Router } from "react-router-dom";
+//import Colaborativo from "./spaces/Colaborativo";
+import Room from "./Room";
 export default function Services() {
   return (
     <>
       <Nav />
+
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center h-screen ">
           <div className="bg-background-comarca-services bg-cover bg-center absolute top-0 w-full h-full" />
@@ -31,7 +34,7 @@ export default function Services() {
                       className="bg-comarcaBlue text-white ml-4"
                       ripple="dark"
                     >
-                      Empecemos
+                      <a href="/services">Empecemos</a>
                     </Button>
                   </div>
                 </div>
@@ -43,6 +46,11 @@ export default function Services() {
       <Products />
 
       <DefaultFooter />
+
+      <Room />
+      {/* <Router>
+        <Route path="colaborativo" element={<Colaborativo />} />
+      </Router> */}
     </>
   );
 }

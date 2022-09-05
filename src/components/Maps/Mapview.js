@@ -1,16 +1,18 @@
 import React from "react";
 import Title from "components/landing/Title";
+import H2 from "@material-tailwind/react/Heading2";
+import Direction from "./Direction";
 
 const Mapview = () => {
   return (
     <>
-      <div className="container max-w-7xl mx-auto px-4 lg:pt-24">
-        <Title heading="Nos encontramos">
-          Direccion: Av. Montenegro Nro 1017 Zona San Miguel Edificio Emporio
-          Sub suelo oficina 17 Ciudad La Paz, La Paz, Bolivia Telefono: (591)
-          71520591 Email: info@comarca-cowork.com
-        </Title>
+      <div className="container max-w-7xl mx-auto px-4 lg:pt-24 text-center">
+        <H2>Nos encontramos</H2>
       </div>
+      <div className="flex items-center justify-center p-10">
+        <Direction />
+      </div>
+
       <section className="text-gray-600 body-font relative">
         <div className="absolute inset-0 bg-gray-300">
           <iframe

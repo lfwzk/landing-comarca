@@ -12,9 +12,6 @@ module.exports = {
       comarcaOrange: "#FAB328",
     },
     fontFamily: {
-      sans: ["Roboto", "sans-serif"],
-      serif: ['"Roboto Slab"', "serif"],
-      body: ["Roboto", "sans-serif"],
       exo: ["Exo 2"],
     },
     extend: {

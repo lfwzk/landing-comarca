@@ -1,33 +1,26 @@
 const Promotional = () => {
   return (
     <>
-      <div className="fixed inset-x-0 bottom-0 px-4 pb-3">
-        <div className="relative px-4 py-3 text-white bg-indigo-600 rounded-lg pr-14">
-          <p className="text-sm font-medium text-left sm:text-center">
-            Love Alpine JS? Check out this new course!
-            <a className="underline" href="/alpinejs">
-              {" "}
-              Learn More &rarr;{" "}
-            </a>
-          </p>
-
-          <button
-            aria-label="Close"
-            className="absolute p-1 rounded-lg transition -translate-y-1/2 top-1/2 right-4 bg-black/10 hover:bg-black/20"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-5 h-5"
-              viewBox="0 0 20 20"
-              fill="currentColor"
+      <div className="p-6 py-12 dark:bg-indigo-400 dark:text-gray-900">
+        <div className="container mx-auto">
+          <div className="flex flex-col lg:flex-row items-center justify-between">
+            <h2 className="text-center text-6xl tracking-tighter font-bold">
+              Up to
+              <br className="sm:hidden" />
+              50% Off
+            </h2>
+            <div className="space-x-2 text-center py-2 lg:py-0">
+              <span>Plus free shipping! Use code:</span>
+              <span className="font-bold text-lg">MAMBA</span>
+            </div>
+            <a
+              href="#"
+              rel="noreferrer noopener"
+              className="px-5 mt-4 lg:mt-0 py-3 rounded-md border block dark:bg-gray-50 dark:text-gray-900 dark:border-gray-400"
             >
-              <path
-                fill-rule="evenodd"
-                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </button>
+              Shop Now
+            </a>
+          </div>
         </div>
       </div>
     </>
