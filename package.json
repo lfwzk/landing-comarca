@@ -23,6 +23,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-twitter-embed": "^4.0.4",
+    "tailwindcss-scroll-snap": "^1.1.0",
     "tw-elements": "^1.0.0-alpha12",
     "web-vitals": "^1.1.2"
   },

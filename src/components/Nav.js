@@ -1,30 +1,21 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-//import img from "../assets/img/icons/cw15.png";
+
+import logo from "../assets/img/icons/cw15.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
       <header className="border-b border-gray-100 bg-white fixed-top font-exo">
         <div className="flex items-center justify-between h-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
+          <a className="block text-teal-600" href="/">
+            <span className="sr-only">Home</span>
+
+            <img src={logo} alt="logo" className="h-12" />
+          </a>
           <div className="flex items-center">
-            {/* <button type="button" className="p-2 sm:mr-4 lg:hidden">
-              <svg
-                className="w-6 h-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
-            </button> */}
             <div className="p-2 sm:mr-4 lg:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
@@ -69,10 +60,6 @@ export default function Navbar() {
                 )}
               </button>
             </div>
-
-            {/* <a href="" className="flex">
-              <span className="inline-block w-32 h-10 bg-gray-200 rounded-lg"></span>
-            </a> */}
           </div>
 
           <div className="flex items-center justify-end flex-1 ">
@@ -160,7 +147,7 @@ export default function Navbar() {
                 <span className="hidden sm:block">
                   <div className="sm:gap-4 sm:flex">
                     <a
-                      className="block px-5 py-2.5 text-sm font-medium text-white bg-teal-600 hover:bg-comarcaOrange transition rounded-md shadow bg-comarca"
+                      className="block px-5 py-2.5 text-sm font-medium text-white bg-teal-600 hover:bg-comarca transition rounded-md shadow bg-black"
                       href="/login"
                     >
                       Login
@@ -183,32 +170,42 @@ export default function Navbar() {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a
-                  href="/"
-                  className="hover:bg-comarcaOrange text-black block px-3 py-2 rounded-md text-base font-exo"
-                >
-                  Home
-                </a>
-
-                <a
-                  href="/services"
-                  className="text-gray-300 hover:bg-comarcaBlue hover:text-white block px-3 py-2 rounded-md text-base font-exo"
-                >
-                  Servicios
-                </a>
-
-                <button
-                  href="#"
-                  className="text-gray-300 hover:bg-comarcaPurple hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Grupo
+                <button>
+                  <a
+                    href="/"
+                    className="hover:bg-comarcaOrange text-black block px-3 py-2 rounded-md text-base font-exo"
+                  >
+                    Home
+                  </a>
                 </button>
+                <br />
+                <button>
+                  <a
+                    href="/services"
+                    className="text-gray-300 hover:bg-comarcaBlue hover:text-white block px-3 py-2 rounded-md text-base font-exo"
+                  >
+                    Servicios
+                  </a>
+                </button>
+                <br />
 
-                <button
-                  href="#"
-                  className="text-gray-300 hover:bg-comarca hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Login
+                <button>
+                  <a
+                    href="/group"
+                    className="text-gray-300 hover:bg-comarcaPurple hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    Grupo
+                  </a>
+                </button>
+                <br />
+
+                <button>
+                  <a
+                    href="/login"
+                    className="text-gray-300 hover:bg-comarca hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    Login
+                  </a>
                 </button>
               </div>
             </div>

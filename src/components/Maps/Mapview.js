@@ -1,13 +1,11 @@
 import React from "react";
-import Title from "components/landing/Title";
-import H2 from "@material-tailwind/react/Heading2";
 import Direction from "./Direction";
 
 const Mapview = () => {
   return (
     <>
-      <div className="container max-w-7xl mx-auto px-4 lg:pt-24 text-center">
-        <H2>Nos encontramos</H2>
+      <div className="container max-w-7xl mx-auto px-4 lg:pt-24 text-center font-exo">
+        <h1 className="text-4xl font-exo font-bold">Nos encontramos</h1>
       </div>
       <div className="flex items-center justify-center p-10">
         <Direction />
@@ -26,14 +24,12 @@ const Mapview = () => {
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3824.733577698635!2d-68.0908549!3d-16.5395426!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f214c4adf7fb7%3A0xeefbaff9d3939e6f!2sCO%20-%20MARCA%20Cowork%2C%20Un%20cowork%20con%20prop%C3%B3sito!5e0!3m2!1ses!2sbo!4v1661203141073!5m2!1ses!2sbo"
           ></iframe>
         </div>
-        <div className="container px-5 py-24 mx-auto flex">
+        <div className="container px-5 py-24 mx-auto flex font-exo">
           <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
             <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
               Quieres reservar un espacio
             </h2>
-            <p className="leading-relaxed mb-5 text-gray-600">
-              Completa el formulario y te responderemos en menos de 24 horas.
-            </p>
+
             <div className="relative mb-4">
               <label for="email" className="leading-7 text-sm text-gray-600">
                 Correo electronico

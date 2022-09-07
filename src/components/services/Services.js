@@ -7,7 +7,7 @@ import { Button } from "@material-tailwind/react";
 //import img from "assets/img/bg-landing-background.jpg";
 //import { Route, Router } from "react-router-dom";
 //import Colaborativo from "./spaces/Colaborativo";
-import Room from "./Room";
+
 export default function Services() {
   return (
     <>
@@ -47,7 +47,6 @@ export default function Services() {
 
       <DefaultFooter />
 
-      <Room />
       {/* <Router>
         <Route path="colaborativo" element={<Colaborativo />} />
       </Router> */}

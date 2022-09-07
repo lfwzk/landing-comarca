@@ -1,6 +1,6 @@
 import Navbar from "components/Nav";
 import Calendar from "./Calendar";
-import Carrousel from "./Carrousel";
+//import Carrousel from "./Carrousel";
 import Form from "./Forms";
 
 const Colaborativo = () => {
@@ -8,7 +8,7 @@ const Colaborativo = () => {
     <>
       <Navbar />
       <main>
-        <Carrousel />
+        {/* <Carrousel /> */}
         <h1 className="text-lg">Mira la disponibilidad </h1>
         <Calendar />
         <Form />

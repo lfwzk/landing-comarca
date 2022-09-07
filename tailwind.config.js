@@ -12,27 +12,25 @@ module.exports = {
       comarcaOrange: "#FAB328",
     },
     fontFamily: {
-      exo: ["Exo 2"],
+      exo: ["Exo"],
     },
     extend: {
       backgroundImage: () => ({
         "login-background":
-          "linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url('/src/assets/img/background-1920x1280.jpg')",
+          "linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url('/src/assets/img/background-1920x1280.jpg')",
         "landing-background":
-          "linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url('/src/assets/img/background-comarca.jpg')",
+          "linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url('/src/assets/img/background-comarca.jpg')",
         "profile-background":
           "linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url('/src/assets/img/background-1920x1080.jpg')",
         "background-comarca-services":
-          "linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url('/src/assets/img/spaces/Comarca/sala1.jpg')",
+          "linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url('/src/assets/img/spaces/Comarca/sala1.jpg')",
       }),
     },
   },
   variants: {
-    content: [
-      "./src/**/*.{html,js}",
-      "./node_modules/tw-elements/dist/js/**/*.js",
-    ],
+    scrollSnapType: ["responsive"],
+    content: [],
     extend: {},
   },
-  plugins: [require("tw-elements/dist/plugin")],
+  plugins: [require("tailwindcss-scroll-snap")],
 };

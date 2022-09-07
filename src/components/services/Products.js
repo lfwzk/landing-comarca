@@ -22,6 +22,7 @@ const Products = () => {
                   <img
                     className=" w-full h-56  rounded-lg object-cover	"
                     src={img1}
+                    alt="img1"
                   />
 
                   <h2 className="mt-4 text-2xl font-medium text-comarcaBlue">
@@ -60,7 +61,7 @@ const Products = () => {
 
           {/* Coemprendedor */}
           <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <a href="" className="relative block group h-96">
+            <a href="# " className="relative block group h-96">
               <span className="absolute inset-0 border-2 border-black border-dashed"></span>
 
               <div className="relative flex items-end h-full bg-white border-2 border-black transition-transform transform group-hover:-translate-x-2 group-hover:-translate-y-2">
@@ -68,6 +69,7 @@ const Products = () => {
                   <img
                     className=" w-full h-56  rounded-lg object-cover	"
                     src={img2}
+                    alt="img2"
                   />
 
                   <h2 className="mt-4 text-2xl font-semibold text-comarcaBlue">
@@ -112,7 +114,7 @@ const Products = () => {
 
           {/* Comunidad */}
           <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <a href="" className="relative block group h-96">
+            <a href="# " className="relative block group h-96">
               <span className="absolute inset-0 border-2 border-black border-dashed"></span>
 
               <div className="relative flex items-end h-full bg-white border-2 border-black transition-transform transform group-hover:-translate-x-2 group-hover:-translate-y-2">
@@ -120,6 +122,7 @@ const Products = () => {
                   <img
                     className="   w-full h-56  rounded-lg object-cover"
                     src={img3}
+                    alt="img3"
                   />
                   <h2 className="mt-4 text-2xl font-medium text-comarcaBlue">
                     Co munidad
@@ -153,7 +156,7 @@ const Products = () => {
           {/* Comunidad */}
 
           <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <a href="" className="relative block group h-96">
+            <a href="# " className="relative block group h-96">
               <span className="absolute inset-0 border-2 border-black border-dashed"></span>
 
               <div className="relative flex items-end h-full bg-white border-2 border-black transition-transform transform group-hover:-translate-x-2 group-hover:-translate-y-2">
@@ -161,6 +164,7 @@ const Products = () => {
                   <img
                     className=" w-full h-56  rounded-lg object-cover"
                     src={img4}
+                    alt="img4"
                   />
 
                   <h2 className="mt-4 text-2xl font-medium text-comarcaBlue">
@@ -186,7 +190,7 @@ const Products = () => {
           </div>
 
           <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <a href="" className="relative block group h-96">
+            <a href="# " className="relative block group h-96">
               <span className="absolute inset-0 border-2 border-black border-dashed"></span>
 
               <div className="relative flex items-end h-full bg-white border-2 border-black transition-transform transform group-hover:-translate-x-2 group-hover:-translate-y-2">
@@ -194,6 +198,7 @@ const Products = () => {
                   <img
                     className="  w-full h-56  rounded-lg object-cover"
                     src={img5}
+                    alt="img5"
                   />
 
                   <h2 className="mt-4 text-2xl font-medium text-comarcaBlue">
@@ -219,7 +224,7 @@ const Products = () => {
           </div>
 
           <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-            <a href="" className="relative block group h-96">
+            <a href="# " className="relative block group h-96">
               <span className="absolute inset-0 border-2 border-black border-dashed"></span>
 
               <div className="relative flex items-end h-full bg-white border-2 border-black transition-transform transform group-hover:-translate-x-2 group-hover:-translate-y-2">
@@ -227,6 +232,7 @@ const Products = () => {
                   <img
                     className="  w-full h-56  rounded-lg object-cover	"
                     src={img6}
+                    alt="img6"
                   />
 
                   <h2 className="mt-4 text-2xl font-medium text-comarcaBlue">

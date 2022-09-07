@@ -12236,7 +12236,7 @@
     "indent-string" "^4.0.0"
     "strip-indent" "^3.0.0"
 
-"reduce-css-calc@^2.1.8":
+"reduce-css-calc@^2.1.7", "reduce-css-calc@^2.1.8":
   "integrity" "sha512-8liAVezDmUcH+tdzoEGrhfbGcP7nOV4NkGE3a74+qqvE7nt9i4sKLGBuZNOnpI4WiGksiNPklZxva80061QiPg=="
   "resolved" "https://registry.npmjs.org/reduce-css-calc/-/reduce-css-calc-2.1.8.tgz"
   "version" "2.1.8"
@@ -13709,6 +13709,14 @@
     "slice-ansi" "^4.0.0"
     "string-width" "^4.2.0"
     "strip-ansi" "^6.0.0"
+
+"tailwindcss-scroll-snap@^1.1.0":
+  "integrity" "sha512-qmV7PJMqQrdzf2uKjaIrgIW9fpz8SNdD6hhVtbUbRGjz95CsZvsVozHRCz3NrPphro+tbRMbUhDYmTNKP6qPSw=="
+  "resolved" "https://registry.npmjs.org/tailwindcss-scroll-snap/-/tailwindcss-scroll-snap-1.1.0.tgz"
+  "version" "1.1.0"
+  dependencies:
+    "lodash" "^4.17.15"
+    "reduce-css-calc" "^2.1.7"
 
 "tailwindcss@^2.1.4":
   "integrity" "sha512-fh1KImDLg6se/Suaelju/5oFbqq1b0ntagmGLu0aG9LlnNPGHgO1n/4E57CbKcCtyz/VYnvVXUiWmfyfBBZQ6g=="
