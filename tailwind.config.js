@@ -6,7 +6,7 @@ module.exports = {
     colors: {
       comarca: "#f03648",
       comarcaGray: "#EAEAEA",
-      comarcaPurple: "#6B0D9E",
+      comarcaPurple: "#663282",
       comarcaBlue: "#03989E",
       comarcaYellow: "#EBFC20",
       comarcaOrange: "#FAB328",

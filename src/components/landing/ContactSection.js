@@ -11,34 +11,42 @@ export default function ContactSection() {
         </Title>
 
         <div className="flex flex-wrap -mt-12 justify-center font-exo">
-          <ContactCard color="comarca" icon="timeline">
-            <h3 className="text-2xl font-bold text-comarcaYellow font-exo py-4">
-              Productividad
+          <ContactCard color="comarca" icon="wifi">
+            <h3 className="text-xl font-bold  font-exo py-4  ">
+              Internet de alta velocidad
             </h3>
-            <p className="font-exo text-justify">
-              En el sistema coworking puede salvarlo de trabajar en casa, donde
-              constantemente se distrae con algo y le permite trabajar en un
-              entorno profesional.
-            </p>
           </ContactCard>
-          <ContactCard icon="monetization_on">
-            <h3 className="text-2xl font-bold text-comarca font-exo py-4">
-              Accesibilidad
+          <ContactCard icon="phone">
+            <h3 className="text-xl font-bold font-exo py-4">
+              Oficinas privadas
             </h3>
-            <p className="font-exo text-justify">
-              Nuestro sistema coworking tiene un rango de precios más accesibles
-              que una oficina normal y que el mercado cowork.
-            </p>
           </ContactCard>
-          <ContactCard icon="person_add">
-            <h3 className="text-2xl font-bold text-comarcaPurple font-exo py-4">
-              Redes
+          <ContactCard icon="email">
+            <h3 className="text-xl font-bold font-exo py-4">
+              Servicios de correo
             </h3>
-            <p className="font-exo text-justify">
+            {/* <p className="font-exo text-justify">
               A diferencia de una oficina tradicional, en la que solo se puede
               establecer una empresa, el coworking es una comunidad de
               diferentes personas, profesiones e intereses.
-            </p>
+            </p> */}
+          </ContactCard>
+          <ContactCard color="comarca" icon="wb_sunny">
+            <h3 className="text-xl font-bold  font-exo py-4">Luz natural</h3>
+          </ContactCard>
+          <ContactCard icon="tv">
+            <h3 className="text-xl font-bold  font-exo py-4">Pantallas HD</h3>
+          </ContactCard>
+          <ContactCard icon="free_breakfast">
+            <h3 className="text-xl font-bold font-exo py-4">Cafeteria libre</h3>
+          </ContactCard>
+          <ContactCard icon="check">
+            <h3 className="text-xl font-bold font-exo py-4">Acceso 24 horas</h3>
+          </ContactCard>
+          <ContactCard icon="local_play">
+            <h3 className="text-xl font-bold font-exo py-4">
+              Eventos de capacitación
+            </h3>
           </ContactCard>
         </div>
 
