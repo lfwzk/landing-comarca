@@ -4,7 +4,7 @@ import ContactCard from "components/landing/ContactCard";
 
 export default function ContactSection() {
   return (
-    <section className="pb-20 relative block bg-gray-100 font-exo">
+    <section className="pb-20 relative block  font-exo">
       <div className="container max-w-7xl mx-auto px-4 lg:pt-24 font-bold">
         <Title heading="Beneficios de Co Marca ">
           Las mejores comodidades para nuestros coworkers

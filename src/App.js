@@ -11,7 +11,7 @@ import Blog from "components/blog/Blog";
 
 import Cart from "components/cart/Cart";
 
-import colaborativo from "components/services/spaces/Colaborativo";
+import Groupal from "components/services/spaces/group/Group";
 
 // Font Awesome Style Sheet
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -30,7 +30,7 @@ function App() {
       <Route exact path="/services" component={Services} />
       <Route exact path="/blog" component={Blog} />
       <Route exact path="/cart" component={Cart} />
-      <Route exact path="/colaborativo" component={colaborativo} />
+      <Route exact path="/teams" component={Groupal} />
     </Router>
   );
 }

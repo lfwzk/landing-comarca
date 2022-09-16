@@ -9,7 +9,7 @@ const Pricing = () => {
             </h2>
           </div>
 
-          <div className="flex flex-wrap items-stretch -mx-4">
+          <div className="flex flex-wrap items-stretch -mx-4 ">
             <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0  px-8">
               <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-gray-900 bg-comarca text-white">
                 <div className="space-y-2">

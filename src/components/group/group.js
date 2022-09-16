@@ -35,6 +35,77 @@ const Group = () => {
             </div>
           </div>
         </div>
+
+        <section class="p-4 lg:p-8 bg-gray-100 text-gray-800">
+          <div class="container mx-auto space-y-12">
+            <div class="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
+              <img
+                src="https://source.unsplash.com/640x480/?1"
+                alt=""
+                class="h-80 bg-gray-500 aspect-video"
+              />
+              <div class="flex flex-col justify-center flex-1 p-6 bg-gray-50">
+                <span class="text-xs uppercase text-gray-600">
+                  Join, it's free
+                </span>
+                <h3 class="text-3xl font-bold">
+                  We're not reinventing the wheel
+                </h3>
+                <p class="my-6 text-gray-600">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                  aliquam possimus quas, error esse quos.
+                </p>
+                <button type="button" class="self-start">
+                  Action
+                </button>
+              </div>
+            </div>
+            <div class="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse">
+              <img
+                src="https://source.unsplash.com/640x480/?2"
+                alt=""
+                class="h-80 bg-gray-500 aspect-video"
+              />
+              <div class="flex flex-col justify-center flex-1 p-6 bg-gray-50">
+                <span class="text-xs uppercase text-gray-600">
+                  Join, it's free
+                </span>
+                <h3 class="text-3xl font-bold">
+                  We're not reinventing the wheel
+                </h3>
+                <p class="my-6 text-gray-600">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                  aliquam possimus quas, error esse quos.
+                </p>
+                <button type="button" class="self-start">
+                  Action
+                </button>
+              </div>
+            </div>
+            <div class="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
+              <img
+                src="https://source.unsplash.com/640x480/?3"
+                alt=""
+                class="h-80 bg-gray-500 aspect-video"
+              />
+              <div class="flex flex-col justify-center flex-1 p-6 bg-gray-50">
+                <span class="text-xs uppercase text-gray-600">
+                  Join, it's free
+                </span>
+                <h3 class="text-3xl font-bold">
+                  We're not reinventing the wheel
+                </h3>
+                <p class="my-6 text-gray-600">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                  aliquam possimus quas, error esse quos.
+                </p>
+                <button type="button" class="self-start">
+                  Action
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
