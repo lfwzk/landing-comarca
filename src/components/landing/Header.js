@@ -49,7 +49,7 @@ export default function Header() {
                   className="bg-white text-black ml-4 hover:bg-comarca hover:text-white"
                   ripple="dark"
                 >
-                  <a href="/services">Reservas</a>
+                  <a href="/services">Reservar </a>
                 </Button>
               </div>
             </div>

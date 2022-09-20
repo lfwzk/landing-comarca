@@ -3,8 +3,15 @@ import { Transition } from "@headlessui/react";
 
 import logo from "../assets/img/icons/cw15.png";
 
+import toast, { Toaster } from "react-hot-toast";
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+
+  const notify = () =>
+    toast("cooming soon!", {
+      icon: "🚀",
+    });
 
   return (
     <>
@@ -121,9 +128,10 @@ export default function Navbar() {
                 </span>
 
                 <span>
-                  <a
-                    href="/"
+                  <button
                     className="block p-6 border-b-4 border-transparent hover:border-comarcaPurple hover:border-current"
+                    onClick={notify}
+                    href="/"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +149,8 @@ export default function Navbar() {
                     </svg>
 
                     <span className="sr-only"> Language </span>
-                  </a>
+                  </button>
+                  <Toaster />
                 </span>
 
                 <span className="hidden sm:block">

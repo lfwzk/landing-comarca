@@ -2,12 +2,12 @@
 import DefaultFooter from "components/DefaultFooter";
 import Header from "components/landing/Header";
 import WorkingSection from "components/landing/WorkingSection";
-import Gallery from "components/landing/Gallery";
+//import Gallery from "components/landing/Gallery";
 import ContactSection from "components/landing/ContactSection";
 import Mapview from "components/Maps/Mapview.js";
 import Review from "components/landing/Review";
 import Nav from "components/Nav";
-import Mission from "components/landing/Mission";
+//import Mission from "components/landing/Mission";
 import Pricing from "components/landing/Pricing";
 //import Promotional from "./Promotional";
 export default function Landing() {
@@ -25,9 +25,9 @@ export default function Landing() {
         {/* <Promotional /> */}
 
         <WorkingSection />
-        <Mission />
+        {/* <Mission /> */}
         <Pricing />
-        <Gallery />
+        {/* <Gallery /> */}
         {/* <TeamSection /> */}
         <Review />
         <ContactSection />
