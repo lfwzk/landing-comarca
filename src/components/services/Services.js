@@ -7,6 +7,7 @@ import { Button } from "@material-tailwind/react";
 //import img from "assets/img/bg-landing-background.jpg";
 //import { Route, Router } from "react-router-dom";
 //import Colaborativo from "./spaces/Colaborativo";
+import Booking from "./Booking";
 
 export default function Services() {
   return (
@@ -42,6 +43,7 @@ export default function Services() {
             </div>
           </div>
         </div>
+        <Booking />
       </main>
       <Products />
 

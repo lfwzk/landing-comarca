@@ -10,6 +10,9 @@ module.exports = {
       comarcaBlue: "#03989E",
       comarcaYellow: "#EBFC20",
       comarcaOrange: "#FAB328",
+      comarcaBlack: "#000000",
+      academiaazul: "#043f8f",
+      academiaceleste: "#069be1",
     },
     fontFamily: {
       exo: ["Exo"],

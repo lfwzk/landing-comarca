@@ -18,6 +18,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 // Tailwind CSS Style Sheet
 import "assets/styles/tailwind.css";
+import Akaru from "components/group/Products/Akaru";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <Route exact path="/blog" component={Blog} />
       <Route exact path="/cart" component={Cart} />
       <Route exact path="/teams" component={Groupal} />
+      <Route exact path="/akaru" component={Akaru} />
     </Router>
   );
 }
