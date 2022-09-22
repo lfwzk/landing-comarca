@@ -1,5 +1,5 @@
-import H5 from "@material-tailwind/react/Heading5";
-import LeadText from "@material-tailwind/react/LeadText";
+// import H5 from "@material-tailwind/react/Heading5";
+// import LeadText from "@material-tailwind/react/LeadText";
 import Icon from "@material-tailwind/react/Icon";
 
 export default function DefaultFooter() {
