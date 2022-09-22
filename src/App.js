@@ -6,7 +6,7 @@ import Login from "pages/Login";
 import Register from "pages/Register";
 
 import Services from "components/services/Services";
-import Group from "components/group/Group";
+import Group from "components/group/Group.js";
 import Blog from "components/blog/Blog";
 
 import Cart from "components/cart/Cart";
