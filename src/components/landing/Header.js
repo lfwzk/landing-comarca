@@ -7,11 +7,17 @@ import { TypeAnimation } from "react-type-animation";
 export default function Header() {
   return (
     <div className="relative pt-16 pb-32 flex content-center items-center justify-center h-screen ">
-      <div className="bg-landing-background bg-cover bg-center absolute top-0 w-full h-full" />
-      {/* <img
-        className="bg-cover bg-center absolute top-0 w-full h-full linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% )"
-        src="https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      /> */}
+      <div
+        className="bg-cover bg-center absolute top-0 w-full h-full object-cover"
+        style={{
+          //backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9)), url(${rocket})`,
+          backgroundImage: `linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url("https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`,
+          height: `100vh`,
+          backgroundSize: `cover`,
+        }}
+      ></div>
+      {/* <div className="bg-landing-background bg-cover bg-center absolute top-0 w-full h-full" /> */}
+
       <div className="container max-w-8xl relative mx-auto font-serif">
         <div className="items-center flex flex-wrap ">
           <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center  ">
