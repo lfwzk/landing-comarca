@@ -9,10 +9,14 @@ export default function DefaultFooter() {
         <div className="container max-w-7xl mx-auto px-4">
           <div className="flex flex-wrap text-center lg:text-left pt-6">
             <div className="w-full lg:w-6/12 px-4">
-              <H5 color="gray">CO MARCA</H5>
+              <h4 className="text-3xl font-semibold font-exo">Co Marca</h4>
+              <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-600">
+                Con propósito ❤
+              </p>
+              {/* <H5 color="gray">CO MARCA</H5>
               <div className="-mt-4">
                 <LeadText color="blueGray">Un Cowork con propósito ❤</LeadText>
-              </div>
+              </div> */}
 
               <div className="flex gap-2 mt-6 md:justify-start md:mb-0 mb-8 justify-center">
                 <a
