@@ -6,12 +6,12 @@ import Login from "pages/Login";
 import Register from "pages/Register";
 
 import Services from "components/services/Services";
-import Team from "components/group/Group.js";
+import Team from "components/group/Group";
 import Blog from "components/blog/Blog";
 
 import Cart from "components/cart/Cart";
 
-import Groupal from "components/services/spaces/group/Group";
+//import Groupal from "components/services/spaces/group/Group";
 
 // Font Awesome Style Sheet
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -31,7 +31,7 @@ function App() {
       <Route exact path="/services" component={Services} />
       <Route exact path="/blog" component={Blog} />
       <Route exact path="/cart" component={Cart} />
-      <Route exact path="/teams" component={Groupal} />
+      {/* <Route exact path="/teams" component={Groupal} /> */}
       <Route exact path="/akaru" component={Akaru} />
     </Router>
   );
