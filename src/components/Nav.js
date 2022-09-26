@@ -98,14 +98,24 @@ export default function Navbar() {
               >
                 Blog
               </a>
+              <a
+                className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-comarcaPurple hover:border-current"
+                onClick={notify}
+              >
+                Coworkers
+                <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-exo leading-none text-white bg-comarca rounded-full">
+                  nuevo
+                </span>
+              </a>
             </nav>
 
             <div className="flex items-center ml-8">
               <div className="flex items-center border-gray-100 divide-x divide-gray-100 border-x">
                 <span>
                   <a
-                    href="/cart"
+                    //href="/cart"
                     className="block p-6 border-b-4 border-transparent hover:border-comarcaBlue hover:text-current"
+                    onClick={notify}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +167,8 @@ export default function Navbar() {
                   <div className="sm:gap-4 sm:flex">
                     <a
                       className="block px-5 py-2.5 text-sm font-medium text-white bg-teal-600 hover:bg-comarca transition rounded-md shadow bg-black"
-                      href="/login"
+                      // href="/login"
+                      onClick={notify}
                     >
                       Login
                     </a>
@@ -167,6 +178,7 @@ export default function Navbar() {
             </div>
           </div>
         </div>
+
         <Transition
           show={isOpen}
           enter="transition ease-out duration-100 transform"

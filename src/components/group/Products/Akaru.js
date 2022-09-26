@@ -2,17 +2,97 @@ import akaru from "../../../assets/img/parnters/l1.png";
 const Akaru = () => {
   return (
     <>
+      <div className="flex items-center -mx-4 overflow-x-auto overflow-y-hidden sm:justify-center flex-nowrap font-exo ">
+        <a
+          rel="noopener noreferrer"
+          href="/group"
+          className="flex items-center flex-shrink-0 px-5 py-3 space-x-2 border-b border-gray-600 text-gray-600"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="w-4 h-4"
+          >
+            <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+          </svg>
+          <span>Volver</span>
+          {/* </a>
+        <a
+          rel="noopener noreferrer"
+          href="#"
+          className="flex items-center flex-shrink-0 px-5 py-3 space-x-2 border border-b-0 rounded-t-lg border-gray-600 text-gray-900"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="w-4 h-4"
+          >
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+          </svg>
+          <span>Corrupti</span>
+        </a>
+        <a
+          rel="noopener noreferrer"
+          href="#"
+          className="flex items-center flex-shrink-0 px-5 py-3 space-x-2 border-b border-gray-600 text-gray-600"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="w-4 h-4"
+          >
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          <span>Excepturi</span>
+        </a>
+        <a
+          rel="noopener noreferrer"
+          href="#"
+          className="flex items-center flex-shrink-0 px-5 py-3 space-x-2 border-b border-gray-600 text-gray-600"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="w-4 h-4"
+          >
+            <circle cx="12" cy="12" r="10"></circle>
+            <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+          </svg>
+          <span>Consectetur</span>*/}
+        </a>
+      </div>
       <section className="bg-black w-full h-full">
         <div className="flex justify-center ">
-          <img src={akaru} className="align-center " />
+          <img alt="akaru2" src={akaru} className="align-center " />
         </div>
 
         <div className="container my-12 mx-auto px-4 md:px-12  font-exo">
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 group ">
-              <a href="#" className="relative block bg-black ">
+              <a href="/hola" className="relative block bg-black ">
                 <img
-                  alt="Developer"
+                  alt="description1"
                   src="https://images.pexels.com/photos/2638026/pexels-photo-2638026.jpeg?auto=compress&cs=tinysrgb&w=600"
                   className="absolute inset-0 object-cover w-full h-full opacity-75 transition-opacity group-hover:opacity-50"
                 />
@@ -38,9 +118,9 @@ const Akaru = () => {
               </a>
             </div>
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <a href="#" className="relative block bg-black group">
+              <a href="/hola" className="relative block bg-black group">
                 <img
-                  alt="Developer"
+                  alt="description2"
                   src="https://images.pexels.com/photos/585753/pexels-photo-585753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   className="absolute inset-0 object-cover w-full h-full opacity-75 transition-opacity group-hover:opacity-50"
                 />
@@ -66,9 +146,9 @@ const Akaru = () => {
               </a>
             </div>
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <a href="/" className="relative block bg-black group">
+              <a href="/hola" className="relative block bg-black group">
                 <img
-                  alt="Jugo"
+                  alt="description3"
                   src="https://images.pexels.com/photos/5836625/pexels-photo-5836625.jpeg?auto=compress&cs=tinysrgb&w=600"
                   className="absolute inset-0 object-cover w-full h-full opacity-75 transition-opacity group-hover:opacity-50"
                 />
@@ -115,7 +195,7 @@ const Akaru = () => {
                 <h3>1000 usuarios registrados </h3>
               </div>
               <a
-                href="#"
+                href="/hola"
                 className="text-center text-white hover:text-gray-300"
               >
                 Alianzas
@@ -133,7 +213,7 @@ const Akaru = () => {
                 <h3>Classroom</h3>
               </div>
               <a
-                href="#"
+                href="/hola"
                 className="text-center text-white hover:text-gray-300"
               >
                 click
@@ -151,7 +231,7 @@ const Akaru = () => {
                 <h3>Google</h3>
               </div>
               <a
-                href="#"
+                href="/jelow"
                 className="text-center text-white hover:text-gray-300"
               >
                 Descargar
@@ -169,7 +249,7 @@ const Akaru = () => {
                 <h3>22</h3>
               </div>
               <a
-                href="#"
+                href="/hola"
                 className="text-center text-white hover:text-gray-300"
               >
                 Ver
@@ -189,7 +269,7 @@ const Akaru = () => {
                 <h3>222</h3>
               </div>
               <a
-                href="#"
+                href="/hola"
                 className="text-center text-white hover:text-gray-300"
               >
                 See

@@ -52,6 +52,7 @@ const Group = () => {
           <div className="container mx-auto space-y-12">
             <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row bg-comarcaGray">
               <img
+                alt="akaru"
                 src={Akaru}
                 className="h-80 bg-comarcaGray aspect-video object-cover"
               />
@@ -69,21 +70,21 @@ const Group = () => {
                 <div className="flex flex-row">
                   <div className=" p-8">
                     <button
-                      className="inline-block px-6 py-2.5 bg-comarcaYellow text-comarcaBlack font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                      href="/akaru"
+                      className="inline-block px-6 py-2.5 bg-academiaazul  text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                      alt="akaru"
                     >
-                      ℹMás información
+                      <a href="/akaru">📌Más información</a>
                     </button>
                   </div>
-                  <div class="p-8">
+
+                  <div className="p-8">
                     <button
-                      href="https://akarubolivia.com/#/"
                       type="button"
                       data-mdb-ripple="true"
                       data-mdb-ripple-color="light"
-                      class="inline-block px-6 py-2.5 bg-comarca text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                      className="inline-block px-6 py-2.5 bg-academiaceleste  text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                     >
-                      🌎 Pagina Web
+                      <a href="https://akarubolivia.com/#/"> 🌎 Pagina Web</a>
                     </button>
                   </div>
                 </div>
@@ -93,7 +94,7 @@ const Group = () => {
             <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row bg-comarcaGray">
               <img
                 src={Academia}
-                alt=""
+                alt="academia"
                 className="h-80 bg-comarcaGray object-cover  aspect-video"
               />
               <div className="flex flex-col justify-center flex-1 p-6 bg-gray-50">
@@ -111,20 +112,22 @@ const Group = () => {
                       type="button"
                       data-mdb-ripple="true"
                       data-mdb-ripple-color="light"
-                      class="inline-block px-6 py-2.5 bg-academiaazul text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                      className="inline-block px-6 py-2.5 bg-academiaazul text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                     >
-                      ℹMás información
+                      <a href="/academia">📌Más información</a>
                     </button>
                   </div>
-                  <div class=" justify-center p-8 ">
+                  <div className=" justify-center p-8 ">
                     <button
-                      href="https://akarubolivia.com/#/"
                       type="button"
                       data-mdb-ripple="true"
                       data-mdb-ripple-color="light"
-                      class="inline-block px-6 py-2.5 bg-academiaceleste text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                      className="inline-block px-6 py-2.5 bg-academiaceleste text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                     >
-                      🌎 Pagina Web
+                      <a href="https://www.academiacomarca.com/">
+                        {" "}
+                        🌎 Pagina Web
+                      </a>
                     </button>
                   </div>
                 </div>
@@ -150,18 +153,18 @@ const Group = () => {
                     type="button"
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
-                    class="inline-block px-6 py-2.5 bg-comarcaYellow text-comarcaBlack font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                    className="inline-block px-6 py-2.5 bg-comarcaYellow text-comarcaBlack font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                   >
                     ℹMás información
                   </button>
                 </div>
-                <div class=" justify-center">
+                <div className=" justify-center">
                   <button
                     href="https://akarubolivia.com/#/"
                     type="button"
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
-                    class="inline-block px-6 py-2.5 bg-comarca text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                    className="inline-block px-6 py-2.5 bg-comarca text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                   >
                     🌎 Pagina Web
                   </button>

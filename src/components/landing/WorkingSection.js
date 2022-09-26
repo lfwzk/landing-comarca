@@ -7,8 +7,7 @@
 // //import LeadText from "@material-tailwind/react/LeadText";
 // import Paragraph from "@material-tailwind/react/Paragraph";
 // import StatusCard from "components/landing/StatusCard";
-import { TypeAnimation } from "react-type-animation";
-
+//import { TypeAnimation } from "react-type-animation";
 import Carro from "../services/Carro";
 // import "@sl-codeblaster/react-3d-animated-card";
 // import AnimatedCard from "@sl-codeblaster/react-3d-animated-card";
@@ -18,109 +17,103 @@ export default function WorkingSection() {
   const [showModal, setShowModal] = React.useState(false);
   return (
     <>
-      <div className="container max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-2">
-          <div>
-            <img src={icon} />
+      <section className="py-6 text-gray-900">
+        <div className="container mx-auto flex flex-col items-center justify-center max-w-lg p-4 lg:max-w-full sm:p-10 lg:flex-row">
+          <div className="flex flex-col items-center justify-center flex-1 p-4 pb-8 sm:p-8 lg:p-16 bg-gray-50">
+            <img src={icon} alt="iconProposito" />
           </div>
-          <div className="p-8">
-            <div className="relative flex flex-col min-w-0 break-words bg-white w-full  bg-comarcaGray shadow-lg rounded-lg p-8">
-              <p className="font-exo text-justify">
-                En{" "}
-                <h3 className="text-3xl font-semibold text-comarca">
-                  Co Marca
-                </h3>{" "}
-                Desarrollamos
-                <h3 className="text-3xl font-semibold text-comarcaPurple">
-                  un
-                </h3>{" "}
-                sistema
-                <h3 className="text-3xl font-semibold text-comarcaOrange">
-                  coworking con propósito
-                </h3>
-                cubriendo todas las necesidades tangibles e intangibles propias
-                de un emprendedor que le permita sostener su idea de negocio, en
-                cada etapa, acompañado por nosotros un colectivo de contribución
-                efectiva,
-                <h3 className="text-3xl font-semibold text-comarcaBlue">
-                  con todos los recursos necesarios
-                </h3>
-                desde una imagen empresarial, un espacio de trabajo profesional,
-                hasta servicios digitales corporativos, reduciendo los altos
-                índices de fracaso en etapa temprana muy característico del
-                sector.
-              </p>
-              <div className="flex flex-row p-8">
-                <>
-                  <button
-                    className="bg-comarcaBlack text-white font-exo text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 flex-row flex"
-                    type="button"
-                    onClick={() => setShowModal(true)}
-                  >
-                    Leer más📌
-                  </button>
-                  {showModal ? (
-                    <>
-                      <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none ">
-                        <div className="relative w-auto my-6 mx-auto max-w-3xl">
-                          {/*content*/}
-                          <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                            {/*header*/}
-                            <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                              <h3 className="text-3xl font-exo">Leer más📌</h3>
-                              <button
-                                className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                                onClick={() => setShowModal(false)}
-                              >
-                                <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                                  ×
-                                </span>
-                              </button>
-                            </div>
-                            {/*body*/}
-                            <div className="relative p-6 flex-auto">
-                              <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                                I always felt like I could do anything. That’s
-                                the main thing people are controlled by!
-                                Thoughts- their perception of themselves!
-                                They're slowed down by their perception of
-                                themselves. If you're taught you can’t do
-                                anything, you won’t do anything. I was taught I
-                                could do everything.
-                              </p>
-                            </div>
-                            {/*footer*/}
-                            <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
-                              <button
-                                className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                                type="button"
-                                onClick={() => setShowModal(false)}
-                              >
-                                Cerrar
-                              </button>
-                            </div>
+          <div className="flex flex-col items-center justify-center flex-1 p-4 pb-8 text-center rounded-md sm:p-8 lg:p-16  shadow-lg ">
+            <p className="font-exo text-justify">
+              En{" "}
+              <h3 className="text-3xl font-semibold text-comarca">Co Marca</h3>{" "}
+              Desarrollamos
+              <h3 className="text-3xl font-semibold text-comarcaPurple">
+                un
+              </h3>{" "}
+              sistema
+              <h3 className="text-3xl font-semibold text-comarcaOrange">
+                coworking con propósito
+              </h3>
+              cubriendo todas las necesidades tangibles e intangibles propias de
+              un emprendedor que le permita sostener su idea de negocio, en cada
+              etapa, acompañado por nosotros un colectivo de contribución
+              efectiva,
+              <h3 className="text-3xl font-semibold text-comarcaBlue">
+                con todos los recursos necesarios
+              </h3>
+              desde una imagen empresarial, un espacio de trabajo profesional,
+              hasta servicios digitales corporativos, reduciendo los altos
+              índices de fracaso en etapa temprana muy característico del
+              sector.
+            </p>
+            <div className="flex flex-row p-8">
+              <>
+                <button
+                  className="bg-comarcaBlack text-white font-exo text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 flex-row flex"
+                  type="button"
+                  onClick={() => setShowModal(true)}
+                >
+                  Leer más📌
+                </button>
+                {showModal ? (
+                  <>
+                    <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none ">
+                      <div className="relative w-auto my-6 mx-auto max-w-3xl">
+                        {/*content*/}
+                        <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                          {/*header*/}
+                          <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
+                            <h3 className="text-3xl font-exo">Leer más📌</h3>
+                            <button
+                              className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
+                              onClick={() => setShowModal(false)}
+                            >
+                              <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
+                                ×
+                              </span>
+                            </button>
+                          </div>
+                          {/*body*/}
+                          <div className="relative p-6 flex-auto">
+                            <p className="my-4 text-slate-500 text-lg leading-relaxed">
+                              I always felt like I could do anything. That’s the
+                              main thing people are controlled by! Thoughts-
+                              their perception of themselves! They're slowed
+                              down by their perception of themselves. If you're
+                              taught you can’t do anything, you won’t do
+                              anything. I was taught I could do everything.
+                            </p>
+                          </div>
+                          {/*footer*/}
+                          <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
+                            <button
+                              className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                              type="button"
+                              onClick={() => setShowModal(false)}
+                            >
+                              Cerrar
+                            </button>
                           </div>
                         </div>
                       </div>
-                      <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
-                    </>
-                  ) : null}
-                </>
-                <button className="bg-comarcaBlack text-white font-exo text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 flex-row flex">
-                  {" "}
-                  Cuentame 🚀
-                </button>
-              </div>
+                    </div>
+                    <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+                  </>
+                ) : null}
+              </>
+              <button className="bg-comarcaBlack text-white font-exo text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 flex-row flex">
+                {" "}
+                Cuentame 🚀
+              </button>
             </div>
           </div>
         </div>
-        <div className="">
-          <div className="container max-w-7xl mx-1 px-1 lg:pt-24 text-center ">
-            <h1 className="text-4xl font-exo font-bold">Galeria de imagenes</h1>
-          </div>
-          <Carro />
+      </section>
+      <div className="">
+        <div className="container max-w-7xl mx-1 px-1 lg:pt-24 text-center ">
+          <h1 className="text-4xl font-exo font-bold">Galeria de imagenes</h1>
         </div>
-        <br />
+        <Carro />
       </div>
     </>
   );
