@@ -1,7 +1,7 @@
 const Booking = () => {
   return (
     <>
-      <div className="flex flex-row justify-center font-exo bg-white shadow-lg rounded-full m-0">
+      <div className="flex flex-row justify-center font-exo bg-comarcaOrange shadow-lg rounded-xl  m-0">
         <div className="flex justify-center gap-2 p-4 bg-gray-400 ">
           <form className="flex flex-row ">
             <div className="px-8">
@@ -24,7 +24,12 @@ const Booking = () => {
               <input className="rounded-xl" type="date" required />
             </div>
             <div className="px-8">
-              <span className="form-label rounded-xl">Hora</span>
+              <span className="form-label rounded-xl">Hora Entrada</span>
+              <br />
+              <input className="rounded-xl" type="time" required />
+            </div>
+            <div className="px-8">
+              <span className="form-label rounded-xl">Hora Salida</span>
               <br />
               <input className="rounded-xl" type="time" required />
             </div>

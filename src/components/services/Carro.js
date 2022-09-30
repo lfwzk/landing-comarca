@@ -1,10 +1,10 @@
 import { Carousel } from "react-carousel-minimal";
+import img1 from "../../assets/img/coworkback.jpeg";
 
 function App() {
   const data = [
     {
-      image:
-        "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: { img1 },
       caption: "San Francisco",
     },
     {

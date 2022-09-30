@@ -52,9 +52,12 @@ export default function Services() {
             </div>
           </div>
         </div>
-        <Booking />
       </main>
+      <div className="container max-w-7xl mx-1 px-1 lg:pt-24 text-center ">
+        <h1 className="text-4xl font-exo font-bold p-8">Comarca Spaces</h1>
+      </div>
       <Products />
+      <Booking />
 
       <DefaultFooter />
 

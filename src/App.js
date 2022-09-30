@@ -20,6 +20,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "assets/styles/tailwind.css";
 import Akaru from "components/group/Products/Akaru";
 
+import CPrivate from "components/services/spaces/private/CPrivate";
+
 function App() {
   return (
     <Router>
@@ -33,6 +35,7 @@ function App() {
       <Route exact path="/cart" component={Cart} />
       {/* <Route exact path="/teams" component={Groupal} /> */}
       <Route exact path="/akaru" component={Akaru} />
+      <Route exact path="/coprivate" component={CPrivate} />
     </Router>
   );
 }

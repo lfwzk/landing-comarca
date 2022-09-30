@@ -10,6 +10,7 @@ import Nav from "components/Nav";
 //import Mission from "components/landing/Mission";
 import Pricing from "components/landing/Pricing";
 //import Promotional from "./Promotional";
+import Team from "components/landing/Team";
 export default function Landing() {
   return (
     <>
@@ -33,6 +34,7 @@ export default function Landing() {
         <ContactSection />
 
         <Mapview />
+        <Team />
       </main>
 
       <DefaultFooter />
