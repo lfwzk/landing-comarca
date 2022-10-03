@@ -1,9 +1,10 @@
 import Nav from "components/Nav";
 import LeadText from "@material-tailwind/react/LeadText";
 import { Button } from "@material-tailwind/react";
-import Akaru from "../../assets/img/parnters/l1.png";
+//import Akaru from "../../assets/img/parnters/l1.png";
 
-import Academia from "../../assets/img/parnters/l7.png";
+//import Academia from "../../assets/img/parnters/l7.png";
+import Hub from "./Hub";
 
 const Group = () => {
   return (
@@ -26,12 +27,12 @@ const Group = () => {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center  ">
                 <h1 className="text-6xl text-gray-200 font-exo">
                   {" "}
-                  Proximamente
+                  Un cowork con propósito
                 </h1>
 
                 <div className="text-gray-200 font-exo">
                   <LeadText color="gray-200">
-                    Estamos trabajando en esta sección.
+                    demostramos que somos los mejores en lo que hacemos
                   </LeadText>
                   <div className="flex justify-center mt-10">
                     <Button
@@ -39,7 +40,7 @@ const Group = () => {
                       className="bg-comarcaYellow text-white ml-4"
                       ripple="dark"
                     >
-                      Volver
+                      Coworking
                     </Button>
                   </div>
                 </div>
@@ -47,8 +48,8 @@ const Group = () => {
             </div>
           </div>
         </div>
-
-        <section className="p-8 lg:p-8  font-exo">
+        <Hub />
+        {/* <section className="p-8 lg:p-8  font-exo">
           <div className="container mx-auto space-y-12">
             <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row bg-comarcaGray">
               <img
@@ -133,7 +134,15 @@ const Group = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
+            
+          </div>
+        </section> */}
+      </main>
+    </>
+  );
+};
+export default Group;
+/* <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
               <img
                 src="https://images.pexels.com/photos/259200/pexels-photo-259200.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt=""
@@ -170,11 +179,4 @@ const Group = () => {
                   </button>
                 </div>
               </div>
-            </div> */}
-          </div>
-        </section>
-      </main>
-    </>
-  );
-};
-export default Group;
+            </div> */
