@@ -53,11 +53,18 @@ export default function Services() {
           </div>
         </div>
       </main>
-      <div className="container max-w-7xl mx-1 px-1 lg:pt-24 text-center ">
-        <h1 className="text-4xl font-exo font-bold p-8">Comarca Spaces</h1>
+      <div className="max-w-2xl mx-auto mb-16 text-center pt-6">
+        <h2 className="text-xl font-exo lg:text-5xl font-semibold">
+          Co Marca Spaces <br />
+        </h2>
+        <p className="mt-4 text-lg text-gray-600">
+          {" "}
+          Busca un espacio ideal para ti y tus necesidades🏠{" "}
+        </p>
       </div>
-      <Products />
       <Booking />
+
+      <Products />
 
       <DefaultFooter />
 

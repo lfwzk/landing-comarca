@@ -3,8 +3,6 @@ import DefaultFooter from "components/DefaultFooter";
 const Hub = () => {
   return (
     <>
-      <Team />
-
       <section>
         <div className="container mx-auto p-4 lg:p-12 bg-white font-exo">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -693,7 +691,8 @@ const Hub = () => {
           </div>
         </div>
       </section>
-      <defaultFooter />
+      <Team />
+      <DefaultFooter />
     </>
   );
 };

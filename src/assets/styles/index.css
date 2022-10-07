@@ -15,8 +15,20 @@
 @import '@material-tailwind/react/tailwind.css';
 
 
+
 @layer utilities {
     .-translate-x-1\/2 {
         --tw-translate-x: -50% !important;
     }
+    .bg-growing-underline {
+        background-size: 100% 0.2em;
+        background-position: 0 88%;
+        @apply bg-no-repeat transition-all duration-200;
+      }
+      .bg-growing-underline:hover {
+        background-size: 100% 100%;
+      }
+      .bg-growing-underline:focus {
+        background-size: 100% 100%;
+      }
 }

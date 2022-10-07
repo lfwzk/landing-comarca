@@ -1,50 +1,64 @@
 import { Carousel } from "react-carousel-minimal";
 import img1 from "../../assets/img/coworkback.jpeg";
+import img2 from "../../assets/img/v2/f12.png";
+import img3 from "../../assets/img/v2/f100.jpg";
+import img4 from "../../assets/img/v2/f17.jpeg";
+import img6 from "../../assets/img/v2/f1.jpg";
+import img7 from "../../assets/img/v2/f9.jpeg";
+import img8 from "../../assets/img/v2/f30.jpeg";
 
 function App() {
   const data = [
     {
-      image: { img1 },
-      caption: "San Francisco",
+      image: img1,
+      caption: "Propósito",
     },
     {
-      image:
-        "https://images.pexels.com/photos/761993/pexels-photo-761993.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: img2,
+      caption: "Creatividad",
+    },
+    {
+      image: img3,
+      caption: "Libre",
+    },
+    {
+      image: img4,
+      caption: "Naturaleza",
+    },
+    {
+      image: img7,
+      caption: "pasion",
+    },
+    {
+      image: img6,
+      caption: "Desarrollo",
+    },
+    {
+      image: img8,
+      caption: "Hard work",
+    },
+    {
+      image: img1,
       caption: "Scotland",
     },
     {
-      image:
-        "https://static2.tripoto.com/media/filter/tst/img/735873/TripDocument/1537686560_1537686557954.jpg",
+      image: img2,
       caption: "Darjeeling",
     },
     {
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/1200px-Palace_of_Fine_Arts_%2816794p%29.jpg",
-      caption: "San Francisco",
-    },
-    {
-      image:
-        "https://i.natgeofe.com/n/f7732389-a045-402c-bf39-cb4eda39e786/scotland_travel_4x3.jpg",
-      caption: "Scotland",
-    },
-    {
-      image:
-        "https://www.tusktravel.com/blog/wp-content/uploads/2020/07/Best-Time-to-Visit-Darjeeling-for-Honeymoon.jpg",
+      image: img2,
       caption: "Darjeeling",
     },
     {
-      image:
-        "https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx",
-      caption: "San Francisco",
+      image: img2,
+      caption: "Darjeeling",
     },
     {
-      image:
-        "https://images.ctfassets.net/bth3mlrehms2/6Ypj2Qd3m3jQk6ygmpsNAM/61d2f8cb9f939beed918971b9bc59bcd/Scotland.jpg?w=750&h=422&fl=progressive&q=50&fm=jpg",
-      caption: "Scotland",
+      image: img2,
+      caption: "Darjeeling",
     },
     {
-      image:
-        "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/02/summer-7.jpg",
+      image: img2,
       caption: "Darjeeling",
     },
   ];
@@ -68,8 +82,8 @@ function App() {
           <Carousel
             data={data}
             time={2000}
-            width="850px"
-            height="500px"
+            width="1220px"
+            height="720px"
             captionStyle={captionStyle}
             radius="10px"
             slideNumber={true}
@@ -85,8 +99,8 @@ function App() {
             thumbnailWidth="100px"
             style={{
               textAlign: "center",
-              maxWidth: "850px",
-              maxHeight: "500px",
+              maxWidth: "1850px",
+              maxHeight: "720px",
               margin: "40px auto",
               padding: "0 20px",
             }}

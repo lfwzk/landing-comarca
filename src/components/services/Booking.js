@@ -1,10 +1,10 @@
 const Booking = () => {
   return (
     <>
-      <div className="flex flex-row justify-center font-exo bg-comarcaOrange shadow-lg rounded-xl  m-0">
+      <div className="flex flex-row justify-center font-exo shadow-lg rounded-xl  m-0">
         <div className="flex justify-center gap-2 p-4 bg-gray-400 ">
           <form className="flex flex-row ">
-            <div className="px-8">
+            {/* <div className="px-8">
               <span className="rounded-xl">Sala</span>
               <br />
               <select className="rounded-xl">
@@ -12,7 +12,7 @@ const Booking = () => {
                 <option>Sala colaborativa</option>
                 <option>Sala virtual</option>
               </select>
-            </div>
+            </div> */}
             <div className="px-8">
               <span className="rounded-xl">Entrada</span>
               <br />

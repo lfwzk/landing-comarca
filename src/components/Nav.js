@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <>
       <header className="border-b border-gray-100 bg-white fixed-top font-exo">
-        <div className="flex items-center justify-between h-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8 ">
           <a className="block text-teal-600" href="/">
             <span className="sr-only">Home</span>
 

@@ -24,17 +24,19 @@ export default function Landing() {
       <main>
         <Header />
         {/* <Promotional /> */}
+        <div className="pb-12">
+          <WorkingSection />
+          {/* <Mission /> */}
+        </div>
 
-        <WorkingSection />
-        {/* <Mission /> */}
         <Pricing />
+
         {/* <Gallery /> */}
         {/* <TeamSection /> */}
         <Review />
         <ContactSection />
-
-        <Mapview />
         <Team />
+        <Mapview />
       </main>
 
       <DefaultFooter />

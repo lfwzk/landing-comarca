@@ -3,6 +3,8 @@
 import { Button } from "@material-tailwind/react";
 import imgtyp from "../../assets/img/whitelogo.png";
 import { TypeAnimation } from "react-type-animation";
+import wallpaper from "../../assets/img/v2/f32.jpg";
+//        import imgfull from "../../assets/img/img.jpeg";
 
 export default function Header() {
   return (
@@ -11,7 +13,7 @@ export default function Header() {
         className="bg-cover bg-center absolute top-0 w-full h-full object-cover"
         style={{
           //backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9)), url(${rocket})`,
-          backgroundImage: `linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url("https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`,
+          backgroundImage: `linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url(${wallpaper})`,
           height: `100vh`,
           backgroundSize: `cover`,
         }}
