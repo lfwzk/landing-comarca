@@ -102,9 +102,9 @@ export default function Navbar() {
                 className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-comarcaPurple hover:border-current"
                 onClick={notify}
               >
-                Coworkers
+                Eventos
                 <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-exo leading-none text-white bg-comarca rounded-full">
-                  nuevo
+                  new
                 </span>
               </a>
             </nav>

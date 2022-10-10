@@ -4,6 +4,7 @@ import { Button } from "@material-tailwind/react";
 //import Akaru from "../../assets/img/parnters/l1.png";
 
 //import Academia from "../../assets/img/parnters/l7.png";
+import background from "../../assets/img/portadagroup.jpg";
 import Hub from "./Hub";
 
 const Group = () => {
@@ -17,7 +18,7 @@ const Group = () => {
             className="bg-cover bg-center absolute top-0 w-full h-full object-cover"
             style={{
               //backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9)), url(${rocket})`,
-              backgroundImage: `linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url("https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`,
+              backgroundImage: `linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url(${background})`,
               height: `100vh`,
               backgroundSize: `cover`,
             }}
@@ -34,15 +35,7 @@ const Group = () => {
                   <LeadText color="gray-200">
                     demostramos que somos los mejores en lo que hacemos
                   </LeadText>
-                  <div className="flex justify-center mt-10">
-                    <Button
-                      color="transparent"
-                      className="bg-comarcaYellow text-white ml-4"
-                      ripple="dark"
-                    >
-                      Coworking
-                    </Button>
-                  </div>
+                  <div className="flex justify-center mt-10"></div>
                 </div>
               </div>
             </div>

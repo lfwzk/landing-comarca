@@ -8,6 +8,7 @@ import { Button } from "@material-tailwind/react";
 //import { Route, Router } from "react-router-dom";
 //import Colaborativo from "./spaces/Colaborativo";
 import Booking from "./Booking";
+import background from "../../assets/img/portadaservices.jpg";
 
 export default function Services() {
   return (
@@ -21,7 +22,7 @@ export default function Services() {
             className="bg-cover bg-center absolute top-0 w-full h-full object-cover"
             style={{
               //backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9)), url(${rocket})`,
-              backgroundImage: `linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url("https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`,
+              backgroundImage: `linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url(${background})`,
               height: `100vh`,
               backgroundSize: `cover`,
             }}
@@ -38,15 +39,7 @@ export default function Services() {
                   <LeadText color="gray-200">
                     Podras encontrar el lugar perfecto para tu evento.
                   </LeadText>
-                  <div className="flex justify-center mt-10">
-                    <Button
-                      color="transparent"
-                      className="bg-comarcaBlue text-white ml-4"
-                      ripple="dark"
-                    >
-                      <a href="/services">Empecemos</a>
-                    </Button>
-                  </div>
+                  <div className="flex justify-center mt-10"></div>
                 </div>
               </div>
             </div>

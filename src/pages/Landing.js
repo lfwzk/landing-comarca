@@ -11,6 +11,7 @@ import Nav from "components/Nav";
 import Pricing from "components/landing/Pricing";
 //import Promotional from "./Promotional";
 import Team from "components/landing/Team";
+import Announcement from "components/landing/Announcement";
 export default function Landing() {
   return (
     <>
@@ -30,7 +31,7 @@ export default function Landing() {
         </div>
 
         <Pricing />
-
+        <Announcement />
         {/* <Gallery /> */}
         {/* <TeamSection /> */}
         <Review />

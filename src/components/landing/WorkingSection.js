@@ -113,7 +113,7 @@ export default function WorkingSection() {
         <div className="container max-w-7xl mx-1 px-1 lg:pt-24 text-center ">
           <h1 className="text-4xl font-exo font-bold">Galeria de imagenes</h1>
         </div>
-        <div className="  pb-8">
+        <div className="p-4">
           <Carro />
         </div>
       </div>

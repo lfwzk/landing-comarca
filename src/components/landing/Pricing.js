@@ -1,8 +1,10 @@
-import img1 from "../../assets/img/v2/f12.png";
-import img2 from "../../assets/img/v2/f23.jpeg";
-import img3 from "../../assets/img/v2/f28.jpeg";
-import img4 from "../../assets/img/v2/f7.jpeg";
-import img5 from "../../assets/img/v2/f27.jpeg";
+import img1 from "../../assets/img/web/CoEmprendedorTaller(4).png";
+import img2 from "../../assets/img/web/COPRIVADA(2).png";
+//import img3 from "../../assets/img/v2/f28.jpeg";
+import img3 from "../../assets/img/web/CoLaborativo(5).png";
+import img4 from "../../assets/img/web/COMUNIDAD(13).png";
+import img5 from "../../assets/img/web/CoEmprendedorTaller(12).png";
+
 const Pricing = () => {
   return (
     <>
@@ -216,7 +218,7 @@ const Pricing = () => {
         <div className="container my-12 mx-auto px-4 md:px-12 ">
           <div className="flex flex-wrap -mx-1 lg:-mx-4 ">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 ">
-              <article className="overflow-hidden rounded-lg shadow-lg bg-comarca text-white transform transition duration-500 hover:scale-110">
+              <article className="overflow-hidden rounded-lg shadow-lg text-comarcaBlack transform transition duration-500 hover:scale-110">
                 <a href="/services">
                   <img
                     alt="Placeholder"
@@ -226,9 +228,9 @@ const Pricing = () => {
                 </a>
 
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                  <h1 className="text-lg font-exo font-semibold text-3xl">
+                  <h1 className=" font-exo font-semibold text-3xl">
                     <a
-                      className="no-underline hover:underline "
+                      className="no-underline hover:underline text-comarca "
                       href="/services"
                     >
                       Coworker Individual
@@ -288,7 +290,7 @@ const Pricing = () => {
             </div>
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <article className="overflow-hidden rounded-lg shadow-lg bg-comarcaBlue text-white transform transition duration-500 hover:scale-110">
+              <article className="overflow-hidden rounded-lg shadow-lg  text-comarcaBlack transform transition duration-500 hover:scale-110">
                 <a href="/services">
                   <img
                     alt="Placeholder"
@@ -298,9 +300,9 @@ const Pricing = () => {
                 </a>
 
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                  <h1 className="text-lg font-exo font-semibold text-3xl">
+                  <h1 className="font-exo font-semibold text-3xl">
                     <a
-                      className="no-underline hover:underline "
+                      className="no-underline hover:underline text-comarcaBlue "
                       href="/services"
                     >
                       Coworker Grupal
@@ -361,19 +363,19 @@ const Pricing = () => {
             </div>
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <article className="overflow-hidden rounded-lg shadow-lg bg-comarcaPurple text-white transform transition duration-500 hover:scale-110">
+              <article className="overflow-hidden rounded-lg shadow-lg text-comarcaBlack  transform transition duration-500 hover:scale-110">
                 <a href="/services">
                   <img
                     alt="Placeholder"
-                    className="block h-auto w-full"
-                    src={img2}
+                    className="block h-auto w-full "
+                    src={img4}
                   />
                 </a>
 
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                  <h1 className="text-lg font-exo font-semibold text-3xl">
+                  <h1 className=" font-exo font-semibold text-3xl">
                     <a
-                      className="no-underline hover:underline "
+                      className="no-underline hover:underline text-comarcaPurple "
                       href="/services"
                     >
                       Coworker Virtual
@@ -433,12 +435,16 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-        <section className="text-white bg-comarcaOrange rounded-lg shadow-lg ">
+        <section className="text-comarcaBlack rounded-lg shadow-lg ">
           <div className="container flex flex-col-reverse mx-auto lg:flex-row ">
             <div className="flex flex-col px-6 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2 xl:w-2/5 bg-rose-600 text-gray-50">
               <div className="space-y-2">
-                <h4 className="text-xl font-bold font-exo ">Grupo</h4>
-                <span className="font-bold text-3xl font-exo">Co Marca </span>
+                <h4 className="text-xl font-bold font-exo text-comarcaOrange">
+                  Grupo
+                </h4>
+                <span className="font-bold text-3xl font-exo text-comarcaOrange">
+                  Co Marca{" "}
+                </span>
               </div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -446,7 +452,7 @@ const Pricing = () => {
                 height="43"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="#ffffff"
+                stroke="#000000"
                 strokeWidth="2.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -458,7 +464,7 @@ const Pricing = () => {
               </svg>
               <br />
               <div className="flex space-x-2 sm:space-x-4">
-                <p className="text-sm font-exo">
+                <p className="text-sm font-exo text-justify">
                   {" "}
                   En Co Marca Desarrollamos un sistema coworking con propósito
                   cubriendo todas las necesidades tangibles e intangibles
@@ -474,16 +480,16 @@ const Pricing = () => {
               <div className="flex space-x-2 sm:space-x-4">
                 <button
                   type="button"
-                  className="px-8 py-3 font-semibold rounded-xl bg-yellow text-black hover:bg-white hover:text-comarcaBlack border border-comarcablack hover:border-comarcaBlack"
+                  className="px-8 py-3 font-semibold rounded-xl bg-comarcaOrange text-black hover:bg-white hover:text-comarcaBlack border border-comarcablack hover:border-comarcaBlack"
                 >
-                  Detalles
+                  <a href="/group">Detalles</a>
                 </button>
               </div>
             </div>
             <div className="lg:w-1/2 xl:w-3/5 bg-gray-100">
               <div className="flex items-center justify-center p-4 md:p-8 lg:p-12  transform transition duration-500 hover:scale-110">
                 <img
-                  src="https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  src={img5}
                   alt=""
                   className="rounded-lg shadow-lg bg-gray-500 aspect-video sm:min-h-96"
                 />

@@ -5,13 +5,19 @@
 // import img5 from "../../assets/img/spaces/Cocreativo/comedor1.jpg";
 //import img6 from "../../assets/img/spaces/Comarca/sala2.jpg";
 //import Carro from "./Carro";
+import img1 from "../../assets/img/web/COPRIVADA(8).png";
+import img2 from "../../assets/img/web/COMUNIDAD(16).png";
+import img3 from "../../assets/img/web/CoCreativo(3).png";
 
+import img4 from "../../assets/img/web/CoLaborativo.png";
+import img5 from "../../assets/img/web/CoEmprendedorTaller(4).png";
+import img6 from "../../assets/img/web/CoEmprendedorTaller(10).png";
 const Products = () => {
   return (
     <>
       <section className="font-exo ">
         <div className="px-4 py-3 text-white sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 text-center mx-4 space-y-2 rounded-lg bg-growing-underline ">
-          <p className="text-center font-semibold sm:text-left  text-3xl tracking-tighter text-comarcaBlack">
+          <p className="text-center font-semibold sm:text-left  text-3xl tracking-tighter text-comarca">
             Coworker <br className="sm:hidden" />
             Individual
           </p>
@@ -20,12 +26,12 @@ const Products = () => {
         <div className="container my-12 mx-auto px-4 md:px-12 transform ease-in-out duration-150 transition-transform">
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <article className="overflow-hidden rounded-lg shadow-lg">
+              <article className="overflow-hidden rounded-lg shadow-lg transform transition duration-500 hover:scale-110">
                 <a href="#">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src="https://images.pexels.com/photos/6281724/pexels-photo-6281724.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src={img1}
                   />
                 </a>
 
@@ -71,12 +77,12 @@ const Products = () => {
             </div>
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <article className="overflow-hidden rounded-lg shadow-lg">
+              <article className="overflow-hidden rounded-lg shadow-lg transform transition duration-500 hover:scale-110">
                 <a href="#">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src="https://picsum.photos/600/400/?random"
+                    src={img2}
                   />
                 </a>
 
@@ -122,12 +128,12 @@ const Products = () => {
             </div>
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <article className="overflow-hidden rounded-lg shadow-lg">
+              <article className="overflow-hidden rounded-lg shadow-lg transform transition duration-500 hover:scale-110">
                 <a href="#">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src="https://picsum.photos/600/400/?random"
+                    src={img3}
                   />
                 </a>
 
@@ -175,7 +181,7 @@ const Products = () => {
       </section>
 
       <section className="font-exo">
-        <div className="bg-comarcaBlue px-4 py-3 text-white sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 text-center mx-4 space-y-2 rounded-lg">
+        <div className=" px-4 py-3 text-comarcaBlue sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 text-center mx-4 space-y-2 rounded-lg">
           <p className="text-center font-semibold sm:text-left  text-3xl tracking-tighter">
             Coworker <br className="sm:hidden" />
             Grupal
@@ -185,12 +191,12 @@ const Products = () => {
         <div className="container my-12 mx-auto px-4 md:px-12">
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <article className="overflow-hidden rounded-lg shadow-lg">
+              <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
                 <a href="#">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src="https://picsum.photos/600/400/?random"
+                    src={img4}
                   />
                 </a>
 
@@ -236,12 +242,12 @@ const Products = () => {
             </div>
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <article className="overflow-hidden rounded-lg shadow-lg">
+              <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
                 <a href="#">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src="https://picsum.photos/600/400/?random"
+                    src={img5}
                   />
                 </a>
 
@@ -287,12 +293,12 @@ const Products = () => {
             </div>
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <article className="overflow-hidden rounded-lg shadow-lg">
+              <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
                 <a href="#">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src="https://picsum.photos/600/400/?random"
+                    src={img6}
                   />
                 </a>
 
@@ -341,7 +347,7 @@ const Products = () => {
       </section>
 
       <section className="font-exo">
-        <div className="bg-comarcaPurple px-4 py-3 text-white sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 text-center mx-4 space-y-2 rounded-lg">
+        <div className="text-comarcaPurple px-4 py-3  sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 text-center mx-4 space-y-2 rounded-lg">
           <p className="text-center font-semibold sm:text-left  text-3xl tracking-tighter">
             Coworker <br className="sm:hidden" />
             Virtual
@@ -351,7 +357,7 @@ const Products = () => {
         <div className="container my-12 mx-auto px-4 md:px-12">
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <article className="overflow-hidden rounded-lg shadow-lg">
+              <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
                 <a href="#">
                   <img
                     alt="Placeholder"
@@ -402,7 +408,7 @@ const Products = () => {
             </div>
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <article className="overflow-hidden rounded-lg shadow-lg">
+              <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
                 <a href="#">
                   <img
                     alt="Placeholder"
@@ -455,17 +461,17 @@ const Products = () => {
       </section>
 
       <section className="font-exo">
-        <div className="bg-comarcaYellow px-4 py-3 text-white sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 text-center mx-4 space-y-2 rounded-lg">
+        <div className="text-comarcaYellow px-4 py-3 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 text-center mx-4 space-y-2 rounded-lg">
           <p className="text-center font-semibold sm:text-left  text-3xl tracking-tighter">
             Coworker <br className="sm:hidden" />
-            ofertas🎁
+            ofertas
           </p>
         </div>
 
         <div className="container my-12 mx-auto px-4 md:px-12">
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <article className="overflow-hidden rounded-lg shadow-lg">
+              <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
                 <a href="#">
                   <img
                     alt="Placeholder"
@@ -516,7 +522,7 @@ const Products = () => {
             </div>
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <article className="overflow-hidden rounded-lg shadow-lg">
+              <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
                 <a href="#">
                   <img
                     alt="Placeholder"
@@ -567,7 +573,7 @@ const Products = () => {
             </div>
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <article className="overflow-hidden rounded-lg shadow-lg">
+              <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
                 <a href="#">
                   <img
                     alt="Placeholder"

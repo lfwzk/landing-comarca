@@ -3,7 +3,7 @@
 import { Button } from "@material-tailwind/react";
 import imgtyp from "../../assets/img/whitelogo.png";
 import { TypeAnimation } from "react-type-animation";
-import wallpaper from "../../assets/img/v2/f32.jpg";
+import wallpaper from "../../assets/img/portada.jpg";
 //        import imgfull from "../../assets/img/img.jpeg";
 
 export default function Header() {
