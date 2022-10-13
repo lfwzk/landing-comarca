@@ -27,7 +27,7 @@ const Products = () => {
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
               <article className="overflow-hidden rounded-lg shadow-lg transform transition duration-500 hover:scale-110">
-                <a href="#">
+                <a href="/coprivado">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
@@ -39,9 +39,9 @@ const Products = () => {
                   <h1 className="text-lg">
                     <a
                       className="no-underline hover:underline text-black"
-                      href="/coprivate"
+                      href="/coprivado"
                     >
-                      Oficina Co Privada
+                      Oficina Co Privado
                     </a>
                   </h1>
                   <p className="text-grey-darker text-sm">Desde Bs. 35</p>
@@ -78,7 +78,7 @@ const Products = () => {
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
               <article className="overflow-hidden rounded-lg shadow-lg transform transition duration-500 hover:scale-110">
-                <a href="#">
+                <a href="/comunidad">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
@@ -90,7 +90,7 @@ const Products = () => {
                   <h1 className="text-lg">
                     <a
                       className="no-underline hover:underline text-black"
-                      href="#"
+                      href="/comunidad"
                     >
                       Co Munidad
                     </a>
@@ -129,7 +129,7 @@ const Products = () => {
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
               <article className="overflow-hidden rounded-lg shadow-lg transform transition duration-500 hover:scale-110">
-                <a href="#">
+                <a href="/cocreativo">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
@@ -141,7 +141,7 @@ const Products = () => {
                   <h1 className="text-lg">
                     <a
                       className="no-underline hover:underline text-black"
-                      href="#"
+                      href="/cocreativo"
                     >
                       Co Creativo
                     </a>
@@ -192,7 +192,7 @@ const Products = () => {
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
               <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
-                <a href="#">
+                <a href="/colaborativo">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
@@ -204,7 +204,7 @@ const Products = () => {
                   <h1 className="text-lg">
                     <a
                       className="no-underline hover:underline text-black"
-                      href="#"
+                      href="/colaborativo"
                     >
                       Sala de reunión Co Laborativa
                     </a>
@@ -243,7 +243,7 @@ const Products = () => {
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
               <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
-                <a href="#">
+                <a href="/coemprende">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
@@ -255,7 +255,7 @@ const Products = () => {
                   <h1 className="text-lg">
                     <a
                       className="no-underline hover:underline text-black"
-                      href="#"
+                      href="/coemprende"
                     >
                       Sala de reunión Co emprendedor
                     </a>
@@ -294,7 +294,7 @@ const Products = () => {
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
               <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
-                <a href="#">
+                <a href="/taller">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
@@ -306,7 +306,7 @@ const Products = () => {
                   <h1 className="text-lg">
                     <a
                       className="no-underline hover:underline text-black"
-                      href="#"
+                      href="/taller"
                     >
                       Sala talleres Co Emprendedor
                     </a>

@@ -11,17 +11,19 @@ import Blog from "components/blog/Blog";
 
 import Cart from "components/cart/Cart";
 
-//import Groupal from "components/services/spaces/group/Group";
-
-// Font Awesome Style Sheet
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 // Tailwind CSS Style Sheet
 import "assets/styles/tailwind.css";
 import Akaru from "components/group/Products/Akaru";
 
-import CPrivate from "components/services/spaces/private/CPrivate";
+import CPrivate from "components/services/spaces/private/Coprivado/CPrivate";
+import Cmmunity from "components/services/spaces/private/Comunidad/Cmmunity";
+import Ccreative from "components/services/spaces/private/Cocreativo/Ccreative";
 
+import Claborativo from "components/services/spaces/group/Colaborativo/Colab";
+import Coemprendedor from "components/services/spaces/group/Coemprende/Coemprende";
+import Taller from "components/services/spaces/group/Taller/Taller";
 function App() {
   return (
     <Router>
@@ -35,7 +37,14 @@ function App() {
       <Route exact path="/cart" component={Cart} />
       {/* <Route exact path="/teams" component={Groupal} /> */}
       <Route exact path="/akaru" component={Akaru} />
-      <Route exact path="/coprivate" component={CPrivate} />
+
+      <Route exact path="/coprivado" component={CPrivate} />
+      <Route exact path="/comunidad" component={Cmmunity} />
+      <Route exact path="/cocreativo" component={Ccreative} />
+
+      <Route exact path="/colaborativo" component={Claborativo} />
+      <Route exact path="/coemprende" component={Coemprendedor} />
+      <Route exact path="/taller" component={Taller} />
     </Router>
   );
 }
