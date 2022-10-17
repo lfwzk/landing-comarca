@@ -3,12 +3,12 @@ import Nav from "components/Nav";
 import Products from "./Products";
 import DefaultFooter from "components/DefaultFooter";
 import LeadText from "@material-tailwind/react/LeadText";
-import { Button } from "@material-tailwind/react";
+//import { Button } from "@material-tailwind/react";
 //import img from "assets/img/bg-landing-background.jpg";
 //import { Route, Router } from "react-router-dom";
 //import Colaborativo from "./spaces/Colaborativo";
 import Booking from "./Booking";
-import background from "../../assets/img/portadaservices.jpg";
+import background from "../../assets/img/background-comarca.jpg";
 
 export default function Services() {
   return (

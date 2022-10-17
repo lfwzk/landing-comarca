@@ -34,11 +34,9 @@ export default function Modal() {
                   <p className="my-4 text-slate-500 text-lg leading-relaxed font-exo">
                     <strong>Dirección:</strong>
                     <br />
-                    Av. Montenegro Nro 1017 Zona San Miguel
+                    Calacoto Calle 11 y 12, Gral. Inofuentes 502,
                     <br />
-                    Edificio Emporio Sub suelo oficina 17
-                    <br />
-                    Ciudad La Paz, La Paz, Bolivia
+                    Ciudad La Paz, Bolivia
                     <br />
                     <b>Telefono:</b>
                     <br />
@@ -46,7 +44,7 @@ export default function Modal() {
                     <br />
                     <b> Email:</b>
                     <br />
-                    info@comarca-cowork.com
+                    info@comarcagroup.com
                   </p>
                 </div>
                 {/*footer*/}

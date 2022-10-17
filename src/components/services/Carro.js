@@ -41,26 +41,6 @@ function App() {
       image: img1,
       caption: "Coworking",
     },
-    {
-      image: img2,
-      caption: "Never give up",
-    },
-    {
-      image: img2,
-      caption: "Co Marca",
-    },
-    {
-      image: img2,
-      caption: "Passion",
-    },
-    {
-      image: img2,
-      caption: "Follow",
-    },
-    {
-      image: img2,
-      caption: "Dreams",
-    },
   ];
 
   const captionStyle = {

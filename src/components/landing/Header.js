@@ -34,19 +34,19 @@ export default function Header() {
                   sequence={[
                     "Co Marca 2.0",
                     9000,
-                    "Puedes cumplir tus sueños",
+                    "Un Cowork con propósito ❤",
                     3000,
-                    "¿Quieres saber más?",
+                    "Donde tu aportas",
                     3000,
-                    "Un spoiler: Apoyamos a emprendedores",
+                    "A emprendedores",
                     3000,
-                    "¿Te interesa?",
+                    "Cumpliendo nuestros sueños",
                     3000,
-                    "¡Te esperamos!",
+                    "Juntemosnos y hagamoslo",
                     3000,
-                    "Estamos estrenando una nueva imagen",
+                    "Co Marca 2.0",
                     3000,
-                    "Co Marca con propósito ❤",
+                    "Una nueva imagen",
                     9000,
                   ]}
                   wrapper="div"
@@ -61,7 +61,22 @@ export default function Header() {
                   className="bg-white text-black ml-4 hover:bg-comarca hover:text-white"
                   ripple="dark"
                 >
-                  <a href="/services">Reservar </a>
+                  <a href="/services">Cowork </a>
+                </Button>
+
+                <Button
+                  color="transparent"
+                  className="bg-white text-black ml-4 hover:bg-comarcaYellow hover:text-white"
+                  ripple="dark"
+                >
+                  <a href="/group">Grupo</a>
+                </Button>
+                <Button
+                  color="transparent"
+                  className="bg-white text-black ml-4 hover:bg-comarcaPurple hover:text-white"
+                  ripple="dark"
+                >
+                  <a href="/events">Eventos</a>
                 </Button>
               </div>
             </div>

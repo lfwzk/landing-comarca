@@ -1,4 +1,10 @@
+import toast, { Toaster } from "react-hot-toast";
+
 const Booking = () => {
+  const notify = () =>
+    toast("cooming soon!", {
+      icon: "🚀",
+    });
   return (
     <>
       <div className="align-center md:hidden ">
@@ -25,37 +31,45 @@ const Booking = () => {
       <div className="flex-row justify-center font-exo shadow-lg rounded-xl hidden  md:block ">
         <div className="flex justify-center gap-2 p-4 bg-gray-400 ">
           <form className="flex flex-row ">
-            {/* <div className="px-8">
-              <span className="rounded-xl">Sala</span>
+            <div className="px-8">
+              <span className="rounded-xl font-semibold">Sala</span>
               <br />
               <select className="rounded-xl">
-                <option>Sala privada</option>
-                <option>Sala colaborativa</option>
-                <option>Sala virtual</option>
+                <option>Salas Privadas</option>
+                <option>Salas Colaborativas</option>
+                <option>Salas Virtuales</option>
               </select>
-            </div> */}
+            </div>
             <div className="px-8">
-              <span className="rounded-xl">Entrada</span>
+              <span className="rounded-xl font-semibold">Entrada</span>
               <br />
               <input className="rounded-xl" type="date" required />
             </div>
             <div className="px-8">
-              <span className="rounded-xl">Salida</span>
+              <span className="rounded-xl font-semibold">Salida</span>
               <br />
               <input className="rounded-xl" type="date" required />
             </div>
             <div className="px-8">
-              <span className="form-label rounded-xl">Hora Entrada</span>
+              <span className="form-label rounded-xl font-semibold">
+                Hora Entrada
+              </span>
+              <br />
+              <input
+                className="rounded-xl font-semibold"
+                type="time"
+                required
+              />
+            </div>
+            <div className="px-8">
+              <span className="form-label rounded-xl font-semibold">
+                Hora Salida
+              </span>
               <br />
               <input className="rounded-xl" type="time" required />
             </div>
             <div className="px-8">
-              <span className="form-label rounded-xl">Hora Salida</span>
-              <br />
-              <input className="rounded-xl" type="time" required />
-            </div>
-            <div className="px-8">
-              <span className="rounded-xl">Invitados</span>
+              <span className="rounded-xl font-semibold">Invitados</span>
               <br />
               <select className="rounded-xl">
                 <option>1</option>
@@ -73,9 +87,13 @@ const Booking = () => {
             </div>
             <br />
             <div className="px-8">
-              <button className="bg-comarca text-white font-bold py-2 px-4 rounded-xl ">
+              <button
+                className="bg-comarca text-white font-bold py-2 px-4 rounded-xl "
+                onClick={notify}
+              >
                 Disponibilidad
               </button>
+              <Toaster />
             </div>
           </form>
         </div>

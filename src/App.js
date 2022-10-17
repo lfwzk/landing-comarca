@@ -17,6 +17,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "assets/styles/tailwind.css";
 import Akaru from "components/group/Products/Akaru";
 
+import Checkout from "components/Checkout";
+
 import CPrivate from "components/services/spaces/private/Coprivado/CPrivate";
 import Cmmunity from "components/services/spaces/private/Comunidad/Cmmunity";
 import Ccreative from "components/services/spaces/private/Cocreativo/Ccreative";
@@ -27,6 +29,7 @@ import Taller from "components/services/spaces/group/Taller/Taller";
 function App() {
   return (
     <Router>
+      <Route exact path="/checkout" component={Checkout} />
       <Route exact path="/" component={Landing} />
       <Route exact path="/profile" component={Profile} />
       <Route exact path="/login" component={Login} />
@@ -50,3 +53,10 @@ function App() {
 }
 
 export default App;
+
+// /virtual
+// /laboratorio
+// /virtualizacion
+
+// teamEmprendedor
+// /teamCorporativo

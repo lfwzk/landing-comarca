@@ -6,11 +6,11 @@ import {
   TwitterIcon,
   WhatsappIcon,
 } from "react-share";
-import img1 from "../../../../../assets/img/web/COMUNIDAD(13).png";
-import img2 from "../../../../../assets/img/web/COMUNIDAD(3).png";
-import img3 from "../../../../../assets/img/web/COMUNIDAD(4).png";
-import img4 from "../../../../../assets/img/web/COMUNIDAD(6).png";
-import img5 from "../../../../../assets/img/web/COMUNIDAD(9).png";
+import img1 from "../../../../../assets/img/web/CoLaborativo(5).png";
+import img2 from "../../../../../assets/img/web/CoLaborativo(2).png";
+import img3 from "../../../../../assets/img/web/CoLaborativo(3).png";
+import img4 from "../../../../../assets/img/web/CoLaborativo(4).png";
+import img5 from "../../../../../assets/img/web/CoLaborativo.png";
 const Colab = () => {
   return (
     <div>
@@ -37,7 +37,7 @@ const Colab = () => {
       </div>
       <section className="py-6 bg-white text-gray-900">
         <div className="container max-w-7xl mx-1 px-1 lg:pt-8">
-          <h1 className="text-4xl font-exo font-bold p-8">Co Munidad</h1>
+          <h1 className="text-4xl font-exo font-bold p-8">Co Laborativo</h1>
         </div>
 
         <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4 ">
@@ -71,7 +71,7 @@ const Colab = () => {
       <section className="py-6 bg-gray-100 text-gray-900 font-exo">
         <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
           <div className="py-6 md:py-0 md:px-6">
-            <h1 className="text-4xl font-bold">Co Munidad </h1>
+            <h1 className="text-4xl font-bold">Co Laborativo </h1>
             <p className="pt-2 pb-4">
               Oficina privada equipado y cómodo para dos personas con llave
               propia y custodia de sus equipos y documentación. All inclusive
@@ -185,7 +185,7 @@ const Colab = () => {
             </label>
             <button
               type="button"
-              className="self-center px-8 py-3 text-lg rounded-xl text-white focus:ring hover:ring focus:ring-opacity-75 bg-comarca text-gray-50 focus:ring-yellow-600 hover:ring-yellow-600"
+              className="self-center px-8 py-3 text-lg rounded-xl text-white focus:ring hover:ring focus:ring-opacity-75 bg-comarcaBlue text-gray-50 focus:ring-yellow-600 hover:ring-yellow-600"
             >
               Reservar
             </button>

@@ -1,6 +1,6 @@
 import Nav from "components/Nav";
 import LeadText from "@material-tailwind/react/LeadText";
-import { Button } from "@material-tailwind/react";
+//import { Button } from "@material-tailwind/react";
 //import Akaru from "../../assets/img/parnters/l1.png";
 
 //import Academia from "../../assets/img/parnters/l7.png";

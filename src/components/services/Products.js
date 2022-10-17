@@ -38,7 +38,7 @@ const Products = () => {
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                   <h1 className="text-lg">
                     <a
-                      className="no-underline hover:underline text-black"
+                      className="no-underline hover:underline  text-comarca font-semibold"
                       href="/coprivado"
                     >
                       Oficina Co Privado
@@ -53,10 +53,11 @@ const Products = () => {
                     type="button"
                     className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarca rounded-xl"
                   >
-                    <span className="text-sm font-medium text-white">
-                      Reservar
-                    </span>
-
+                    <a href="/checkout">
+                      <span className="text-sm font-medium text-white">
+                        Reservar
+                      </span>
+                    </a>
                     <svg
                       className="w-5 h-5 ml-1.5"
                       xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +90,7 @@ const Products = () => {
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                   <h1 className="text-lg">
                     <a
-                      className="no-underline hover:underline text-black"
+                      className="no-underline hover:underline text-comarca font-semibold"
                       href="/comunidad"
                     >
                       Co Munidad
@@ -140,7 +141,7 @@ const Products = () => {
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                   <h1 className="text-lg">
                     <a
-                      className="no-underline hover:underline text-black"
+                      className="no-underline hover:underline text-comarca font-semibold"
                       href="/cocreativo"
                     >
                       Co Creativo
@@ -203,7 +204,7 @@ const Products = () => {
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                   <h1 className="text-lg">
                     <a
-                      className="no-underline hover:underline text-black"
+                      className="no-underline hover:underline text-comarcaBlue font-semibold"
                       href="/colaborativo"
                     >
                       Sala de reunión Co Laborativa
@@ -254,7 +255,7 @@ const Products = () => {
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                   <h1 className="text-lg">
                     <a
-                      className="no-underline hover:underline text-black"
+                      className="no-underline hover:underline text-comarcaBlue font-semibold"
                       href="/coemprende"
                     >
                       Sala de reunión Co emprendedor
@@ -305,7 +306,7 @@ const Products = () => {
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                   <h1 className="text-lg">
                     <a
-                      className="no-underline hover:underline text-black"
+                      className="no-underline hover:underline text-comarcaBlue font-semibold"
                       href="/taller"
                     >
                       Sala talleres Co Emprendedor
@@ -358,7 +359,7 @@ const Products = () => {
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
               <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
-                <a href="#">
+                <a href="/virtual">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
@@ -369,8 +370,8 @@ const Products = () => {
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                   <h1 className="text-lg">
                     <a
-                      className="no-underline hover:underline text-black"
-                      href="#"
+                      className="no-underline hover:underline text-comarcaPurple font-semibold"
+                      href="/virtual"
                     >
                       Oficina Virtual
                     </a>
@@ -409,7 +410,7 @@ const Products = () => {
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
               <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
-                <a href="#">
+                <a href="/laboratorio">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
@@ -420,8 +421,8 @@ const Products = () => {
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                   <h1 className="text-lg">
                     <a
-                      className="no-underline hover:underline text-black"
-                      href="#"
+                      className="no-underline hover:underline text-comarcaPurple font-semibold"
+                      href="/laboratorio"
                     >
                       Laboratorio Emprende
                     </a>
@@ -472,7 +473,7 @@ const Products = () => {
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
               <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
-                <a href="#">
+                <a href="/teamEmprendedor">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
@@ -483,8 +484,8 @@ const Products = () => {
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                   <h1 className="text-lg">
                     <a
-                      className="no-underline hover:underline text-black"
-                      href="#"
+                      className="no-underline hover:underline text-black font-semibold"
+                      href="/teamEmprendedor"
                     >
                       Team Emprendedor
                     </a>
@@ -523,7 +524,7 @@ const Products = () => {
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
               <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
-                <a href="#">
+                <a href="/teamCorporativo">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
@@ -534,8 +535,8 @@ const Products = () => {
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                   <h1 className="text-lg">
                     <a
-                      className="no-underline hover:underline text-black"
-                      href="#"
+                      className="no-underline hover:underline text-black font-semibold"
+                      href="/teamCorporativo"
                     >
                       Team Corporativo
                     </a>
@@ -574,7 +575,7 @@ const Products = () => {
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
               <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
-                <a href="#">
+                <a href="/estudiante">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
@@ -585,8 +586,8 @@ const Products = () => {
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                   <h1 className="text-lg">
                     <a
-                      className="no-underline hover:underline text-black"
-                      href="#"
+                      className="no-underline hover:underline text-black font-semibold"
+                      href="/estudiante"
                     >
                       Team Estudiantil
                     </a>
