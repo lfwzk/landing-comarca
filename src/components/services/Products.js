@@ -105,10 +105,11 @@ const Products = () => {
                     type="button"
                     className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarca rounded-xl"
                   >
-                    <span className="text-sm font-medium text-white">
-                      Reservar
-                    </span>
-
+                    <a href="/checkout">
+                      <span className="text-sm font-medium text-white">
+                        Reservar
+                      </span>
+                    </a>
                     <svg
                       className="w-5 h-5 ml-1.5"
                       xmlns="http://www.w3.org/2000/svg"
@@ -155,10 +156,11 @@ const Products = () => {
                     type="button"
                     className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarca rounded-xl"
                   >
-                    <span className="text-sm font-medium text-white">
-                      Reservar
-                    </span>
-
+                    <a href="/checkout">
+                      <span className="text-sm font-medium text-white">
+                        Reservar
+                      </span>
+                    </a>
                     <svg
                       className="w-5 h-5 ml-1.5"
                       xmlns="http://www.w3.org/2000/svg"
@@ -219,10 +221,11 @@ const Products = () => {
                     type="button"
                     className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarcaBlue rounded-xl"
                   >
-                    <span className="text-sm font-medium text-white">
-                      Reservar
-                    </span>
-
+                    <a href="/checkout">
+                      <span className="text-sm font-medium text-white">
+                        Reservar
+                      </span>
+                    </a>
                     <svg
                       className="w-5 h-5 ml-1.5"
                       xmlns="http://www.w3.org/2000/svg"
@@ -270,10 +273,11 @@ const Products = () => {
                     type="button"
                     className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarcaBlue rounded-xl"
                   >
-                    <span className="text-sm font-medium text-white">
-                      Reservar
-                    </span>
-
+                    <a href="/checkout">
+                      <span className="text-sm font-medium text-white">
+                        Reservar
+                      </span>
+                    </a>
                     <svg
                       className="w-5 h-5 ml-1.5"
                       xmlns="http://www.w3.org/2000/svg"
@@ -321,10 +325,11 @@ const Products = () => {
                     type="button"
                     className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarcaBlue rounded-xl"
                   >
-                    <span className="text-sm font-medium text-white">
-                      Reservar
-                    </span>
-
+                    <a href="/checkout">
+                      <span className="text-sm font-medium text-white">
+                        Reservar
+                      </span>
+                    </a>
                     <svg
                       className="w-5 h-5 ml-1.5"
                       xmlns="http://www.w3.org/2000/svg"

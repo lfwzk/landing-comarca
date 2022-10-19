@@ -19,6 +19,8 @@ import Akaru from "components/group/Products/Akaru";
 
 import Checkout from "components/Checkout";
 
+import Coworker from "components/coworker/Coworker";
+
 import CPrivate from "components/services/spaces/private/Coprivado/CPrivate";
 import Cmmunity from "components/services/spaces/private/Comunidad/Cmmunity";
 import Ccreative from "components/services/spaces/private/Cocreativo/Ccreative";
@@ -26,6 +28,8 @@ import Ccreative from "components/services/spaces/private/Cocreativo/Ccreative";
 import Claborativo from "components/services/spaces/group/Colaborativo/Colab";
 import Coemprendedor from "components/services/spaces/group/Coemprende/Coemprende";
 import Taller from "components/services/spaces/group/Taller/Taller";
+
+import Emprende from "components/group/Emprende";
 function App() {
   return (
     <Router>
@@ -40,6 +44,9 @@ function App() {
       <Route exact path="/cart" component={Cart} />
       {/* <Route exact path="/teams" component={Groupal} /> */}
       <Route exact path="/akaru" component={Akaru} />
+      <Route exact path="/emprende" component={Emprende} />
+
+      <Route exact path="/coworker" component={Coworker} />
 
       <Route exact path="/coprivado" component={CPrivate} />
       <Route exact path="/comunidad" component={Cmmunity} />

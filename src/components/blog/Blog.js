@@ -1,7 +1,8 @@
 import Navbar from "components/Nav";
 import LeadText from "@material-tailwind/react/LeadText";
 import { Button } from "@material-tailwind/react";
-
+import Events from "./Events";
+import Footer from "components/DefaultFooter";
 const Blog = () => {
   return (
     <>
@@ -45,6 +46,7 @@ const Blog = () => {
             </div>
           </div>
         </div>
+        <Events />
 
         {/* <section className="bg-gray-100 text-gray-800">
           <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
@@ -232,6 +234,7 @@ const Blog = () => {
           </div>
         </section> */}
       </main>
+      <Footer />
     </>
   );
 };

@@ -170,6 +170,30 @@ export default function DefaultFooter() {
                 Copyright © {new Date().getFullYear()} Co Marca | alpha 0.1.0
               </div>
             </div>
+            <div className="w-full md:w-8/12 px-4 font-exo">
+              <ul className="flex flex-wrap list-none md:justify-end  justify-center">
+                <li>
+                  <a
+                    href="/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                  >
+                    Codigo de conducta
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                  >
+                    Sobre nosotros
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </footer>

@@ -186,10 +186,27 @@ const Taller = () => {
               />
             </label>
             <button
+              name="add"
               type="button"
-              className="self-center px-8 py-3 text-lg rounded-xl text-white focus:ring hover:ring focus:ring-opacity-75 bg-comarca text-gray-50 focus:ring-yellow-600 hover:ring-yellow-600"
+              className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarca rounded-xl"
             >
-              Reservar
+              <a href="/checkout">
+                <span className="text-sm font-medium text-white">Reservar</span>
+              </a>
+              <svg
+                className="w-5 h-5 ml-1.5"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#ffffff"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
+                />
+              </svg>
             </button>
           </form>
         </div>

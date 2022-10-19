@@ -100,11 +100,11 @@ export default function Navbar() {
               </a>
               <a
                 className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-comarcaPurple hover:border-current"
-                onClick={notify}
+                href="/coworker"
               >
-                Eventos
-                <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-exo leading-none text-white bg-comarca rounded-full">
-                  new
+                Coworkers
+                <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-exo leading-none text-comarcaBlack bg-comarcaYellow rounded-full">
+                  vip
                 </span>
               </a>
             </nav>
@@ -113,7 +113,7 @@ export default function Navbar() {
               <div className="flex items-center border-gray-100 divide-x divide-gray-100 border-x">
                 <span>
                   <a
-                    //href="/cart"
+                    href="/"
                     className="block p-6 border-b-4 border-transparent hover:border-comarcaBlue hover:text-current"
                     onClick={notify}
                   >
@@ -167,7 +167,7 @@ export default function Navbar() {
                   <div className="sm:gap-4 sm:flex">
                     <a
                       className="block px-5 py-2.5 text-sm font-medium text-white bg-teal-600 hover:bg-comarca transition rounded-md shadow bg-black"
-                      // href="/login"
+                      href="/login"
                       onClick={notify}
                     >
                       Login
