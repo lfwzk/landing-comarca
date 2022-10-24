@@ -20,7 +20,7 @@ export default function Navbar() {
           <a className="block" href="/">
             <span className="sr-only">Home</span>
 
-            <img src={logo} alt="logo" className="h-12" />
+            <img src={logo} alt="logo" className="h-12 hidden  md:block" />
           </a>
           <div className="flex items-center">
             <div className="p-2 sm:mr-4 lg:hidden">

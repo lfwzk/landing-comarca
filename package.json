@@ -13,6 +13,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.1.9",
     "axios": "^0.27.2",
+    "firebase": "^9.12.1",
     "react": "^17.0.2",
     "react-booking-form": "^2.0.0-alpha.64",
     "react-carousel-minimal": "^1.4.1",

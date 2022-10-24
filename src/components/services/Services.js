@@ -13,8 +13,9 @@ import background from "../../assets/img/background-comarca.jpg";
 export default function Services() {
   return (
     <>
-      <Nav />
-
+      <div className=" w-full z-20 fixed">
+        <Nav />
+      </div>
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center h-screen ">
           {/* <div className="bg-background-comarca-services bg-cover bg-center absolute top-0 w-full h-full" /> */}

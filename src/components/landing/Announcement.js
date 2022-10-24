@@ -1,9 +1,10 @@
-import img1 from "../../assets/img/events/evento1.jpeg";
-import img2 from "../../assets/img/events/evento2.jpg";
+import img1 from "../../assets/img/events/promo2.jpeg";
+import img2 from "../../assets/img/events/halloween.jpeg";
+import img3 from "../../assets/img/events/cashflow.jpeg";
 const Blog = () => {
   return (
     <>
-      <div className="max-w-2xl mx-auto mb-16 text-center">
+      <div className="max-w-2xl mx-auto mb-16 text-center pt-6">
         <h2 className="text-xl font-exo lg:text-5xl font-semibold">
           Eventos <br />
         </h2>
@@ -13,7 +14,7 @@ const Blog = () => {
         </p>
       </div>
 
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 font-exo">
+      <div className="px-4 py-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-4 lg:py-4 font-exo">
         <div className="grid gap-5 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
             <a href="/" aria-label="Article">
@@ -235,7 +236,7 @@ const Blog = () => {
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
             <a href="/" aria-label="Article">
               <img
-                src="https://okdiario.com/img/2017/10/24/la-espeluznante-historia-que-hay-detras-de-halloween.jpg"
+                src={img3}
                 className="object-cover w-full h-64 rounded"
                 alt=""
               />
@@ -250,7 +251,7 @@ const Blog = () => {
                 className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
               >
                 <p className="text-2xl font-bold leading-5">
-                  <p className="text-comarca">Evento</p>Cowork Hallowerk
+                  <p className="text-comarca">Evento</p>Concurso de Cashflow
                 </p>
               </a>
               <p className="mb-4 text-gray-700">

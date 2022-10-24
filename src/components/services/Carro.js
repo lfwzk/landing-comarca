@@ -10,20 +10,24 @@ import img8 from "../../assets/img/web/CoEmprendeSaladereunion(5).png";
 function App() {
   const data = [
     {
-      image: img1,
-      caption: "Propósito",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCowork1.png?alt=media&token=4181e7be-30b1-4e76-becd-2b80ed4340a9",
+      caption: "Espacios & Confort ",
     },
     {
-      image: img2,
-      caption: "Creatividad",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCoMunidad2.png?alt=media&token=442bd354-c2ee-4aa1-8e22-14b4993dfdf0",
+      caption: "Comunidad",
     },
     {
-      image: img3,
-      caption: "Libre",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCoLaborativo1.png?alt=media&token=fc8b4f5b-1892-4638-9b72-f9e82816b7a6",
+      caption: "Colaborativo",
     },
     {
-      image: img4,
-      caption: "Naturaleza",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCoLaborativo3.png?alt=media&token=883f6efd-034b-4285-97a7-78c18a820dfc",
+      caption: "Co Creación",
     },
     {
       image: img7,
@@ -46,6 +50,7 @@ function App() {
   const captionStyle = {
     fontSize: "2em",
     fontWeight: "bold",
+    fontFamily: "exo",
   };
   const slideNumberStyle = {
     fontSize: "20px",
@@ -62,8 +67,8 @@ function App() {
           <Carousel
             data={data}
             time={2000}
-            width="850px"
-            height="500px"
+            width="950px"
+            height="600px"
             captionStyle={captionStyle}
             radius="10px"
             slideNumber={true}
@@ -79,8 +84,8 @@ function App() {
             thumbnailWidth="100px"
             style={{
               textAlign: "center",
-              maxWidth: "850px",
-              maxHeight: "500px",
+              maxWidth: "950px",
+              maxHeight: "600px",
               margin: "40px auto",
               paddingBotton: "50px",
             }}

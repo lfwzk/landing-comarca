@@ -4,9 +4,11 @@ import ContactCard from "components/landing/ContactCard";
 
 export default function ContactSection() {
   return (
-    <section className="pb-20 relative block  font-exo">
-      <div className="container max-w-7xl mx-1 px-1 lg:pt-24 text-center p-8">
-        <h1 className="text-4xl font-exo font-bold">Beneficios del Coworker</h1>
+    <section className="relative block  font-exo">
+      <div className="container max-w-7xl mx-1 px-1 lg:pt-4 text-center p-2">
+        <h1 className="text-xl font-exo sm:text-xl lg:text-5xl font-semibold">
+          Co Marca Tools
+        </h1>
       </div>
       <div className="container max-w-7xl mx-auto px-4 lg:pt-24 font-bold pt-8">
         <div className="flex flex-wrap -mt-12 justify-center font-exo">

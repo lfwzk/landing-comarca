@@ -1,4 +1,4 @@
-import Navbar from "components/Nav";
+import Nav from "components/Nav";
 import LeadText from "@material-tailwind/react/LeadText";
 import { Button } from "@material-tailwind/react";
 import Events from "./Events";
@@ -6,7 +6,9 @@ import Footer from "components/DefaultFooter";
 const Blog = () => {
   return (
     <>
-      <Navbar />
+      <div className=" w-full z-20 fixed">
+        <Nav />
+      </div>
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center h-screen ">
           {/* <div className="bg-background-comarca-services bg-cover bg-center absolute top-0 w-full h-full" /> */}

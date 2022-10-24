@@ -1,16 +1,4 @@
-//import Card from "@material-tailwind/react/Card";
-//import CardImage from "@material-tailwind/react/CardImage";
-//import CardBody from "@material-tailwind/react/CardBody";
-// //import Icon from "@material-tailwind/react/Icon";
-// //import H4 from "@material-tailwind/react/Heading4";
-//import H6 from "@material-tailwind/react/Heading6";
-// //import LeadText from "@material-tailwind/react/LeadText";
-// import Paragraph from "@material-tailwind/react/Paragraph";
-// import StatusCard from "components/landing/StatusCard";
-//import { TypeAnimation } from "react-type-animation";
 import Carro from "../services/Carro";
-// import "@sl-codeblaster/react-3d-animated-card";
-// import AnimatedCard from "@sl-codeblaster/react-3d-animated-card";
 import React from "react";
 import icon from "../../assets/img/proposito.png";
 export default function WorkingSection() {
@@ -76,15 +64,33 @@ export default function WorkingSection() {
                           {/*body*/}
                           <div className="relative p-6 flex-auto">
                             <p className="my-4 text-slate-500 text-lg leading-relaxed text-justify	">
-                              Un espacio de trabajo profesional, con todos los
-                              recursos necesarios para sostener tu idea de
-                              negocio, en cada etapa, acompañado por nosotros un
-                              colectivo de contribución efectiva, con todos los
-                              recursos necesarios desde una imagen empresarial,
-                              un espacio de trabajo profesional, hasta servicios
-                              digitales corporativos, reduciendo los altos
-                              índices de fracaso en etapa temprana muy
-                              característico del sector.
+                              Somos{" "}
+                              <span className="font-semibold text-comarcaBlack">
+                                CO MARCA CM Group
+                              </span>
+                              , una empresa con más de 4 años como actor
+                              estratégico en el ecosistema emprendedor, logrando
+                              una red de negocios multidisciplinaria mediante un
+                              sistema coworking con{" "}
+                              <span className="font-semibold text-comarcaBlack">
+                                propósito
+                              </span>
+                              de contribución efectiva al emprendedor,
+                              integrando a grandes y medianas empresas con
+                              emprendedores que están en etapa inicial, logrando
+                              así sinergias que involucren, complementen y
+                              contribuyan al mismo.
+                              <br />
+                              <br />
+                              <span className="font-semibold text-comarcaBlack">
+                                Nuestro objetivo es articular para que las
+                                empresas consolidadas sean parte de las nuevas
+                                ideas de negocio logrando que se desarrollen y
+                                despeguen en{""}
+                              </span>
+                              <button className="bg-comarcaBlack text-white rounded-xl">
+                                <a href="/group">Co Marca Lab.</a>
+                              </button>
                             </p>
                           </div>
                           {/*footer*/}
@@ -112,304 +118,19 @@ export default function WorkingSection() {
         </div>
       </section>
       <div className="">
-        <div className="container max-w-7xl mx-1 px-1 lg:pt-24 text-center ">
-          <h1 className="text-4xl font-exo font-bold">Galeria de imagenes</h1>
+        <div className="container max-w-7xl mx-1 px-1  text-center ">
+          <h1 className="text-xl font-exo lg:text-5xl font-semibold">
+            Co Marca Gallery{" "}
+          </h1>
+          <p className="mt-4 text-lg text-gray-600">
+            {" "}
+            Imagenes de nuestro espacio de trabajo profesional y de nuestros
+            eventos
+          </p>
         </div>
-        <div className="p-4">
-          <Carro />
-        </div>
+
+        <Carro />
       </div>
     </>
   );
 }
-
-/* <div className="container max-w-7xl mx-auto px-4">
-<div className="flex flex-wrap items-center mt-32 row-auto">
-
-
----------------------------------
-  <div className="flex flex-wrap items-center mt-32">
-          <div className="w-full md:w-5/12 px-4 mx-auto">
-            <div className="card ">
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-comarca p-8">
-                <h2 className="font-exo text-5xl py-12 font-semibold text-center grid grid-cols-1 divide-y">
-                  Propósito
-                </h2>
-                <div className=" text-lg leading-relaxed mt-6 mb-6 text-justify">
-                  <span className="w-5/24 h-4 block bg-comarca items-center"></span>
-                </div>
-                <p className="font-exo text-justify">
-                  En <h3 className="text-3xl font-semibold">Co Marca</h3>{" "}
-                  Desarrollamos
-                  <h3 className="text-3xl font-semibold">un</h3> sistema
-                  <h3 className="text-3xl font-semibold">
-                    coworking con propósito
-                  </h3>
-                  cubriendo todas las necesidades tangibles e intangibles
-                  propias de un emprendedor que le permita sostener su idea de
-                  negocio, en cada etapa, acompañado por nosotros un colectivo
-                  de contribución efectiva,
-                  <h3 className="text-3xl font-semibold">
-                    con todos los recursos necesarios
-                  </h3>
-                  desde una imagen empresarial, un espacio de trabajo
-                  profesional, hasta servicios digitales corporativos,
-                  reduciendo los altos índices de fracaso en etapa temprana muy
-                  característico del sector.
-                </p>
-
-                <br />
-              </div>
-            </div>
-          </div>
-
-       <div className=" md:w-4/12   mx-auto x justify-center lg:mt-0  ">
-            <Carro />
-          </div> 
-          </div>
-
----------------------------------
-
-
-
-
-
-   
-  <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-comarca">
-    <Carro />
-  </div>
-  <br />
-  <div className="w-full md:w-5/12   px-4 mx-auto">
-  <h2 className="font-exo text-5xl py-12 font-semibold text-center grid grid-cols-1 divide-y">
-      Propósito
-    </h2>
-   
-    <div className=" text-lg leading-relaxed mt-6 mb-6 text-justify">
-      <span className="w-5/24 h-4 block bg-comarca items-center"></span>
-    </div>
-    <p className="font-exo text-justify">
-      En Co Marca Desarrollamos un sistema coworking con propósito,
-      cubriendo todas las necesidades tangibles e intangibles propias de
-      un emprendedor que le permita sostener su idea de negocio, en cada
-      etapa, acompañado por nosotros un colectivo de contribución
-      efectiva, con todos los recursos necesarios, desde una imagen
-      empresarial, un espacio de trabajo profesional, hasta servicios
-      digitales corporativos, reduciendo los altos índices de fracaso en
-      etapa temprana muy característico del sector.
-    </p>
-
-    <a
-      href="/services"
-      className="font-medium text-red-500 mt-2 inline-block hover:text-comarcaBlue font-exo text-center "
-    >
-      Leer más
-    </a>
-  </div>
-</div>
-</div>
---------------------------------------------------------------------------------------------
-<section className="pt-6  -mt-32">
-      <div className="container max-w-7xl mx-auto px-4">
-        <div className="flex flex-wrap items-center mt-32 row-auto">
-          <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-comarca">
-            <Carro />
-          </div>
-          <br />
-          <div className="w-full md:w-5/12   px-4 mx-auto">
-            <h2 className="font-exo text-5xl py-12 font-semibold text-center grid grid-cols-1 divide-y">
-              Propósito
-            </h2>
-            <p className="font-exo text-justify">
-              En <h3 className="text-3xl font-semibold">Co Marca</h3>{" "}
-              Desarrollamos
-              <h3 className="text-3xl font-semibold">un</h3> sistema
-              <h3 className="text-3xl font-semibold">
-                coworking con propósito
-              </h3>
-              cubriendo todas las necesidades tangibles e intangibles propias de
-              un emprendedor que le permita sostener su idea de negocio, en cada
-              etapa, acompañado por nosotros un colectivo de contribución
-              efectiva,
-              <h3 className="text-3xl font-semibold">
-                con todos los recursos necesarios
-              </h3>
-              desde una imagen empresarial, un espacio de trabajo profesional,
-              hasta servicios digitales corporativos, reduciendo los altos
-              índices de fracaso en etapa temprana muy característico del
-              sector.
-            </p>
-
-            <a
-              href="/services"
-              className="font-medium text-red-500 mt-2 inline-block hover:text-comarcaBlue font-exo text-center "
-            >
-              Leer más
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-*/
-
-/* <section>
-<div className="flex flex-wrap items-center mt-32">
-  <div className="w-full md:w-5/12 px-4 mx-auto">
-    <AnimatedCard
-      config={{
-        rotation: 50, // this value for the divide (window.innerWidth / 2 - e.pageX) / rotation && (window.innerWidth / 2 - e.pageY) / rotation
-        transition: {
-          duration: 0.5,
-          timingMode: "ease",
-        },
-        transform: {
-          figureIcon: {
-            rotation: 20,
-            translateZ: 160,
-          },
-          titleTranslateZ: 140,
-          bodyTextTranslateZ: 100,
-          buttonTranslateZ: 80,
-        },
-      }}
-      style={{
-        width: 560, //container style (you can use className as well)
-      }}
-    >
-      <div className="card">
-        <h2 className="font-exo text-5xl py-12 font-semibold text-center grid grid-cols-1 divide-y">
-          Propósito
-        </h2>
-        <div className=" text-lg leading-relaxed mt-6 mb-6 text-justify">
-          <span className="w-5/24 h-4 block bg-comarca items-center"></span>
-        </div>
-        <p className="font-exo text-justify">
-          En <h3 className="text-3xl font-semibold">Co Marca</h3>{" "}
-          Desarrollamos
-          <h3 className="text-3xl font-semibold">un</h3> sistema
-          <h3 className="text-3xl font-semibold">
-            coworking con propósito
-          </h3>
-          cubriendo todas las necesidades tangibles e intangibles
-          propias de un emprendedor que le permita sostener su idea de
-          negocio, en cada etapa, acompañado por nosotros un colectivo
-          de contribución efectiva,
-          <h3 className="text-3xl font-semibold">
-            con todos los recursos necesarios
-          </h3>
-          desde una imagen empresarial, un espacio de trabajo
-          profesional, hasta servicios digitales corporativos,
-          reduciendo los altos índices de fracaso en etapa temprana muy
-          característico del sector.
-        </p>
-        <br />
-        <button
-          type="button"
-          className="px-8 py-3 font-semibold rounded-full bg-comarca text-white object-center content-center "
-        >
-          Leer más
-        </button>
-      </div>
-    </AnimatedCard>
-  </div>
-
-  <div className="w-full md:w-4/12 p-8 px-8  mx-auto flex justify-center mt-24 lg:mt-0">
-    <Carro />
-  </div>
-</div>
-</section>
-<--------------------------------------------------------------------------------------------->
- <section>
-        <div class="container my-12 mx-auto px-4 md:px-12  ">
-          <div class="flex flex-wrap -mx-1 lg:-mx-4">
-            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 group ">
-              <a href="#" class="relative block bg-black ">
-                <img
-                  alt="Developer"
-                  src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
-                  class="absolute inset-0 object-cover w-full h-full opacity-75 transition-opacity group-hover:opacity-50"
-                />
-
-                <div class="relative p-8">
-                  <p class="text-sm font-medium tracking-widest text-pink-500 uppercase ">
-                    Developer
-                  </p>
-
-                  <p class="text-2xl font-bold text-white">Tony Wayne</p>
-
-                  <div class="mt-64">
-                    <div class="opacity-0 transition-all transform translate-y-8 group-hover:opacity-100 group-hover:translate-y-0">
-                      <p class="text-sm text-white">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Omnis perferendis hic asperiores quibusdam quidem
-                        voluptates doloremque reiciendis nostrum harum.
-                        Repudiandae?
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <a href="#" class="relative block bg-black group">
-                <img
-                  alt="Developer"
-                  src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
-                  class="absolute inset-0 object-cover w-full h-full opacity-75 transition-opacity group-hover:opacity-50"
-                />
-
-                <div class="relative p-8">
-                  <p class="text-sm font-medium tracking-widest text-pink-500 uppercase">
-                    Developer
-                  </p>
-
-                  <p class="text-2xl font-bold text-white">Tony Wayne</p>
-
-                  <div class="mt-64">
-                    <div class="opacity-0 transition-all transform translate-y-8 group-hover:opacity-100 group-hover:translate-y-0">
-                      <p class="text-sm text-white">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Omnis perferendis hic asperiores quibusdam quidem
-                        voluptates doloremque reiciendis nostrum harum.
-                        Repudiandae?
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <a href="#" class="relative block bg-black group">
-                <img
-                  alt="Developer"
-                  src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
-                  class="absolute inset-0 object-cover w-full h-full opacity-75 transition-opacity group-hover:opacity-50"
-                />
-
-                <div class="relative p-8">
-                  <p class="text-sm font-medium tracking-widest text-pink-500 uppercase">
-                    Developer
-                  </p>
-
-                  <p class="text-2xl font-bold text-white">Tony Wayne</p>
-
-                  <div class="mt-64">
-                    <div class="opacity-0 transition-all transform translate-y-8 group-hover:opacity-100 group-hover:translate-y-0">
-                      <p class="text-sm text-white">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Omnis perferendis hic asperiores quibusdam quidem
-                        voluptates doloremque reiciendis nostrum harum.
-                        Repudiandae?
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-<--------------------------------------------------------------------------------------------->
-
-*/

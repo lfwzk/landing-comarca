@@ -28,6 +28,22 @@ module.exports = {
         "background-comarca-services":
           "linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url('https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
       }),
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+      marquee2: {
+        "0%": { transform: "translateX(100%)" },
+        "100%": { transform: "translateX(0%)" },
+      },
+      animation: {
+        "spin-slow-30": "spin 30s linear infinite",
+        "spin-slow-25": "spin 25s linear infinite",
+        "spin-slow-10": "spin 10s linear infinite",
+        "marquee-infinite": "marquee 25s linear infinite",
+      },
     },
   },
   variants: {

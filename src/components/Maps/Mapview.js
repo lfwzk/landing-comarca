@@ -4,8 +4,10 @@ import Direction from "./Direction";
 const Mapview = () => {
   return (
     <>
-      <div className="container max-w-7xl mx-auto px-4 lg:pt-24 text-center font-exo">
-        <h1 className="text-4xl font-exo font-bold">Nos encontramos</h1>
+      <div className="container max-w-7xl mx-auto px-4 lg:pt-4 text-center font-exo">
+        <h1 className="text-xl font-exo lg:text-5xl font-semibold">
+          Nos encontramos
+        </h1>
       </div>
       <div className="flex items-center justify-center p-10">
         <Direction />

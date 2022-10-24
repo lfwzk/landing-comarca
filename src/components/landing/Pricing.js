@@ -8,14 +8,15 @@ import img5 from "../../assets/img/web/CoEmprendedorTaller(12).png";
 const Pricing = () => {
   return (
     <>
-      <section className="relative py-20 p-8 font-exo">
+      <section className="relative lg:p-2 font-exo">
         <div className="max-w-2xl mx-auto mb-16 text-center">
           <h2 className="text-xl font-exo lg:text-5xl font-semibold">
             Co Marca Spaces <br />
           </h2>
           <p className="mt-4 text-lg text-gray-600">
             {" "}
-            Busca un espacio ideal para ti y tus necesidades🏠{" "}
+            Nuestros servicios enfocados al desarrollo y productividad
+            organizacional.
           </p>
         </div>
         <div className="container my-12 mx-auto px-4 md:px-12 ">
@@ -30,10 +31,15 @@ const Pricing = () => {
 
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                   <h1 className=" font-exo font-semibold text-3xl no-underline  text-comarca">
-                    Coworker Individual
+                    Espacios Individuales
                   </h1>
                 </header>
-
+                <main className="p-4 text-justify">
+                  {" "}
+                  Espacios de trabajo equipados, todo incluido (servicios
+                  directos e indirectos), con capacidad de una (1) a cuatro (4)
+                  personas por espacio.
+                </main>
                 <footer className="p-4">
                   <li className="flex items-center space-x-2">
                     <svg
@@ -52,7 +58,7 @@ const Pricing = () => {
                       href="/coprivado"
                       className="hover:underline hover:text-comarca font-semibold"
                     >
-                      <span>Oficina Co Privada</span>
+                      <span>Co Privado</span>
                     </a>
                   </li>
                   <br />
@@ -75,7 +81,7 @@ const Pricing = () => {
                       href="/coprivado"
                       className="hover:underline hover:text-comarca font-semibold"
                     >
-                      <span>Estación de trabajo Co Munidad</span>
+                      <span>Co Munidad</span>
                     </a>
                   </li>
                   <br />
@@ -96,7 +102,7 @@ const Pricing = () => {
                       href="/coprivado"
                       className="hover:underline hover:text-comarca font-semibold"
                     >
-                      <span>Estación de trabajo Co Creativo</span>
+                      <span>Co Creativo</span>
                     </a>
                   </li>
                   <br />
@@ -114,9 +120,14 @@ const Pricing = () => {
 
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                   <h1 className="font-exo font-semibold text-3xl text-comarcaBlue">
-                    Coworker Grupal
+                    Espacios Grupales
                   </h1>
                 </header>
+                <main className="p-4 text-justify">
+                  Espacios de trabajo, todo incluido (servicios directos e
+                  indirectos), con capacidad para grupos de cuatro (4) a veinte
+                  (20) personas.{" "}
+                </main>
 
                 <footer className="p-4">
                   <li className="flex items-center space-x-2">
@@ -132,12 +143,12 @@ const Pricing = () => {
                         clipRule="evenodd"
                       ></path>
                     </svg>
-                    <span></span>
+
                     <a
                       href="/colaborativo"
                       className="hover:underline hover:text-comarcaBlue font-semibold"
                     >
-                      <span>Sala de reunión Co Laborativo </span>
+                      <span>Co Laborativo</span>
                     </a>
                   </li>
                   <br />
@@ -159,7 +170,7 @@ const Pricing = () => {
                       href="/coemprende"
                       className="hover:underline hover:text-comarcaBlue font-semibold"
                     >
-                      <span>Sala de reunión Co Emprendedor </span>
+                      <span>Co Emprende </span>
                     </a>
                   </li>
                   <br />
@@ -181,7 +192,7 @@ const Pricing = () => {
                       href="/taller"
                       className="hover:underline hover:text-comarcaBlue font-semibold"
                     >
-                      <span>Sala taller Co Emprendedor </span>
+                      <span>Sala taller Co Emprende </span>
                     </a>
                   </li>
                   <br />
@@ -199,9 +210,14 @@ const Pricing = () => {
 
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                   <h1 className=" font-exo font-semibold text-3xl text-comarcaPurple">
-                    Coworker Virtual
+                    Espacios Virtuales
                   </h1>
                 </header>
+                <main className="p-4 text-justify">
+                  {" "}
+                  Espacio remoto enfocado al desarrollo integral de una empresa
+                  emergente, en busca de la formalidad y crecimiento.
+                </main>
 
                 <footer className="p-4">
                   <li className="flex items-center space-x-2">
@@ -221,7 +237,7 @@ const Pricing = () => {
                       href="/virtual"
                       className="hover:underline hover:text-comarcaPurple font-semibold"
                     >
-                      <span>Oficinas virtuales</span>
+                      <span>Oficina Virtual</span>
                     </a>
                   </li>
                   <br />
@@ -243,7 +259,7 @@ const Pricing = () => {
                       href="/laboratorio"
                       className="hover:underline hover:text-comarcaPurple font-semibold"
                     >
-                      <span>Laboratorio</span>
+                      <span>Domiciliación</span>
                     </a>
                   </li>
                   <br />
@@ -261,10 +277,278 @@ const Pricing = () => {
                       ></path>
                     </svg>
                     <a
-                      href="/virtualizacion"
+                      href="/emprende"
                       className="hover:underline hover:text-comarcaPurple font-semibold"
                     >
-                      <span>Virtualización</span>
+                      <span>Co Marca Lab</span>
+                    </a>
+                  </li>
+                  <br />
+                </footer>
+              </article>
+            </div>
+
+            {/* //-------------------------------------------------------------------------------- */}
+            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 ">
+              <article className="overflow-hidden rounded-lg shadow-lg text-comarcaBlack transform transition duration-500 hover:scale-110">
+                <img
+                  alt="Placeholder"
+                  className="block h-auto w-full"
+                  src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCoLaborativo3.png?alt=media&token=883f6efd-034b-4285-97a7-78c18a820dfc"
+                />
+
+                <header className="flex items-center justify-between leading-tight p-2 md:p-4">
+                  <h1 className=" font-exo font-semibold text-3xl no-underline  text-comarcaBlack">
+                    Teams
+                  </h1>
+                </header>
+                <main className="p-4 text-justify">
+                  {" "}
+                  Espacios de trabajo equipados, todo incluido (servicios
+                  directos e indirectos), con capacidad de una (1) a cuatro (4)
+                  personas por espacio.
+                </main>
+                <footer className="p-4">
+                  <li className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="flex-shrink-0 w-6 h-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                    <a
+                      href="/coprivado"
+                      className="hover:underline hover:text-comarca font-semibold"
+                    >
+                      <span>Team Emprendedor</span>
+                    </a>
+                  </li>
+                  <br />
+
+                  <li className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="flex-shrink-0 w-6 h-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+
+                    <a
+                      href="/coprivado"
+                      className="hover:underline hover:text-comarca font-semibold"
+                    >
+                      <span>Team corporativo</span>
+                    </a>
+                  </li>
+                  <br />
+                  <li className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="flex-shrink-0 w-6 h-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                    <a
+                      href="/coprivado"
+                      className="hover:underline hover:text-comarca font-semibold"
+                    >
+                      <span>Team estudiante</span>
+                    </a>
+                  </li>
+                  <br />
+                </footer>
+              </article>
+            </div>
+
+            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+              <article className="overflow-hidden rounded-lg shadow-lg  text-comarcaBlack transform transition duration-500 hover:scale-110">
+                <img
+                  alt="Placeholder"
+                  className="block h-auto w-full"
+                  src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCowork1.png?alt=media&token=4181e7be-30b1-4e76-becd-2b80ed4340a9"
+                />
+
+                <header className="flex items-center justify-between leading-tight p-2 md:p-4">
+                  <h1 className="font-exo font-semibold text-3xl text-comarcaYellow">
+                    Paquetes
+                  </h1>
+                </header>
+                <main className="p-4 text-justify">
+                  Espacios de trabajo, todo incluido (servicios directos e
+                  indirectos), con capacidad para grupos de cuatro (4) a veinte
+                  (20) personas.{" "}
+                </main>
+
+                <footer className="p-4">
+                  <li className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="flex-shrink-0 w-6 h-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+
+                    <a
+                      href="/colaborativo"
+                      className="hover:underline hover:text-comarcaBlue font-semibold"
+                    >
+                      <span>Tarifa Conjunta</span>
+                    </a>
+                  </li>
+                  <br />
+
+                  <li className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="flex-shrink-0 w-6 h-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                    <a
+                      href="/coemprende"
+                      className="hover:underline hover:text-comarcaBlue font-semibold"
+                    >
+                      <span> Tarifa Plana </span>
+                    </a>
+                  </li>
+                  <br />
+                  <li className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="flex-shrink-0 w-6 h-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                    <br />
+                    <a
+                      href="/taller"
+                      className="hover:underline hover:text-comarcaBlue font-semibold"
+                    >
+                      <span>Sistema Rotativo</span>
+                    </a>
+                  </li>
+                  <br />
+                </footer>
+              </article>
+            </div>
+
+            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+              <article className="overflow-hidden rounded-lg shadow-lg text-comarcaBlack  transform transition duration-500 hover:scale-110">
+                <img
+                  alt="Placeholder"
+                  className="block h-auto w-full "
+                  src={img4}
+                />
+
+                <header className="flex items-center justify-between leading-tight p-2 md:p-4">
+                  <h1 className=" font-exo font-semibold text-3xl text-comarcaOrange">
+                    Espacio Audiovisual
+                  </h1>
+                </header>
+                <main className="p-4 text-justify">
+                  {" "}
+                  Espacio remoto enfocado al desarrollo integral de una empresa
+                  emergente, en busca de la formalidad y crecimiento.
+                </main>
+
+                <footer className="p-4">
+                  <li className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="flex-shrink-0 w-6 h-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                    <a
+                      href="/virtual"
+                      className="hover:underline hover:text-comarcaPurple font-semibold"
+                    >
+                      <span>Podcast</span>
+                    </a>
+                  </li>
+                  <br />
+
+                  <li className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="flex-shrink-0 w-6 h-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                    <a
+                      href="/laboratorio"
+                      className="hover:underline hover:text-comarcaPurple font-semibold"
+                    >
+                      <span>Youtube</span>
+                    </a>
+                  </li>
+                  <br />
+                  <li className="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="flex-shrink-0 w-6 h-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                    <a
+                      href="/emprende"
+                      className="hover:underline hover:text-comarcaPurple font-semibold"
+                    >
+                      <span>Tik Tok</span>
                     </a>
                   </li>
                   <br />

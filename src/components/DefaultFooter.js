@@ -167,7 +167,7 @@ export default function DefaultFooter() {
               <div className="text-sm text-gray-700 font-medium py-1">
                 Develop with ❤️ by Co Marca Dev's Team
                 <br />
-                Copyright © {new Date().getFullYear()} Co Marca | alpha 0.1.0
+                Copyright © {new Date().getFullYear()} Co Marca | beta 1.0
               </div>
             </div>
             <div className="w-full md:w-8/12 px-4 font-exo">
