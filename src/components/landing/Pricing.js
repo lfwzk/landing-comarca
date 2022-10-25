@@ -502,7 +502,7 @@ const Pricing = () => {
                       ></path>
                     </svg>
                     <a
-                      href="/virtual"
+                      href="/podcast"
                       className="hover:underline hover:text-comarcaPurple font-semibold"
                     >
                       <span>Podcast</span>

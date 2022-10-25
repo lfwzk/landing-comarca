@@ -12,14 +12,15 @@ import img3 from "../../assets/img/web/CoCreativo(3).png";
 import img4 from "../../assets/img/web/CoLaborativo.png";
 import img5 from "../../assets/img/web/CoEmprendedorTaller(4).png";
 import img6 from "../../assets/img/web/CoEmprendedorTaller(10).png";
+
 const Products = () => {
   return (
     <>
       <section className="font-exo ">
         <div className="px-4 py-3 text-white sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 text-center mx-4 space-y-2 rounded-lg bg-growing-underline ">
           <p className="text-center font-semibold sm:text-left  text-3xl tracking-tighter text-comarca">
-            Coworker <br className="sm:hidden" />
-            Individual
+            Espacios <br className="sm:hidden" />
+            Individuales
           </p>
         </div>
 
@@ -186,8 +187,8 @@ const Products = () => {
       <section className="font-exo">
         <div className=" px-4 py-3 text-comarcaBlue sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 text-center mx-4 space-y-2 rounded-lg">
           <p className="text-center font-semibold sm:text-left  text-3xl tracking-tighter">
-            Coworker <br className="sm:hidden" />
-            Grupal
+            Espacios <br className="sm:hidden" />
+            Grupales
           </p>
         </div>
 
@@ -355,8 +356,8 @@ const Products = () => {
       <section className="font-exo">
         <div className="text-comarcaPurple px-4 py-3  sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 text-center mx-4 space-y-2 rounded-lg">
           <p className="text-center font-semibold sm:text-left  text-3xl tracking-tighter">
-            Coworker <br className="sm:hidden" />
-            Virtual
+            Espacios <br className="sm:hidden" />
+            Virtuales
           </p>
         </div>
 
@@ -482,7 +483,7 @@ const Products = () => {
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src="https://picsum.photos/600/400/?random"
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FVirtuales%2FTEAMEMPRENDEDOR.png?alt=media&token=a468b52f-e7f2-4241-96e5-78ede5bc6227"
                   />
                 </a>
 
@@ -533,7 +534,7 @@ const Products = () => {
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src="https://picsum.photos/600/400/?random"
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FVirtuales%2FTEAMCORPORATIVO.png?alt=media&token=0081034e-264a-4947-ae70-dbd195cb80a8"
                   />
                 </a>
 
@@ -584,7 +585,7 @@ const Products = () => {
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src="https://picsum.photos/600/400/?random"
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FVirtuales%2FTEAMESTUDIANTIL.png?alt=media&token=11cf483e-a67e-41e5-a856-292a03fb0b00"
                   />
                 </a>
 

@@ -11,32 +11,40 @@ import img2 from "../../../../../assets/img/web/CoLaborativo(2).png";
 import img3 from "../../../../../assets/img/web/CoLaborativo(3).png";
 import img4 from "../../../../../assets/img/web/CoLaborativo(4).png";
 import img5 from "../../../../../assets/img/web/CoLaborativo.png";
+import Nav from "../../../../Nav";
+import Footer from "../../../../DefaultFooter";
+import React from "react";
 const Colab = () => {
+  const [showModal, setShowModal] = React.useState(false);
   return (
     <div>
-      <div className="flex items-center -mx-4 overflow-x-auto overflow-y-hidden sm:justify-center flex-nowrap font-exo ">
-        <a
-          rel="noopener noreferrer"
-          href="/services"
-          className="flex items-center flex-shrink-0 px-5 py-3 space-x-2 border-b border-gray-600 text-gray-600"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="w-4 h-4"
-          >
-            <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
-          </svg>
-          <span>Volver</span>
-        </a>
+      <div className=" w-full z-20 fixed ">
+        <Nav />
       </div>
+
       <section className="py-6 bg-white text-gray-900">
         <div className="container max-w-7xl mx-1 px-1 lg:pt-8">
+          <div className="flex items-center -mx-4 overflow-x-auto overflow-y-hidden sm:justify-center flex-nowrap font-exo ">
+            <a
+              rel="noopener noreferrer"
+              href="/services"
+              className="flex items-center flex-shrink-0 px-5 py-3 space-x-2 border-b border-gray-600 text-gray-600"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="w-4 h-4"
+              >
+                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <span>Volver</span>
+            </a>
+          </div>
           <h1 className="text-4xl font-exo font-bold p-8">Co Laborativo</h1>
         </div>
 
@@ -71,78 +79,41 @@ const Colab = () => {
       <section className="py-6 bg-gray-100 text-gray-900 font-exo">
         <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
           <div className="py-6 md:py-0 md:px-6">
-            <h1 className="text-4xl font-bold">Co Laborativo </h1>
+            <h1 className="text-4xl font-bold p-3">Co Laborativo </h1>
+            <h2 className="text-2xl font-bold">Descripción </h2>
             <p className="pt-2 pb-4">
-              Oficina privada equipado y cómodo para dos personas con llave
-              propia y custodia de sus equipos y documentación. All inclusive
-              cubre todos los costos de servicios básicos Horarios de 8 horas de
-              lunes a viernes Internet Ilimitado 120 MB Estante Cafetería libre
-              Acceso a sala de juntas libres 1 hrs. al día (Cada hora adicional
-              Bs. 35 por hora) Recepción de correspondencia Dirección Comercial
-              de su empresa Domiciliación fiscal NIT y documentación legal
-              (Membresía Bs 599 por año) Descuento en todos los servicios
-              adicionales y actividades del Cowork Ambiente de Esparcimiento
-              libre, cocina, microondas y utensilios de cocina. Medidas de
-              Bioseguridad
+              Un espacio de reuniones enfocado al trabajo organizacional y
+              actividades grupales multidisciplinarias en un ambiente equipado
+              con accesos a herramientas de trabajo{" "}
+              <strong className="text-comarcaBlue">¡All inclusive!</strong>
             </p>
             <h2 className="text-2xl font-bold">Características</h2>
-            <p className="pt-2 pb-4"> Beneficios del lugar </p>
-            <div className="space-y-4 flex-row-reverse">
-              <p className="flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M8.288 15.038a5.25 5.25 0 017.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 011.06 0z"
-                  />
-                </svg>
-
-                <span>Wifi</span>
-              </p>
-              <p className="flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 010 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 010-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375z"
-                  />
-                </svg>
-
-                <span>Conferencias </span>
-              </p>
-              <p className="flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"
-                  />
-                </svg>
-
-                <span>Económico</span>
-              </p>
-            </div>
+            <p className="text-comarcaBlue font-bold p-4">
+              Alquiler por hora, día, semana.
+            </p>
+            <ul className="list-disc list-inside">
+              <li>Sala de juntas de cuatro (4) a seis (6) personas</li>
+              <li>
+                Internet Ilimitado velocidad de 90 MB cableado LAN y router
+                dedicado.
+              </li>
+              <li>Actividades de Networking</li>
+              <li>Espacios de recreación</li>
+              <li>Pizarras</li>
+              <li>Smart TV + HDMI</li>
+              <li>Tv cable</li>
+              <li>Cafetería Libre</li>
+              <li>Medidas de bioseguridad. </li>
+              <li>
+                Descuento en todos los servicios adicionales y actividades del
+                Cowork💸
+              </li>
+              <li>
+                Ambiente de esparcimiento libre, cocina, microondas y utensilios
+                de cocina.
+              </li>
+              <li>Acceso a espacios comunes.</li>
+            </ul>
             <div className="container max-w-7xl mx-auto px-4 lg:pt-8 flex flex-row font-exo font-semibold">
               Compartir en:
               <br />
@@ -158,6 +129,84 @@ const Colab = () => {
             novalidate=""
             className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid"
           >
+            <button
+              type="button"
+              onClick={() => setShowModal(true)}
+              className="inline-flex items-center justify-center space-x-2 py-3 px-4 border border-transparent text-sm font-medium rounded-xl text-white hover:text-white bg-comarcaBlue hover:bg-comarcaBlue transition-colors"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <div>Detalles</div>
+            </button>{" "}
+            {showModal ? (
+              <>
+                <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+                  <div className="relative w-auto my-6 mx-auto max-w-3xl">
+                    <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                      <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
+                        <h3 className="text-3xl font-semibold">Precios</h3>
+                        <button
+                          className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
+                          onClick={() => setShowModal(false)}
+                        >
+                          <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
+                            ×
+                          </span>
+                        </button>
+                      </div>
+
+                      <div className="relative p-6 flex-auto">
+                        <p className="my-4 text-slate-500 text-lg leading-relaxed">
+                          <strong className="text-comarcaBlue">Por hora</strong>{" "}
+                          Bs. 75
+                          <br />
+                          <strong className="text-comarcaBlue">
+                            Mas de 4 horas
+                          </strong>{" "}
+                          Bs. 65
+                          <br />
+                          <strong className="text-comarcaBlue">
+                            Por dia
+                          </strong>{" "}
+                          Bs. 400
+                          <br />
+                          <strong className="text-comarcaBlue">
+                            Por semana
+                          </strong>{" "}
+                          Bs 1300
+                          <br />
+                          <strong className="text-comarcaBlue">
+                            Por mes
+                          </strong>{" "}
+                          Bs 3500
+                        </p>
+                      </div>
+                      {/*footer*/}
+                      <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
+                        <button
+                          className="text-comarcaBlue background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                          type="button"
+                          onClick={() => setShowModal(false)}
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+              </>
+            ) : null}
             <div className="flex flex-col space-y-2">
               <span>Hora Entrada</span>
 
@@ -186,7 +235,7 @@ const Colab = () => {
             <button
               name="add"
               type="button"
-              className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarca rounded-xl"
+              className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarcaBlue rounded-xl"
             >
               <a href="/checkout">
                 <span className="text-sm font-medium text-white">Reservar</span>
@@ -209,6 +258,7 @@ const Colab = () => {
           </form>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

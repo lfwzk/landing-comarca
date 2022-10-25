@@ -1,7 +1,13 @@
+import Nav from "../Nav";
+import Footer from "../DefaultFooter";
+
 const Emprende = () => {
   return (
     <>
-      <section className="p-8 lg:p-8  font-exo">
+      <div className=" w-full z-20 fixed ">
+        <Nav />
+      </div>
+      {/* <section className="p-8 lg:p-8  font-exo">
         <div className="container mx-auto space-y-12">
           <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row bg-comarcaGray">
             <img
@@ -87,8 +93,10 @@ const Emprende = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section>
+      </section> */}
+
+      <section className="p-8 lg:p-8  font-exo"> </section>
+      <section className="font-exo">
         <div className="container my-12 mx-auto px-4 md:px-12 transform ease-in-out duration-150 transition-transform">
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
@@ -96,11 +104,13 @@ const Emprende = () => {
                 <img
                   alt="Placeholder"
                   className="block h-auto w-full"
-                  src="https://www.impaqto.net/wp-content/uploads/2019/11/Screen-Shot-2019-11-07-at-12.02.50-PM-1080x675.png"
+                  src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Products%2Fl1.png?alt=media&token=0aa15812-7962-4bea-8284-83fff580b9d1"
                 />
 
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                  <h1 className="text-lg align-center">MONOPOL</h1>
+                  <h1 className="text-lg align-center font-bold ">
+                    ACADEMIA COMARCA{" "}
+                  </h1>
                 </header>
                 <main className="p-2 md:p-4">Hola soy Monopol</main>
                 <footer className="flex items-center justify-between leading-none  md:p-4 ">
@@ -126,11 +136,11 @@ const Emprende = () => {
                 <img
                   alt="Placeholder"
                   className="block h-auto w-full"
-                  src="https://www.impaqto.net/wp-content/uploads/2019/11/Screen-Shot-2019-11-07-at-12.02.50-PM-1080x675.png"
+                  src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Products%2Fl8.png?alt=media&token=b0e565ed-d95d-4621-ae68-695163731b89"
                 />
 
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                  <h1 className="text-lg align-center">MONOPOL</h1>
+                  <h1 className="text-lg align-center">QUALIMED</h1>
                 </header>
                 <main className="p-2 md:p-4">Hola soy Monopol</main>
                 <footer className="flex items-center justify-between leading-none  md:p-4 ">
@@ -157,13 +167,13 @@ const Emprende = () => {
                 <img
                   alt="Placeholder"
                   className="block h-auto w-full"
-                  src="https://www.impaqto.net/wp-content/uploads/2019/11/Screen-Shot-2019-11-07-at-12.02.50-PM-1080x675.png"
+                  src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Products%2Fl7.png?alt=media&token=7ad2cbde-4663-491e-8f22-910668bfa139"
                 />
 
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                  <h1 className="text-lg align-center">MONOPOL</h1>
+                  <h1 className="text-lg align-center">ACADEMIA COMARCA</h1>
                 </header>
-                <main className="p-2 md:p-4">Hola soy Monopol</main>
+                <main className="p-2 md:p-4">e</main>
                 <footer className="flex items-center justify-between leading-none  md:p-4 ">
                   <button
                     name="add"
@@ -184,6 +194,7 @@ const Emprende = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </section>
     </>
   );

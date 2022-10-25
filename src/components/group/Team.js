@@ -1,20 +1,11 @@
 export const Team = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 font-exo">
-      <div className="mx-auto mb-10 lg:max-w-xl sm:text-center">
-        <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-comarca ">
-          Co Marca Team
-        </p>
-        <p className="text-base text-gray-700 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium.
-        </p>
-      </div>
+    <div className="px-2 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 font-exo">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-              Core Team
+              Team Co Marca
             </p>
           </div>
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -41,30 +32,27 @@ export const Team = () => {
                   height="24"
                 />
               </svg>
-              <span className="relative">Welcome</span>
             </span>{" "}
-            our talented team of professionals
+            Nuestro grupo de trabajo
           </h2>
-          <p className="text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
-          </p>
         </div>
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
               <img
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
-                alt="Person"
+                src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/team%2FCarlaValenciaMachado.png?alt=media&token=c01b9dbe-227e-4995-a0fc-0f1fdf5d7ec1"
+                alt="Carla"
               />
               <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Oliver Aguilerra
+                <p className="mb-1 text-lg font-bold text-comarcaGray">
+                  Carla Valencia Machado
                 </p>
-                <p className="mb-4 text-xs text-gray-100">Product Manager</p>
+                <p className="mb-4 text-xs text-comarcaGray">
+                  CEO Chief Executive Owner
+                </p>
                 <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Vincent Van Gogh’s most popular painting, The Starry Night.
+                  CEO/Co Founder @Co_marca @AkaruBolivia @academiacomarca
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
@@ -99,17 +87,16 @@ export const Team = () => {
             <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
               <img
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                alt="Person"
+                src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/team%2FAlbertoBonadonaCossio.png?alt=media&token=cde72085-d6db-44f2-8d1a-dc704ca0f068"
+                alt="Alberto"
               />
               <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Marta Clermont
+                <p className="mb-1 text-lg font-bold text-comarcaGray">
+                  Alberto Bonadona Cossio
                 </p>
-                <p className="mb-4 text-xs text-gray-100">Design Team Lead</p>
+                <p className="mb-4 text-xs text-comarcaGray">Co founder</p>
                 <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Amet I love liquorice jujubes pudding croissant I love
-                  pudding.
+                  Economista senior con más de treinta años de experiencia
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
@@ -144,16 +131,17 @@ export const Team = () => {
             <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
               <img
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                alt="Person"
+                src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/team%2FVladimirValenciaMachado.png?alt=media&token=4bedc11e-c6b0-42bc-b904-dd37c84e82e1"
+                alt="Vladimir"
               />
               <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Anthony Geek
+                <p className="mb-1 text-lg font-bold text-comarcaGray">
+                  Vladimir Valencia Machado
                 </p>
-                <p className="mb-4 text-xs text-gray-100">CTO, Lorem Inc.</p>
+                <p className="mb-4 text-xs text-comarcaGray">Co Founder</p>
                 <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Apple pie macaroon toffee jujubes pie tart cookie caramels.
+                  Vladimir Valencia Machado
+                  <br />
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
@@ -188,17 +176,19 @@ export const Team = () => {
             <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
               <img
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/team%2FCarlosBonadonaVargas.png?alt=media&token=91ae7972-8ac1-4417-b71f-b5ab728c1952"
                 alt="Person"
               />
               <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Alice Melbourne
+                <p className="mb-1 text-lg font-bold text-comarcaGray">
+                  Carlos Bonadona Vargas
                 </p>
-                <p className="mb-4 text-xs text-gray-100">Human Resources</p>
+                <p className="mb-4 text-xs text-comarcaGray">
+                  Mentor development
+                </p>
                 <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Lorizzle ipsum bling bling sit amizzle, consectetuer
-                  adipiscing elit.
+                  Emprendedor e ingeniero de Sistemas, con maestrías en
+                  Telecomunicaciones y Telemática
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
@@ -233,17 +223,19 @@ export const Team = () => {
             <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
               <img
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+                src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/team%2FRicardoMichel.png?alt=media&token=a5e5705d-f261-410d-a6bb-d35f313df39e"
                 alt="Person"
               />
               <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Martin Garix
+                <p className="mb-1 text-lg font-bold text-comarcaGray">
+                  Ricardo Michel
                 </p>
-                <p className="mb-4 text-xs text-gray-100">Good guy</p>
+                <p className="mb-4 text-xs text-comarcaGray">
+                  Mentor Projects and external relations
+                </p>
                 <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Bacon ipsum dolor sit amet salami jowl corned beef, andouille
-                  flank.
+                  Economista, con 16 años de experiencia, especialista en
+                  Diplomacia y resolución de conflictos
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
@@ -278,17 +270,20 @@ export const Team = () => {
             <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
               <img
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/team%2FAlexandraEndara.png?alt=media&token=5f5769a6-e2d9-405a-b4f8-56ce0013509e"
                 alt="Person"
               />
               <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Andrew Larkin
+                <p className="mb-1 text-lg font-bold text-comarcaGray">
+                  Alexandra Endara
                 </p>
-                <p className="mb-4 text-xs text-gray-100">Backend Developer</p>
+                <p className="mb-4 text-xs text-comarcaGray">
+                  Mentoring International Project
+                </p>
                 <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Moonfish, steelhead, lamprey southern flounder tadpole fish
-                  bigeye.
+                  Especialista en desarrollo internacional con más de diez años
+                  de experiencia en gestión de proyectos, análisis de
+                  requerimientos
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
@@ -323,17 +318,18 @@ export const Team = () => {
             <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
               <img
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/team%2FRaquelPe%C3%B1aloza.png?alt=media&token=50d8c324-a508-410b-b7a3-f1c53d23b3aa"
                 alt="Person"
               />
               <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Sophie Denmo
+                <p className="mb-1 text-lg font-bold text-comarcaGray">
+                  Raquel Peñaloza
                 </p>
-                <p className="mb-4 text-xs text-gray-100">Designer</p>
+                <p className="mb-4 text-xs text-comarcaGray">
+                  Mentoring and coaching for organizational development
+                </p>
                 <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Veggies sunt bona vobis, proinde vos postulo esse magis grape
-                  pea.
+                  Mentoring and coaching for organizational development
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
@@ -364,7 +360,7 @@ export const Team = () => {
               </div>
             </div>
           </div>
-          <div>
+          {/* <div>
             <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
               <img
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
@@ -408,7 +404,7 @@ export const Team = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -2,10 +2,116 @@ const Team = () => {
   return (
     <section className="bg-white text-comarcaBlack">
       <div className="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8">
-        <h2 className="text-xl font-exo lg:text-5xl font-semibold">
+        <h2 className="text-xl font-exo lg:text-5xl font-semibold ">
           Quienes confian en nosotros
         </h2>
-        <div className="flex flex-wrap justify-center lg:justify-between">
+      </div>
+
+      <div>
+        <div className="h-40 m-2">
+          <div className="relative  p-16 overflow-x-hidden">
+            <div className="flex absolute left-0 animate-marquee-infinite">
+              <div className="flex w-96 ">
+                <div className="w-32 h-32 mx-4 ">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+                </div>
+                <div className="flex w-96 ">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FAKARU.png?alt=media&token=850c902f-921e-4aba-864b-e3290e7c663f"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* <div className="flex flex-wrap justify-center lg:justify-between">
           <img
             src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/partners%2FABCDIGITALLOGO.png?alt=media&token=dd3ba9f4-7c62-4b1e-972c-c64101f5525c"
             alt="logo1"
@@ -106,7 +212,7 @@ const Team = () => {
             alt="logo2"
             className="w-32 h-32 m-4 object-cover"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );

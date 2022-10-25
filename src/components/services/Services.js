@@ -38,7 +38,8 @@ export default function Services() {
 
                 <div className="text-gray-200 font-exo">
                   <LeadText color="gray-200">
-                    Podras encontrar el lugar perfecto para tu evento.
+                    Contribuyen a que nuevos emprendedores bolivianos despeguen
+                    .🚀
                   </LeadText>
                   <div className="flex justify-center mt-10"></div>
                 </div>

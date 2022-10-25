@@ -30,6 +30,8 @@ import Coemprendedor from "components/services/spaces/group/Coemprende/Coemprend
 import Taller from "components/services/spaces/group/Taller/Taller";
 
 import Emprende from "components/group/Emprende";
+
+import Podcast from "components/group/Podcast";
 function App() {
   return (
     <Router>
@@ -55,6 +57,7 @@ function App() {
       <Route exact path="/colaborativo" component={Claborativo} />
       <Route exact path="/coemprende" component={Coemprendedor} />
       <Route exact path="/taller" component={Taller} />
+      <Route exact path="/podcast" component={Podcast} />
     </Router>
   );
 }

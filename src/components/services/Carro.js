@@ -1,11 +1,4 @@
 import { Carousel } from "react-carousel-minimal";
-import img1 from "../../assets/img/web/COMUNIDAD.png";
-import img2 from "../../assets/img/web/CoLaborativo.png";
-import img3 from "../../assets/img/web/CoCreativo(3).png";
-import img4 from "../../assets/img/web/CoEmprendeSaladereunion(4).png";
-import img7 from "../../assets/img/web/COPRIVADA.png";
-import img6 from "../../assets/img/web/COMUNIDAD(16).png";
-import img8 from "../../assets/img/web/CoEmprendeSaladereunion(5).png";
 
 function App() {
   const data = [
@@ -30,20 +23,83 @@ function App() {
       caption: "Co Creación",
     },
     {
-      image: img7,
-      caption: "pasion",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCoCreativo1.png?alt=media&token=06f58bf8-4208-4e90-bfb2-d4bdc33c6a96",
+      caption: "Networking ",
     },
     {
-      image: img6,
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCoPrivado1.png?alt=media&token=cc1a567b-5bbd-4364-b8bd-11cf8f6d4bd6",
+      caption: "Nuevas ideas",
+    },
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FSalaTaller6.png?alt=media&token=2835b6aa-c6d0-4ed0-a139-0655cf060479",
       caption: "Desarrollo",
     },
     {
-      image: img8,
-      caption: "Hard work",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCoLaborativo2.png?alt=media&token=c0f15fd8-1b56-4f22-9eb9-cba2d2798086",
+      caption: "Resultados",
     },
     {
-      image: img1,
-      caption: "Coworking",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCoEmprende1.png?alt=media&token=0ba47d79-df64-4141-b1b0-8d27007d8288",
+      caption: "Productividad ",
+    },
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCoPrivado10.png?alt=media&token=19642c3d-5cd7-4578-bae9-feaf8a10e009",
+      caption: "Acogedor",
+    },
+
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCowork3.png?alt=media&token=ccfb20a1-887c-4e97-81f1-5668d8ed784f",
+      caption: "Apoyo ",
+    },
+
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FSalaTaller7.png?alt=media&token=dc6e38e9-37c1-4ba5-816d-e54d97f5a110",
+      caption: "Economía Colaborativa",
+    },
+
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCOCREATIVO%20(11).png?alt=media&token=aa3b7ec3-10f6-4b40-b871-6942454e36b5",
+      caption: "Sistema Todo incluido",
+    },
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCowork2.png?alt=media&token=15776557-b140-40a4-a883-f6cefe4e23e9",
+      caption: "Espacios de esparcimiento",
+    },
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCoCreativo4.png?alt=media&token=8b041a60-918c-4602-98df-2f0d5da688e7",
+      caption: "Naturaleza ",
+    },
+
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCoMunidad3.png?alt=media&token=e1c3f5bb-8069-47de-89cf-7c452156506f",
+      caption: "Eficiencia ",
+    },
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCowork4.png?alt=media&token=302fac07-6f45-46f3-9c17-97e1d94ed994",
+      caption: "Red de negocios ",
+    },
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCopia%20de%20FOTOS%20PORTADA%20%20(1).png?alt=media&token=cd4824a4-689e-448e-a95a-053ba92358cb",
+      caption: "Sinergia  ",
+    },
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FSalaTaller1.png?alt=media&token=9a3d148e-9de1-41a6-a4fe-29658312ad80",
+      caption: "Innovación  ",
     },
   ];
 
