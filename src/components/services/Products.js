@@ -1,6 +1,31 @@
 import img4 from "../../assets/img/web/CoLaborativo.png";
+// import backend from "../../env/Main";
+// import { useState } from "react";
 
 const Products = () => {
+  // const [cart, SetData] = useState([]);
+
+  // fetch(backend.api + "space")
+  //   .then((res) => res.json())
+  // .then((res) => SetData(res.data));
+
+  //   <tbody>
+  //   {cart.map(categoria=> (
+  //           <tr key={categoria.id}>
+  //               <td>{categoria.id}</td>
+  //               <td>{categoria.categspace_name}</td>
+  //               <td>{categoria.categspace_state}</td>
+  //               <td>
+  //                   <button className='btn btn-warning' onClick={() => {console.log(categoria.id);}} >next</button>
+  //                   {"  "}
+  //                   <button className='btn btn-primary' onClick={() => {setModal(true);}} > <Lucide icon="Edit" className="w-4 h-4 mr-1" /></button>
+  //                   {"  "}
+  //                   <button className='btn btn-danger' > <Lucide icon="Delete" className="w-4 h-4 mr-1" /></button>
+  //               </td>
+  //           </tr>
+  //       ))}
+  // </tbody>
+
   return (
     <>
       <section className="font-exo ">
@@ -14,6 +39,23 @@ const Products = () => {
         <div className="container my-12 mx-auto px-4 md:px-12 transform ease-in-out duration-150 transition-transform">
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+              {/* {cart.map((space) => (
+                <tr key={space.id}>
+                  <td>{space.id}</td>
+                  <td>{space.name}</td>
+                  <td>{space.precio}</td>
+                  <td>
+                    <button
+                      className="btn btn-warning"
+                      onClick={() => {
+                        console.log(space.id);
+                      }}
+                    >
+                      next
+                    </button>
+                  </td>
+                </tr>
+              ))} */}
               <article className="overflow-hidden rounded-lg shadow-lg transform transition duration-500 hover:scale-110">
                 <a href="/coprivado">
                   <img

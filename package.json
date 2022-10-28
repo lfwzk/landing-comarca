@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "/",
   "dependencies": {
+    "@emailjs/browser": "^3.7.0",
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@googlemaps/react-wrapper": "^1.1.35",
     "@headlessui/react": "^1.6.6",
