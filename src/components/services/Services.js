@@ -54,7 +54,8 @@ export default function Services() {
         </h2>
         <p className="mt-4 text-lg text-gray-600">
           {" "}
-          Busca un espacio ideal para ti y tus necesidades🏠{" "}
+          Nuestros servicios enfocados al desarrollo y productividad
+          organizacional.
         </p>
       </div>
       <Booking />

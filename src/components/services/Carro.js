@@ -39,7 +39,7 @@ function App() {
     },
     {
       image:
-        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCoLaborativo2.png?alt=media&token=c0f15fd8-1b56-4f22-9eb9-cba2d2798086",
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FSalaTaller9.png?alt=media&token=6383b1ae-922a-4562-816e-4aa0f7379376",
       caption: "Resultados",
     },
     {
@@ -88,7 +88,7 @@ function App() {
     },
     {
       image:
-        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCowork4.png?alt=media&token=302fac07-6f45-46f3-9c17-97e1d94ed994",
+        "https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCowork5.png?alt=media&token=f351ca76-8c1b-41cd-840d-492c51f42650",
       caption: "Red de negocios ",
     },
     {

@@ -6,11 +6,7 @@ import {
   TwitterIcon,
   WhatsappIcon,
 } from "react-share";
-import img1 from "../../../../../assets/img/web/CoEmprendedorTaller(10).png";
-import img2 from "../../../../../assets/img/web/CoEmprendedorTaller(11).png";
-import img3 from "../../../../../assets/img/web/CoEmprendedorTaller(8).png";
-import img4 from "../../../../../assets/img/web/CoEmprendedorTaller(7).png";
-import img5 from "../../../../../assets/img/web/CoEmprendedorTaller(13).png";
+
 import Nav from "../../../../Nav";
 import Footer from "../../../../DefaultFooter";
 import React from "react";
@@ -52,29 +48,29 @@ const Taller = () => {
 
         <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4 ">
           <img
-            src={img1}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Ftaller%2FSalaTaller5.png?alt=media&token=bb40a53f-10df-48dc-94dd-cd4e6e737f86"
             alt=""
             className="w-full h-full hover col-span-2 row-span-2 rounded-xl shadow-sm min-h-96 md:col-start-3 md:row-start-1 bg-white aspect-square transform transition duration-500 hover:scale-110"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img2}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Ftaller%2Ftallers%20(2).png?alt=media&token=fa08ed94-e716-4da5-866e-803f90db3cf6"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img3}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Ftaller%2FSalaTaller7.png?alt=media&token=51ed16c4-953d-4542-9d08-4a3e2aae75b9"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img4}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Ftaller%2Ftallers%20(1).png?alt=media&token=e8333582-ccb9-4845-9303-e824827eb570"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img5}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Ftaller%2FSalaTaller1.png?alt=media&token=c44afa47-0042-4dc5-ba09-9a6a0414b714"
           />
         </div>
       </section>

@@ -6,11 +6,7 @@ import {
   TwitterIcon,
   WhatsappIcon,
 } from "react-share";
-import img1 from "../../../../../assets/img/web/COMUNIDAD(13).png";
-import img2 from "../../../../../assets/img/web/COMUNIDAD(3).png";
-import img3 from "../../../../../assets/img/web/COMUNIDAD(4).png";
-import img4 from "../../../../../assets/img/web/COMUNIDAD(6).png";
-import img5 from "../../../../../assets/img/web/COMUNIDAD(9).png";
+
 import Nav from "../../../../Nav";
 import Footer from "../../../../DefaultFooter";
 import React from "react";
@@ -48,29 +44,29 @@ const Community = () => {
 
         <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4 ">
           <img
-            src={img1}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcomunidad2%2FCoMunidad1.png?alt=media&token=3dfbf90f-6ea1-4a8d-a584-6d11cc939abc"
             alt=""
             className="w-full h-full hover col-span-2 row-span-2 rounded-xl shadow-sm min-h-96 md:col-start-3 md:row-start-1 bg-white aspect-square transform transition duration-500 hover:scale-110"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img2}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcomunidad2%2FCoMunidad3.png?alt=media&token=85be15d8-da70-4a95-ad6e-b6e79c0af579"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img3}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcomunidad%2FCOMUNIDAD%20(7).png?alt=media&token=1d36aefc-1de1-463f-83a1-73e9ea554909"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img4}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcomunidad%2FCOMUNIDAD%20(8).png?alt=media&token=8a932b55-76f6-468c-874b-80ba929669a8"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img5}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcomunidad2%2FCoMunidad2.png?alt=media&token=1abe2c5b-605a-4d79-9ebb-45ce41b7a8d0"
           />
         </div>
       </section>

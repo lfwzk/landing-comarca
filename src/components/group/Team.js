@@ -8,7 +8,7 @@ export const Team = () => {
               Team Co Marca
             </p>
           </div>
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+          <h2 className="max-w-lg mb-6 font-sans text-6xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
             <span className="relative inline-block">
               <svg
                 viewBox="0 0 52 24"
@@ -33,7 +33,7 @@ export const Team = () => {
                 />
               </svg>
             </span>{" "}
-            Nuestro grupo de trabajo
+            Co Marca Group
           </h2>
         </div>
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
@@ -48,35 +48,27 @@ export const Team = () => {
                 <p className="mb-1 text-lg font-bold text-comarcaGray">
                   Carla Valencia Machado
                 </p>
-                <p className="mb-4 text-xs text-comarcaGray">
-                  CEO Chief Executive Owner
-                </p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  CEO/Co Founder @Co_marca @AkaruBolivia @academiacomarca
+                <p className="mb-4 text-xs text-comarcaGray">CEO Founder</p>
+                <p className="mb-4 text-xs tracking-wide text-gray-400 text-justify">
+                  Emprendedora apasionada, ingeniera comercial especializada en
+                  gerencia de proyectos de desarrollo social, feminista y amante
+                  por integrar el area social y ambiental con la innovación, y
+                  tecnología, crear nuevos desafíos disruptivos, y cambiar la
+                  óptica de las nuevas maneras de hacer economía.
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/in/carla-valencia-machado-00580353"
                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                   >
                     <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
+                      fill="#ffffff"
                     >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
+                      <path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54a3.6 3.6 0 0 1 3.26-1.8c2.39 0 4.18 1.56 4.18 4.89v6.21z" />
                     </svg>
                   </a>
                 </div>
@@ -95,32 +87,24 @@ export const Team = () => {
                   Alberto Bonadona Cossio
                 </p>
                 <p className="mb-4 text-xs text-comarcaGray">Co founder</p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Economista senior con más de treinta años de experiencia
+                <p className="mb-4 text-xs tracking-wide text-gray-400 text-justify">
+                  Economista senior con más de treinta años de experiencia.
+                  Trabajó en organismos internacionales. Profesor emérito de la
+                  UMSA.
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/in/alberto-bonadona-coss%C3%ADo-a975935a"
                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                   >
                     <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
+                      fill="#ffffff"
                     >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
+                      <path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54a3.6 3.6 0 0 1 3.26-1.8c2.39 0 4.18 1.56 4.18 4.89v6.21z" />
                     </svg>
                   </a>
                 </div>
@@ -138,34 +122,29 @@ export const Team = () => {
                 <p className="mb-1 text-lg font-bold text-comarcaGray">
                   Vladimir Valencia Machado
                 </p>
-                <p className="mb-4 text-xs text-comarcaGray">Co Founder</p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Vladimir Valencia Machado
+                <p className="mb-4 text-xs text-comarcaGray">
+                  Co - Founder - CEO Startup Qhalimed
+                </p>
+                <p className="mb-4 text-xs tracking-wide text-gray-400 text-justify">
+                  Ingeniero Comercial, formación en gerencia y desarrollo de
+                  proyectos, especializado en trade y análisis de base de datos
+                  en el sector minero. CEO de Qhalimed una startup en desarrollo
+                  enfocada al sector salud.
                   <br />
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/in/vladimir-valencia-machado"
                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                   >
                     <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
+                      fill="#ffffff"
                     >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
+                      <path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54a3.6 3.6 0 0 1 3.26-1.8c2.39 0 4.18 1.56 4.18 4.89v6.21z" />
                     </svg>
                   </a>
                 </div>
@@ -186,33 +165,24 @@ export const Team = () => {
                 <p className="mb-4 text-xs text-comarcaGray">
                   Mentor development
                 </p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
+                <p className="mb-4 text-xs tracking-wide text-gray-400 text-justify">
                   Emprendedor e ingeniero de Sistemas, con maestrías en
-                  Telecomunicaciones y Telemática
+                  Telecomunicaciones y Telemática y en Energías renovables y
+                  medio ambiente.
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/in/carlos-bonadona-6799361a"
                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                   >
                     <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
+                      fill="#ffffff"
                     >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
+                      <path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54a3.6 3.6 0 0 1 3.26-1.8c2.39 0 4.18 1.56 4.18 4.89v6.21z" />
                     </svg>
                   </a>
                 </div>
@@ -231,35 +201,26 @@ export const Team = () => {
                   Ricardo Michel
                 </p>
                 <p className="mb-4 text-xs text-comarcaGray">
-                  Mentor Projects and external relations
+                  Mentoring in international cooperation projects
                 </p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
+                <p className="mb-4 text-xs tracking-wide text-gray-400 text-justify">
                   Economista, con 16 años de experiencia, especialista en
-                  Diplomacia y resolución de conflictos
+                  Diplomacia y resolución de conflictos, negociación, Energía y
+                  Comercio Exterior.
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/in/ricardo-gustavo-michel-romero-753a3321"
                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                   >
                     <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
+                      fill="#ffffff"
                     >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
+                      <path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54a3.6 3.6 0 0 1 3.26-1.8c2.39 0 4.18 1.56 4.18 4.89v6.21z" />
                     </svg>
                   </a>
                 </div>
@@ -278,36 +239,26 @@ export const Team = () => {
                   Alexandra Endara
                 </p>
                 <p className="mb-4 text-xs text-comarcaGray">
-                  Mentoring International Project
+                  Mentoring in International Projects
                 </p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
+                <p className="mb-4 text-xs tracking-wide text-gray-400 text-justify">
                   Especialista en desarrollo internacional con más de diez años
                   de experiencia en gestión de proyectos, análisis de
-                  requerimientos
+                  requerimientos, gestión de stakeholders
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/in/alexandraendara"
                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                   >
                     <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
+                      fill="#ffffff"
                     >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
+                      <path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54a3.6 3.6 0 0 1 3.26-1.8c2.39 0 4.18 1.56 4.18 4.89v6.21z" />
                     </svg>
                   </a>
                 </div>
@@ -328,83 +279,67 @@ export const Team = () => {
                 <p className="mb-4 text-xs text-comarcaGray">
                   Mentoring and coaching for organizational development
                 </p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Mentoring and coaching for organizational development
+                <p className="mb-4 text-xs tracking-wide text-gray-400 text-justify">
+                  Ingeniera Industrial, Master Woman Coach CICO, mujer
+                  profesional cuyo propósito de vida es acompañar a las
+                  organizaciones y a las personas a que encarnen su misión
+                  orientados a cumplir sus desafíos
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/in/raquel-pe%C3%B1aloza-coach"
                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                   >
                     <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
+                      fill="#ffffff"
                     >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
+                      <path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54a3.6 3.6 0 0 1 3.26-1.8c2.39 0 4.18 1.56 4.18 4.89v6.21z" />
                     </svg>
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          {/* <div>
+          <div>
             <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
               <img
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/3931553/pexels-photo-3931553.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/team%2FGerman%20Guachalla.JPG?alt=media&token=9a3b99fa-c714-4554-bf5f-3a536eb8246e"
                 alt="Person"
               />
               <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Benedict Caro
+                <p className="mb-1 text-lg font-bold text-comarcaGray">
+                  German Guachalla
                 </p>
-                <p className="mb-4 text-xs text-gray-100">Frontend Developer</p>
+                <p className="mb-4 text-xs text-comarcaGray">
+                  Development of corporate projects
+                </p>
                 <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  I love cheese, especially airedale queso. Cheese and biscuits
-                  halloumi.
+                  Hello world
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/in/germ%C3%A1n-guachalla-36437a5b"
                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                   >
                     <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
+                      fill="#ffffff"
                     >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
+                      <path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54a3.6 3.6 0 0 1 3.26-1.8c2.39 0 4.18 1.56 4.18 4.89v6.21z" />
                     </svg>
                   </a>
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

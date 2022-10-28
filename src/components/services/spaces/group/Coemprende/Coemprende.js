@@ -6,11 +6,6 @@ import {
   TwitterIcon,
   WhatsappIcon,
 } from "react-share";
-import img1 from "../../../../../assets/img/web/CoEmprendeSaladereunion(4).png";
-import img2 from "../../../../../assets/img/web/CoEmprendeSaladereunion(5).png";
-import img3 from "../../../../../assets/img/web/CoEmprendeSaladereunion(3).png";
-import img4 from "../../../../../assets/img/web/CoEmprendeSaladereunion(3).png";
-import img5 from "../../../../../assets/img/web/CoEmprendeSaladereunion(2).png";
 import Nav from "../../../../Nav";
 import Footer from "../../../../DefaultFooter";
 import React from "react";
@@ -50,29 +45,29 @@ const Coemprende = () => {
 
         <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4 ">
           <img
-            src={img1}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcoemprende%2FCoEmprende2.png?alt=media&token=74912317-a68f-4c07-beca-dc523539b5b2"
             alt=""
             className="w-full h-full hover col-span-2 row-span-2 rounded-xl shadow-sm min-h-96 md:col-start-3 md:row-start-1 bg-white aspect-square transform transition duration-500 hover:scale-110"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img2}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcoemprende%2Fcomp1%20(1).png?alt=media&token=baa05869-2d5d-4121-a8cb-443f17984af4"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img3}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcoemprende%2FCoEmprende4.png?alt=media&token=f8455396-758d-43d1-b563-139b462db1a3"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img4}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcoemprende%2Fcomp1%20(2).png?alt=media&token=3a4d0af5-4c0f-4620-8bd6-6d7387fc66f1"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img5}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcoemprende%2FCoEmprende7.png?alt=media&token=1d8c8f0d-ce24-47d0-b6d4-c1f202cf944f"
           />
         </div>
       </section>

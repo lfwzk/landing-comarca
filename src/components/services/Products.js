@@ -1,17 +1,4 @@
-// import img1 from "../../assets/img/spaces/Colaborativa/colaborativo3.jpg";
-// import img2 from "../../assets/img/spaces/Coemprendedor/coemprendedor1.jpg";
-// import img3 from "../../assets/img/spaces/Comunidad/comunidad2.jpg";
-// import img4 from "../../assets/img/spaces/Coprivada/coprivada1.jpg";
-// import img5 from "../../assets/img/spaces/Cocreativo/comedor1.jpg";
-//import img6 from "../../assets/img/spaces/Comarca/sala2.jpg";
-//import Carro from "./Carro";
-import img1 from "../../assets/img/web/COPRIVADA(8).png";
-import img2 from "../../assets/img/web/COMUNIDAD(16).png";
-import img3 from "../../assets/img/web/CoCreativo(3).png";
-
 import img4 from "../../assets/img/web/CoLaborativo.png";
-import img5 from "../../assets/img/web/CoEmprendedorTaller(4).png";
-import img6 from "../../assets/img/web/CoEmprendedorTaller(10).png";
 
 const Products = () => {
   return (
@@ -32,7 +19,7 @@ const Products = () => {
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src={img1}
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcoprivado%2FCoPrivado1.png?alt=media&token=18de9ac4-6fdb-49d7-aa7a-950d6a359736"
                   />
                 </a>
 
@@ -42,7 +29,7 @@ const Products = () => {
                       className="no-underline hover:underline  text-comarca font-semibold"
                       href="/coprivado"
                     >
-                      Oficina Co Privado
+                      Co Privado
                     </a>
                   </h1>
                   <p className="text-grey-darker text-sm">Desde Bs. 35</p>
@@ -84,7 +71,7 @@ const Products = () => {
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src={img2}
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcomunidad2%2FCoMunidad2.png?alt=media&token=1abe2c5b-605a-4d79-9ebb-45ce41b7a8d0"
                   />
                 </a>
 
@@ -136,7 +123,7 @@ const Products = () => {
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src={img3}
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcocreativo%2FCoCreativo4.png?alt=media&token=10a4fc23-17ef-46dd-9d8c-348dc83faff0"
                   />
                 </a>
 
@@ -210,7 +197,7 @@ const Products = () => {
                       className="no-underline hover:underline text-comarcaBlue font-semibold"
                       href="/colaborativo"
                     >
-                      Sala de reunión Co Laborativa
+                      Co Laborativo
                     </a>
                   </h1>
                   <p className="text-grey-darker text-sm">Desde Bs. 75/h</p>
@@ -252,7 +239,7 @@ const Products = () => {
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src={img5}
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcoemprende%2FCoEmprende2.png?alt=media&token=74912317-a68f-4c07-beca-dc523539b5b2"
                   />
                 </a>
 
@@ -262,7 +249,7 @@ const Products = () => {
                       className="no-underline hover:underline text-comarcaBlue font-semibold"
                       href="/coemprende"
                     >
-                      Sala de reunión Co emprendedor
+                      Co emprendedor
                     </a>
                   </h1>
                   <p className="text-grey-darker text-sm">Desde Bs. 95/h</p>
@@ -304,7 +291,7 @@ const Products = () => {
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src={img6}
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Ftaller%2FSalaTaller2.png?alt=media&token=bd71815f-4592-40e9-ab83-697e19553950"
                   />
                 </a>
 
@@ -314,7 +301,7 @@ const Products = () => {
                       className="no-underline hover:underline text-comarcaBlue font-semibold"
                       href="/taller"
                     >
-                      Sala talleres Co Emprendedor
+                      Co Emprende Taller
                     </a>
                   </h1>
                   <p className="text-grey-darker text-sm">Desde Bs.450 /3h </p>
@@ -369,7 +356,7 @@ const Products = () => {
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src="https://picsum.photos/600/400/?random"
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FCowork%2FOFICINAVIRTUAL.png?alt=media&token=01a1f310-9028-465d-b0d7-2681493efc5b"
                   />
                 </a>
 
@@ -416,11 +403,11 @@ const Products = () => {
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
               <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
-                <a href="/laboratorio">
+                <a href="/emprende">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src="https://picsum.photos/600/400/?random"
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FCowork%2FCOMARCALAP.png?alt=media&token=7c03dd7c-42fa-4f94-96a3-9cee41f462dd"
                   />
                 </a>
 
@@ -428,9 +415,9 @@ const Products = () => {
                   <h1 className="text-lg">
                     <a
                       className="no-underline hover:underline text-comarcaPurple font-semibold"
-                      href="/laboratorio"
+                      href="/emprende"
                     >
-                      Laboratorio Emprende
+                      Comarca Lab{" "}
                     </a>
                   </h1>
                 </header>
@@ -463,6 +450,56 @@ const Products = () => {
                 </footer>
               </article>
             </div>
+            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+              <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
+                <a href="/domiciliacion">
+                  <img
+                    alt="Placeholder"
+                    className="block h-auto w-full"
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FCowork%2FDOMICILIACI%C3%93N.png?alt=media&token=7bfc129a-bdce-4949-9746-c0fc8b7817d4"
+                  />
+                </a>
+
+                <header className="flex items-center justify-between leading-tight p-2 md:p-4">
+                  <h1 className="text-lg">
+                    <a
+                      className="no-underline hover:underline text-comarcaPurple font-semibold"
+                      href="/domiciliacion"
+                    >
+                      Domiciliacion
+                    </a>
+                  </h1>
+                  <p className="text-grey-darker text-sm">Desde 350/m</p>
+                </header>
+
+                <footer className="flex items-center justify-between leading-none p-2 md:p-4">
+                  <button
+                    name="add"
+                    type="button"
+                    className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarcaPurple rounded-xl"
+                  >
+                    <span className="text-sm font-medium text-white">
+                      Reservar
+                    </span>
+
+                    <svg
+                      className="w-5 h-5 ml-1.5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="#ffffff"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
+                      />
+                    </svg>
+                  </button>
+                </footer>
+              </article>
+            </div>
           </div>
         </div>
       </section>
@@ -470,8 +507,7 @@ const Products = () => {
       <section className="font-exo">
         <div className="text-comarcaYellow px-4 py-3 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 text-center mx-4 space-y-2 rounded-lg">
           <p className="text-center font-semibold sm:text-left  text-3xl tracking-tighter">
-            Coworker <br className="sm:hidden" />
-            ofertas
+            TEAMS
           </p>
         </div>
 
@@ -479,11 +515,11 @@ const Products = () => {
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
               <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
-                <a href="/teamEmprendedor">
+                <a href="/emprendedor">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FVirtuales%2FTEAMEMPRENDEDOR.png?alt=media&token=a468b52f-e7f2-4241-96e5-78ede5bc6227"
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FCowork%2FTEAMEMPRENDEDOR.png?alt=media&token=6a1c29c8-92c0-4f51-bb58-29fa6fe6bf39"
                   />
                 </a>
 
@@ -491,7 +527,7 @@ const Products = () => {
                   <h1 className="text-lg">
                     <a
                       className="no-underline hover:underline text-black font-semibold"
-                      href="/teamEmprendedor"
+                      href="/emprendedor"
                     >
                       Team Emprendedor
                     </a>
@@ -530,11 +566,11 @@ const Products = () => {
 
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
               <article className="overflow-hidden rounded-lg shadow-lg  transform transition duration-500 hover:scale-110">
-                <a href="/teamCorporativo">
+                <a href="/corporativo">
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FVirtuales%2FTEAMCORPORATIVO.png?alt=media&token=0081034e-264a-4947-ae70-dbd195cb80a8"
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FCowork%2FTEAMCORPORATIVO.png?alt=media&token=ffbe8d8a-4fc7-468d-b61d-8960f491a248"
                   />
                 </a>
 
@@ -542,7 +578,7 @@ const Products = () => {
                   <h1 className="text-lg">
                     <a
                       className="no-underline hover:underline text-black font-semibold"
-                      href="/teamCorporativo"
+                      href="/corporativo"
                     >
                       Team Corporativo
                     </a>
@@ -585,7 +621,7 @@ const Products = () => {
                   <img
                     alt="Placeholder"
                     className="block h-auto w-full"
-                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FVirtuales%2FTEAMESTUDIANTIL.png?alt=media&token=11cf483e-a67e-41e5-a856-292a03fb0b00"
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FCowork%2FTEAMESTUDIANTE.png?alt=media&token=36394296-df45-4f10-a5fa-c9d694f4035b"
                   />
                 </a>
 
@@ -595,7 +631,7 @@ const Products = () => {
                       className="no-underline hover:underline text-black font-semibold"
                       href="/estudiante"
                     >
-                      Team Estudiantil
+                      Team Estudiante
                     </a>
                   </h1>
                 </header>

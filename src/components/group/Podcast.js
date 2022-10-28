@@ -1,5 +1,6 @@
 import Nav from "../Nav";
 import DefaultFooter from "components/DefaultFooter";
+import Iframe from "react-iframe";
 const Podcast = () => {
   return (
     <div>
@@ -9,7 +10,7 @@ const Podcast = () => {
       <div className="flex flex-col items-center justify-center h-screen">
         <h1 className="text-4xl font-bold font-exo">Podcast</h1>
         <div className="flex flex-col items-center justify-center">
-          <iframe
+          <Iframe
             style={{ borderRadius: "12px" }}
             src="https://open.spotify.com/embed/show/0jrfxcnCrD7N9tlA0BGJp5?utm_source=generator"
             width="100%"
@@ -18,7 +19,7 @@ const Podcast = () => {
             allowfullscreen=""
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"
-          ></iframe>
+          />
         </div>
       </div>
       <DefaultFooter />

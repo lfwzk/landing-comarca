@@ -4,7 +4,7 @@ import LeadText from "@material-tailwind/react/LeadText";
 //import Akaru from "../../assets/img/parnters/l1.png";
 
 //import Academia from "../../assets/img/parnters/l7.png";
-import background from "../../assets/img/portadagroup.jpg";
+
 import Hub from "./Hub";
 
 const Group = () => {
@@ -20,7 +20,7 @@ const Group = () => {
             className="bg-cover bg-center absolute top-0 w-full h-full object-cover"
             style={{
               //backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9)), url(${rocket})`,
-              backgroundImage: `linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url(${background})`,
+              backgroundImage: `linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url(https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcolaborativo%2FCoLaborativo3.png?alt=media&token=dffcafe6-282c-45d7-9298-4d2cdd70914f)`,
               height: `100vh`,
               backgroundSize: `cover`,
             }}
@@ -30,12 +30,12 @@ const Group = () => {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center  ">
                 <h1 className="text-6xl text-gray-200 font-exo">
                   {" "}
-                  Un cowork con propósito
+                  Co Marca con propósito
                 </h1>
 
                 <div className="text-gray-200 font-exo">
                   <LeadText color="gray-200">
-                    demostramos que somos los mejores en lo que hacemos
+                    Cultivando cada idea de negocio🌱
                   </LeadText>
                   <div className="flex justify-center mt-10"></div>
                 </div>

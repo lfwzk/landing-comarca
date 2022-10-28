@@ -29,9 +29,17 @@ import Claborativo from "components/services/spaces/group/Colaborativo/Colab";
 import Coemprendedor from "components/services/spaces/group/Coemprende/Coemprende";
 import Taller from "components/services/spaces/group/Taller/Taller";
 
+import Virtual from "components/services/spaces/virtual/Virtual";
+import Dom from "components/services/spaces/virtual/Dom";
+
+import Entrepreneur from "components/services/spaces/offers/Entrepreneur";
+
 import Emprende from "components/group/Emprende";
 
 import Podcast from "components/group/Podcast";
+import Estudiante from "components/services/spaces/offers/Student";
+import Corp from "components/services/spaces/offers/Corp";
+
 function App() {
   return (
     <Router>
@@ -58,6 +66,12 @@ function App() {
       <Route exact path="/coemprende" component={Coemprendedor} />
       <Route exact path="/taller" component={Taller} />
       <Route exact path="/podcast" component={Podcast} />
+      <Route exact path="/virtual" component={Virtual} />
+      <Route exact path="/domiciliacion" component={Dom} />
+      <Route exact path="/emprendedor" component={Entrepreneur} />
+
+      <Route exact path="/estudiante" component={Estudiante} />
+      <Route exact path="/corporativo" component={Corp} />
     </Router>
   );
 }

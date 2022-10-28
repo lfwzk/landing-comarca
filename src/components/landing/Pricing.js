@@ -1,9 +1,4 @@
-//import img1 from "../../assets/img/web/CoEmprendedorTaller(4).png";
-import img2 from "../../assets/img/web/COPRIVADA(2).png";
-//import img3 from "../../assets/img/v2/f28.jpeg";
 import img3 from "../../assets/img/web/CoLaborativo(5).png";
-import img4 from "../../assets/img/web/COMUNIDAD(13).png";
-import img5 from "../../assets/img/web/CoEmprendedorTaller(12).png";
 
 const Pricing = () => {
   return (
@@ -26,7 +21,7 @@ const Pricing = () => {
                 <img
                   alt="Placeholder"
                   className="block h-auto w-full"
-                  src={img2}
+                  src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/home%2FCoPrivado13.png?alt=media&token=ce200e54-7219-4ebe-a518-598995c0e333"
                 />
 
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
@@ -34,7 +29,7 @@ const Pricing = () => {
                     Espacios Individuales
                   </h1>
                 </header>
-                <main className="p-4 text-justify">
+                <main className="p-4 text-justify  font-semibold text-sm">
                   {" "}
                   Espacios de trabajo equipados, todo incluido (servicios
                   directos e indirectos), con capacidad de una (1) a cuatro (4)
@@ -123,7 +118,7 @@ const Pricing = () => {
                     Espacios Grupales
                   </h1>
                 </header>
-                <main className="p-4 text-justify">
+                <main className="p-4 text-justify font-semibold text-sm">
                   Espacios de trabajo, todo incluido (servicios directos e
                   indirectos), con capacidad para grupos de cuatro (4) a veinte
                   (20) personas.{" "}
@@ -205,7 +200,7 @@ const Pricing = () => {
                 <img
                   alt="Placeholder"
                   className="block h-auto w-full "
-                  src={img4}
+                  src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/home%2FESPACIOSVIRTUALES.png?alt=media&token=0c56c4ce-1e0e-426a-bffe-5a0cb1156e1a"
                 />
 
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
@@ -213,7 +208,7 @@ const Pricing = () => {
                     Espacios Virtuales
                   </h1>
                 </header>
-                <main className="p-4 text-justify">
+                <main className="p-4 text-justify font-semibold text-sm">
                   {" "}
                   Espacio remoto enfocado al desarrollo integral de una empresa
                   emergente, en busca de la formalidad y crecimiento.
@@ -256,7 +251,7 @@ const Pricing = () => {
                       ></path>
                     </svg>
                     <a
-                      href="/laboratorio"
+                      href="/domiciliacion"
                       className="hover:underline hover:text-comarcaPurple font-semibold"
                     >
                       <span>Domiciliación</span>
@@ -294,7 +289,7 @@ const Pricing = () => {
                 <img
                   alt="Placeholder"
                   className="block h-auto w-full"
-                  src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCoLaborativo3.png?alt=media&token=883f6efd-034b-4285-97a7-78c18a820dfc"
+                  src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/home%2FTEAMS.png?alt=media&token=7799a9e7-4c3f-4831-95c1-2f1e1a144e03"
                 />
 
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
@@ -302,11 +297,11 @@ const Pricing = () => {
                     Teams
                   </h1>
                 </header>
-                <main className="p-4 text-justify">
+                <main className="p-4 text-justify font-semibold text-sm">
                   {" "}
                   Espacios de trabajo equipados, todo incluido (servicios
-                  directos e indirectos), con capacidad de una (1) a cuatro (4)
-                  personas por espacio.
+                  directos e indirectos) con capacidad para equipos de cinco (5)
+                  hasta diez (10) personas.
                 </main>
                 <footer className="p-4">
                   <li className="flex items-center space-x-2">
@@ -323,8 +318,8 @@ const Pricing = () => {
                       ></path>
                     </svg>
                     <a
-                      href="/coprivado"
-                      className="hover:underline hover:text-comarca font-semibold"
+                      href="/emprendedor"
+                      className="hover:underline hover:text-comarcaBlack font-semibold"
                     >
                       <span>Team Emprendedor</span>
                     </a>
@@ -346,8 +341,8 @@ const Pricing = () => {
                     </svg>
 
                     <a
-                      href="/coprivado"
-                      className="hover:underline hover:text-comarca font-semibold"
+                      href="/corporativo"
+                      className="hover:underline hover:text-comarcaBlack font-semibold"
                     >
                       <span>Team corporativo</span>
                     </a>
@@ -367,8 +362,8 @@ const Pricing = () => {
                       ></path>
                     </svg>
                     <a
-                      href="/coprivado"
-                      className="hover:underline hover:text-comarca font-semibold"
+                      href="/estudiante"
+                      className="hover:underline hover:text-comarcaBlack font-semibold"
                     >
                       <span>Team estudiante</span>
                     </a>
@@ -383,7 +378,7 @@ const Pricing = () => {
                 <img
                   alt="Placeholder"
                   className="block h-auto w-full"
-                  src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/gallery%2FCowork1.png?alt=media&token=4181e7be-30b1-4e76-becd-2b80ed4340a9"
+                  src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/home%2FPAQUETES.png?alt=media&token=dcc62450-3820-41be-9b87-b683e45e095e"
                 />
 
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
@@ -391,10 +386,10 @@ const Pricing = () => {
                     Paquetes
                   </h1>
                 </header>
-                <main className="p-4 text-justify">
-                  Espacios de trabajo, todo incluido (servicios directos e
-                  indirectos), con capacidad para grupos de cuatro (4) a veinte
-                  (20) personas.{" "}
+                <main className="p-4 text-justify font-semibold text-sm">
+                  Accesos a precios de una (1) hasta dos (2) horas gratuitas y
+                  membresías con acceso a cien (100 horas) en cualquiera de los
+                  servicios.
                 </main>
 
                 <footer className="p-4">
@@ -473,7 +468,7 @@ const Pricing = () => {
                 <img
                   alt="Placeholder"
                   className="block h-auto w-full "
-                  src={img4}
+                  src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/home%2FESPACIOAUDIOVISUAL.jpg?alt=media&token=20a77bab-0445-429c-bc6a-83300f28a9e2"
                 />
 
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
@@ -481,10 +476,11 @@ const Pricing = () => {
                     Espacio Audiovisual
                   </h1>
                 </header>
-                <main className="p-4 text-justify">
+                <main className="p-4 text-justify font-semibold text-sm">
                   {" "}
-                  Espacio remoto enfocado al desarrollo integral de una empresa
-                  emergente, en busca de la formalidad y crecimiento.
+                  Espacio de trabajo equipado, todo incluido (servicios directos
+                  e indirectos) con capacidad de dos (2) hasta cuatro (4)
+                  personas. personas.
                 </main>
 
                 <footer className="p-4">
@@ -505,7 +501,7 @@ const Pricing = () => {
                       href="/podcast"
                       className="hover:underline hover:text-comarcaPurple font-semibold"
                     >
-                      <span>Podcast</span>
+                      <span>Co Marca Podcast</span>
                     </a>
                   </li>
                   <br />
@@ -586,17 +582,15 @@ const Pricing = () => {
               </svg>
               <br />
               <div className="flex space-x-2 sm:space-x-4">
-                <p className="text-sm font-exo text-justify">
+                <p className="text-sm font-exo text-justify font-semibold ">
                   {" "}
-                  En Co Marca Desarrollamos un sistema coworking con propósito
-                  cubriendo todas las necesidades tangibles e intangibles
-                  propias de un emprendedor que le permita sostener su idea de
-                  negocio, en cada etapa, acompañado por nosotros un colectivo
-                  de contribución efectiva, con todos los recursos necesarios
-                  desde una imagen empresarial, un espacio de trabajo
-                  profesional, hasta servicios digitales corporativos,
-                  reduciendo los altos índices de fracaso en etapa temprana muy
-                  característico del sector.
+                  El impacto que genera una nueva idea de negocio, en las
+                  transformaciones ocupacionales, en los profesionales y
+                  organizaciones que se traducen en innovaciones disruptivas
+                  para el desarrollo de un país integrada con la aplicación de
+                  la tecnología, son factores que han tomado mucho protagonismo
+                  en el proceso de re adaptación y resiliencia, en las nuevas
+                  maneras de hacer economía efecto de la pandemia.
                 </p>
               </div>
               <div className="flex space-x-2 sm:space-x-4">
@@ -611,7 +605,7 @@ const Pricing = () => {
             <div className="lg:w-1/2 xl:w-3/5 bg-gray-100">
               <div className="flex items-center justify-center p-4 md:p-8 lg:p-12  transform transition duration-500 hover:scale-110">
                 <img
-                  src={img5}
+                  src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcolaborativo%2FCoLaborativo3.png?alt=media&token=dffcafe6-282c-45d7-9298-4d2cdd70914f"
                   alt=""
                   className="rounded-lg shadow-lg bg-gray-500 aspect-video sm:min-h-96"
                 />

@@ -6,11 +6,7 @@ import {
   TwitterIcon,
   WhatsappIcon,
 } from "react-share";
-import img1 from "../../../../../assets/img/web/CoCreativo.png";
-import img2 from "../../../../../assets/img/web/CoCreativo(5).png";
-import img3 from "../../../../../assets/img/web/CoCreativo(7).png";
-import img4 from "../../../../../assets/img/web/CoCreativo(6).png";
-import img5 from "../../../../../assets/img/web/CoCreativo(4).png";
+
 import Nav from "../../../../Nav";
 import Footer from "../../../../DefaultFooter";
 import React from "react";
@@ -50,29 +46,29 @@ const CPrivate = () => {
 
         <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4 ">
           <img
-            src={img1}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcocreativo%2FCoCreativo4.png?alt=media&token=10a4fc23-17ef-46dd-9d8c-348dc83faff0"
             alt=""
             className="w-full h-full hover col-span-2 row-span-2 rounded-xl shadow-sm min-h-96 md:col-start-3 md:row-start-1 bg-white aspect-square transform transition duration-500 hover:scale-110"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img2}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcocreativo%2FCoCreativo2s.png?alt=media&token=068292c0-d72f-42db-978a-99cc3d51dbd1"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img3}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcocreativo%2FCOCREATIVO%20(6).png?alt=media&token=6a0efc5e-ddad-4a00-9ec9-0a4742d90d7e"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img4}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcocreativo%2FCOCREATIVO%20(11).png?alt=media&token=399e448f-fa55-4a75-ad6e-5bea93d804a9"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img5}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcocreativo%2FCOCREATIVO%20(2).png?alt=media&token=fd9e13dc-f08e-4894-aa98-048012e2c364"
           />
         </div>
       </section>

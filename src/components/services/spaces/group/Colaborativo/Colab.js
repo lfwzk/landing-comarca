@@ -6,11 +6,7 @@ import {
   TwitterIcon,
   WhatsappIcon,
 } from "react-share";
-import img1 from "../../../../../assets/img/web/CoLaborativo(5).png";
-import img2 from "../../../../../assets/img/web/CoLaborativo(2).png";
-import img3 from "../../../../../assets/img/web/CoLaborativo(3).png";
-import img4 from "../../../../../assets/img/web/CoLaborativo(4).png";
-import img5 from "../../../../../assets/img/web/CoLaborativo.png";
+
 import Nav from "../../../../Nav";
 import Footer from "../../../../DefaultFooter";
 import React from "react";
@@ -50,29 +46,29 @@ const Colab = () => {
 
         <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4 ">
           <img
-            src={img1}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcolaborativo%2FCoLaborativo7.png?alt=media&token=5f47ec47-0a5b-4bac-8bde-9441265a3c4f"
             alt=""
             className="w-full h-full hover col-span-2 row-span-2 rounded-xl shadow-sm min-h-96 md:col-start-3 md:row-start-1 bg-white aspect-square transform transition duration-500 hover:scale-110"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img2}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcolaborativo%2FCoLaborativo3.png?alt=media&token=dffcafe6-282c-45d7-9298-4d2cdd70914f"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img3}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcolaborativo%2FCoLaborativo5.png?alt=media&token=557e5905-c083-4de2-b10d-066a872a36ef"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img4}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcolaborativo%2FCoLaborativo1.png?alt=media&token=b4bc9704-ac0b-40fe-92db-65ec3c4018bf"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img5}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FGrupales%2Fcolaborativo%2FCoLaborativo6.png?alt=media&token=f3ab3f65-eec5-410b-b89d-2d8b57a27931"
           />
         </div>
       </section>

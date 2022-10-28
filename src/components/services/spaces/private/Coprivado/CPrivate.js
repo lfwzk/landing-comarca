@@ -6,11 +6,7 @@ import {
   TwitterIcon,
   WhatsappIcon,
 } from "react-share";
-import img1 from "../../../../../assets/img/web/COPRIVADA(8).png";
-import img2 from "../../../../../assets/img/web/COPRIVADA.png";
-import img3 from "../../../../../assets/img/web/COPRIVADA(6).png";
-import img4 from "../../../../../assets/img/web/COPRIVADA(3).png";
-import img5 from "../../../../../assets/img/web/COPRIVADA(2).png";
+
 import Nav from "../../../../Nav";
 import Footer from "../../../../DefaultFooter";
 import React from "react";
@@ -48,29 +44,29 @@ const CPrivate = () => {
 
         <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4 ">
           <img
-            src={img1}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcoprivado%2FCoPrivado3.png?alt=media&token=211ec00c-d1f8-4626-9776-be410dc4609c"
             alt=""
             className="w-full h-full hover col-span-2 row-span-2 rounded-xl shadow-sm min-h-96 md:col-start-3 md:row-start-1 bg-white aspect-square transform transition duration-500 hover:scale-110"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img2}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcoprivado%2FCoPrivado100.png?alt=media&token=4519b059-c486-4997-b320-16e17b8d8760"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img3}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcoprivado%2FCoPrivado10.png?alt=media&token=11d62416-8e88-41c9-a7f6-fb8dd1586d57"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img4}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcoprivado%2FCoPrivado12.png?alt=media&token=92fa7069-8bdc-4d34-abb4-e653312d60e6"
           />
           <img
             alt=""
             className="w-full h-full rounded-xl shadow-sm min-h-48 bg-gray-500 aspect-square transform transition duration-500 hover:scale-110"
-            src={img5}
+            src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcoprivado%2FCoPrivado11.png?alt=media&token=c233ff5e-aed3-4de7-bc74-230d298997d0"
           />
         </div>
       </section>
