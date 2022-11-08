@@ -2,7 +2,7 @@ import React from "react";
 import Direction from "./Direction";
 import Iframe from "react-iframe";
 import emailjs from "@emailjs/browser";
-import toast, { Toaster } from "react-hot-toast";
+import toast from "react-hot-toast";
 
 const notify = () => toast.success("Enviado correctamente .");
 
@@ -12,10 +12,10 @@ const Mapview = () => {
 
     emailjs
       .sendForm(
-        "service_dlxi4fr",
-        "template_jsexeuv",
+        "service_5p1g02w",
+        "template_02mwe5b",
         e.target,
-        "kFIX_GxLEHjKC-4Oh"
+        "vVSUKGoVdEhos7vjp"
       )
       .then((response) => console.log(response))
       .catch((error) => console.log(error));

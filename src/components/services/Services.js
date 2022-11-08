@@ -7,7 +7,7 @@ import LeadText from "@material-tailwind/react/LeadText";
 //import img from "assets/img/bg-landing-background.jpg";
 //import { Route, Router } from "react-router-dom";
 //import Colaborativo from "./spaces/Colaborativo";
-import Booking from "./Booking";
+//import Booking from "./Booking";
 import background from "../../assets/img/background-comarca.jpg";
 
 export default function Services() {
@@ -58,7 +58,7 @@ export default function Services() {
           organizacional.
         </p>
       </div>
-      <Booking />
+      {/* <Booking /> */}
 
       <Products />
 

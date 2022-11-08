@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f390ca72.chunk.css",
-    "main.js": "/static/js/main.d498ec8a.chunk.js",
-    "main.js.map": "/static/js/main.d498ec8a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.da393b2a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.da393b2a.js.map",
+    "main.css": "/static/css/main.df6f10e3.chunk.css",
+    "main.js": "/static/js/main.5d80f120.chunk.js",
+    "main.js.map": "/static/js/main.5d80f120.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b4ae8b81.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b4ae8b81.js.map",
     "static/css/2.900b0201.chunk.css": "/static/css/2.900b0201.chunk.css",
-    "static/js/2.5b080611.chunk.js": "/static/js/2.5b080611.chunk.js",
-    "static/js/2.5b080611.chunk.js.map": "/static/js/2.5b080611.chunk.js.map",
-    "static/js/3.15fd70d1.chunk.js": "/static/js/3.15fd70d1.chunk.js",
-    "static/js/3.15fd70d1.chunk.js.map": "/static/js/3.15fd70d1.chunk.js.map",
+    "static/js/2.b67a2758.chunk.js": "/static/js/2.b67a2758.chunk.js",
+    "static/js/2.b67a2758.chunk.js.map": "/static/js/2.b67a2758.chunk.js.map",
+    "static/js/3.5ce55290.chunk.js": "/static/js/3.5ce55290.chunk.js",
+    "static/js/3.5ce55290.chunk.js.map": "/static/js/3.5ce55290.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.900b0201.chunk.css.map": "/static/css/2.900b0201.chunk.css.map",
-    "static/css/main.f390ca72.chunk.css.map": "/static/css/main.f390ca72.chunk.css.map",
-    "static/js/2.5b080611.chunk.js.LICENSE.txt": "/static/js/2.5b080611.chunk.js.LICENSE.txt",
+    "static/css/main.df6f10e3.chunk.css.map": "/static/css/main.df6f10e3.chunk.css.map",
+    "static/js/2.b67a2758.chunk.js.LICENSE.txt": "/static/js/2.b67a2758.chunk.js.LICENSE.txt",
     "static/media/CoLaborativo(5).2d7d3326.png": "/static/media/CoLaborativo(5).2d7d3326.png",
     "static/media/CoLaborativo.851ed161.png": "/static/media/CoLaborativo.851ed161.png",
     "static/media/tailwind.css": "/static/media/background-1920x1280.20a2d875.jpg",
@@ -24,17 +24,16 @@
     "static/media/all.min.css": "/static/media/fa-solid-900.efbd5d20.eot",
     "static/media/halloween.760f4fbb.jpeg": "/static/media/halloween.760f4fbb.jpeg",
     "static/media/l1.8709011c.png": "/static/media/l1.8709011c.png",
-    "static/media/portada.4b6b93c3.jpg": "/static/media/portada.4b6b93c3.jpg",
     "static/media/promo1.f6f1d72c.jpeg": "/static/media/promo1.f6f1d72c.jpeg",
     "static/media/promo2.ea1b895a.jpeg": "/static/media/promo2.ea1b895a.jpeg",
     "static/media/proposito.7689f251.png": "/static/media/proposito.7689f251.png",
     "static/media/whitelogo.e9a6f817.png": "/static/media/whitelogo.e9a6f817.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.da393b2a.js",
+    "static/js/runtime-main.b4ae8b81.js",
     "static/css/2.900b0201.chunk.css",
-    "static/js/2.5b080611.chunk.js",
-    "static/css/main.f390ca72.chunk.css",
-    "static/js/main.d498ec8a.chunk.js"
+    "static/js/2.b67a2758.chunk.js",
+    "static/css/main.df6f10e3.chunk.css",
+    "static/js/main.5d80f120.chunk.js"
   ]
 }

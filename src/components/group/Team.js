@@ -50,11 +50,10 @@ export const Team = () => {
                 </p>
                 <p className="mb-4 text-xs text-comarcaGray">CEO Founder</p>
                 <p className="mb-4 text-xs tracking-wide text-gray-400 text-justify">
-                  Emprendedora apasionada, ingeniera comercial especializada en
-                  gerencia de proyectos de desarrollo social, feminista y amante
-                  por integrar el area social y ambiental con la innovación, y
-                  tecnología, crear nuevos desafíos disruptivos, y cambiar la
-                  óptica de las nuevas maneras de hacer economía.
+                  Emprendedora, feminista, ingeniera comercial especializada en
+                  gerencia de proyectos, apasionada por integrar lo social con
+                  la tecnología innovando modelos disruptivos y nuevas maneras
+                  de hacer economía.
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
@@ -324,6 +323,45 @@ export const Team = () => {
                 <div className="flex items-center justify-center space-x-3">
                   <a
                     href="https://www.linkedin.com/in/germ%C3%A1n-guachalla-36437a5b"
+                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="#ffffff"
+                    >
+                      <path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54a3.6 3.6 0 0 1 3.26-1.8c2.39 0 4.18 1.56 4.18 4.89v6.21z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+              <img
+                className="object-cover w-full h-56 md:h-64 xl:h-80"
+                src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/team%2FLeonor.jpeg?alt=media&token=c7e19bc9-f336-4ceb-ae06-53f60ae5c616"
+                alt="Person"
+              />
+              <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                <p className="mb-1 text-lg font-bold text-comarcaGray">
+                  Leonor valdivia
+                </p>
+                <p className="mb-4 text-xs text-comarcaGray">
+                  Projects Event Planner
+                </p>
+                <p className="mb-4 text-xs tracking-wide text-gray-400 text-justify">
+                  Ingeniera Comercial con amplia experiencia en gestión
+                  cultural, planificación, organización de eventos y
+                  asesoramiento en proyectos de carácter social, artístico y
+                  cultural
+                </p>
+                <div className="flex items-center justify-center space-x-3">
+                  <a
+                    href="https://www.linkedin.com/in/leonor-valdivia/"
                     className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                   >
                     <svg

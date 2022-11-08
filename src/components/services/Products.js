@@ -1,13 +1,14 @@
 import img4 from "../../assets/img/web/CoLaborativo.png";
-// import backend from "../../env/Main";
-// import { useState } from "react";
+//import backend from "../../env/Main";
+//import { useState } from "react";
 
 const Products = () => {
   // const [cart, SetData] = useState([]);
 
-  // fetch(backend.api + "space")
+  // fetch(backend.api + "/space")
+
   //   .then((res) => res.json())
-  // .then((res) => SetData(res.data));
+  //   .then((res) => SetData(res.data));
 
   //   <tbody>
   //   {cart.map(categoria=> (
@@ -39,7 +40,22 @@ const Products = () => {
         <div className="container my-12 mx-auto px-4 md:px-12 transform ease-in-out duration-150 transition-transform">
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              {/* {cart.map((space) => (
+              <article className="overflow-hidden rounded-lg shadow-lg transform transition duration-500 hover:scale-110">
+                <a href="/coprivado">
+                  <img
+                    alt="Placeholder"
+                    className="block h-auto w-full"
+                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcoprivado%2FCoPrivado1.png?alt=media&token=18de9ac4-6fdb-49d7-aa7a-950d6a359736"
+                  />
+                </a>
+
+                <header className="flex items-center justify-between leading-tight p-2 md:p-4">
+                  <h1 className="text-lg">
+                    <a
+                      className="no-underline hover:underline  text-comarca font-semibold"
+                      href="/coprivado"
+                    >
+                      {/* {cart.map((space) => (
                 <tr key={space.id}>
                   <td>{space.id}</td>
                   <td>{space.name}</td>
@@ -56,21 +72,6 @@ const Products = () => {
                   </td>
                 </tr>
               ))} */}
-              <article className="overflow-hidden rounded-lg shadow-lg transform transition duration-500 hover:scale-110">
-                <a href="/coprivado">
-                  <img
-                    alt="Placeholder"
-                    className="block h-auto w-full"
-                    src="https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/Services%2FIndividuales%2Fcoprivado%2FCoPrivado1.png?alt=media&token=18de9ac4-6fdb-49d7-aa7a-950d6a359736"
-                  />
-                </a>
-
-                <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                  <h1 className="text-lg">
-                    <a
-                      className="no-underline hover:underline  text-comarca font-semibold"
-                      href="/coprivado"
-                    >
                       Co Privado
                     </a>
                   </h1>
@@ -83,7 +84,7 @@ const Products = () => {
                     type="button"
                     className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarca rounded-xl"
                   >
-                    <a href="/checkout">
+                    <a href="/coprivado">
                       <span className="text-sm font-medium text-white">
                         Reservar
                       </span>
@@ -135,7 +136,7 @@ const Products = () => {
                     type="button"
                     className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarca rounded-xl"
                   >
-                    <a href="/checkout">
+                    <a href="/comunidad">
                       <span className="text-sm font-medium text-white">
                         Reservar
                       </span>
@@ -186,7 +187,7 @@ const Products = () => {
                     type="button"
                     className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarca rounded-xl"
                   >
-                    <a href="/checkout">
+                    <a href="/cocreativo">
                       <span className="text-sm font-medium text-white">
                         Reservar
                       </span>
@@ -251,7 +252,7 @@ const Products = () => {
                     type="button"
                     className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarcaBlue rounded-xl"
                   >
-                    <a href="/checkout">
+                    <a href="/colaborativo">
                       <span className="text-sm font-medium text-white">
                         Reservar
                       </span>
@@ -303,7 +304,7 @@ const Products = () => {
                     type="button"
                     className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarcaBlue rounded-xl"
                   >
-                    <a href="/checkout">
+                    <a href="/coemprende">
                       <span className="text-sm font-medium text-white">
                         Reservar
                       </span>
@@ -355,7 +356,7 @@ const Products = () => {
                     type="button"
                     className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarcaBlue rounded-xl"
                   >
-                    <a href="/checkout">
+                    <a href="/taller">
                       <span className="text-sm font-medium text-white">
                         Reservar
                       </span>

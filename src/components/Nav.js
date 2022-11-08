@@ -103,7 +103,7 @@ export default function Navbar() {
                 href="/coworker"
               >
                 Coworkers
-                <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-exo leading-none text-comarcaBlack bg-comarcaYellow rounded-full">
+                <span className="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-exo leading-none text-comarcaBlack bg-comarcaYellow rounded-full">
                   vip
                 </span>
               </a>
@@ -166,7 +166,7 @@ export default function Navbar() {
                 <span className="hidden sm:block">
                   <div className="sm:gap-4 sm:flex">
                     <a
-                      className="block px-5 py-2.5 text-sm font-medium text-white bg-teal-600 hover:bg-comarca transition rounded-md shadow bg-black"
+                      className="block px-5 py-2.5 text-sm font-medium text-white bg-teal-600 hover:bg-comarca transition rounded-md shadow bg-comarcaBlack"
                       href="/login"
                       onClick={notify}
                     >
@@ -216,6 +216,16 @@ export default function Navbar() {
                     className="text-gray-300 hover:bg-comarcaPurple hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Grupo
+                  </a>
+                </button>
+                <br />
+
+                <button>
+                  <a
+                    href="/coworker"
+                    className="text-gray-300 hover:bg-comarcaPurple hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    Coworkers
                   </a>
                 </button>
                 <br />

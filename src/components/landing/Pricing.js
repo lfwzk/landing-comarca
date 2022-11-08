@@ -407,12 +407,9 @@ const Pricing = () => {
                       ></path>
                     </svg>
 
-                    <a
-                      href="/colaborativo"
-                      className="hover:underline hover:text-comarcaBlue font-semibold"
-                    >
-                      <span>Tarifa Conjunta</span>
-                    </a>
+                    <span className="hover:underline hover:text-comarcaYellow font-semibold">
+                      Tarifa Conjunta
+                    </span>
                   </li>
                   <br />
 
@@ -429,12 +426,11 @@ const Pricing = () => {
                         clipRule="evenodd"
                       ></path>
                     </svg>
-                    <a
-                      href="/coemprende"
-                      className="hover:underline hover:text-comarcaBlue font-semibold"
-                    >
-                      <span> Tarifa Plana </span>
-                    </a>
+
+                    <span className="hover:underline hover:text-comarcaYellow font-semibold">
+                      {" "}
+                      Tarifa Plana{" "}
+                    </span>
                   </li>
                   <br />
                   <li className="flex items-center space-x-2">
@@ -451,12 +447,10 @@ const Pricing = () => {
                       ></path>
                     </svg>
                     <br />
-                    <a
-                      href="/taller"
-                      className="hover:underline hover:text-comarcaBlue font-semibold"
-                    >
-                      <span>Sistema Rotativo</span>
-                    </a>
+
+                    <span className="hover:underline hover:text-comarcaYellow font-semibold">
+                      Sistema Rotativo
+                    </span>
                   </li>
                   <br />
                 </footer>
@@ -499,7 +493,7 @@ const Pricing = () => {
                     </svg>
                     <a
                       href="/podcast"
-                      className="hover:underline hover:text-comarcaPurple font-semibold"
+                      className="hover:underline hover:text-comarcaOrange font-semibold"
                     >
                       <span>Co Marca Podcast</span>
                     </a>
@@ -519,12 +513,10 @@ const Pricing = () => {
                         clipRule="evenodd"
                       ></path>
                     </svg>
-                    <a
-                      href="/laboratorio"
-                      className="hover:underline hover:text-comarcaPurple font-semibold"
-                    >
-                      <span>Youtube</span>
-                    </a>
+
+                    <span className="hover:underline hover:text-comarcaOrange font-semibold">
+                      Youtube
+                    </span>
                   </li>
                   <br />
                   <li className="flex items-center space-x-2">
@@ -540,12 +532,10 @@ const Pricing = () => {
                         clipRule="evenodd"
                       ></path>
                     </svg>
-                    <a
-                      href="/emprende"
-                      className="hover:underline hover:text-comarcaPurple font-semibold"
-                    >
-                      <span>Tik Tok</span>
-                    </a>
+
+                    <span className="hover:underline hover:text-comarcaOrange font-semibold">
+                      Tik Tok
+                    </span>
                   </li>
                   <br />
                 </footer>
