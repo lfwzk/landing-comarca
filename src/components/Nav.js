@@ -5,12 +5,13 @@ import logo from "../assets/img/icons/cw15.png";
 
 import toast, { Toaster } from "react-hot-toast";
 
-export default function Navbar() {
+export default function Navbar(props) {
   const [isOpen, setIsOpen] = useState(false);
+  const [showModal, setShowModal] = React.useState(false);
 
   const notify = () =>
-    toast("cooming soon!", {
-      icon: "🚀",
+    toast("English", {
+      icon: "🗽",
     });
 
   return (
@@ -111,31 +112,86 @@ export default function Navbar() {
 
             <div className="flex items-center ml-8">
               <div className="flex items-center border-gray-100 divide-x divide-gray-100 border-x">
-                <span>
-                  <a
-                    href="/"
-                    className="block p-6 border-b-4 border-transparent hover:border-comarcaBlue hover:text-current"
-                    onClick={notify}
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="#000000"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <circle cx="10" cy="20.5" r="1" />
-                      <circle cx="18" cy="20.5" r="1" />
-                      <path d="M2.5 2.5h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6l1.6-8.4H7.1" />
-                    </svg>
+                <span className="relative inline-block">
+                  <button onClick={() => setShowModal(true)}>
+                    <a className="block p-6 border-b-4 border-transparent hover:border-comarcaBlue hover:text-current ">
+                      {/* <span className="absolute top-2 right-0 px-2 py-1 text-xs font-bold leading-none text-white transform bg-comarca rounded-full">
+                            0
+                          </span> */}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="#000000"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <circle cx="10" cy="20.5" r="1" />
+                        <circle cx="18" cy="20.5" r="1" />
+                        <path d="M2.5 2.5h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6l1.6-8.4H7.1" />
+                      </svg>
 
-                    <span className="sr-only">Cart</span>
-                  </a>
+                      <span className="sr-only">Cart</span>
+                      {props.countCartItems ? (
+                        <button className="absolute top-2 right-0 px-2 py-1 text-xs font-bold leading-none text-white transform bg-comarca rounded-full">
+                          {props.countCartItems}
+                        </button>
+                      ) : (
+                        ""
+                      )}
+                    </a>
+                  </button>
                 </span>
+                {showModal ? (
+                  <>
+                    <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+                      <div className="relative w-auto my-6 mx-auto max-w-3xl">
+                        {/*content*/}
+                        <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                          {/*header*/}
+                          <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
+                            <h3 className="text-3xl font-semibold">
+                              Carrito de compras
+                            </h3>
+                            <button
+                              className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
+                              onClick={() => setShowModal(false)}
+                            >
+                              <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
+                                ×
+                              </span>
+                            </button>
+                          </div>
+                          {/*body*/}
+                          <div className="relative p-6 flex-auto">
+                            <p>Producto 1</p>
+                          </div>
+                          {/*footer*/}
+                          <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
+                            <button
+                              className="text-comarca  background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                              type="button"
+                              onClick={() => setShowModal(false)}
+                            >
+                              Close
+                            </button>
+                            <button
+                              className="bg-comarca  text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                              type="button"
+                              onClick={() => setShowModal(false)}
+                            >
+                              Pagar
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+                  </>
+                ) : null}
 
                 <span>
                   <button

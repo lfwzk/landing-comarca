@@ -3,7 +3,7 @@
 import { Button } from "@material-tailwind/react";
 import imgtyp from "../../assets/img/whitelogo.png";
 import { TypeAnimation } from "react-type-animation";
-//import wallpaper from "../../assets/img/portada.jpg";
+import wallpaper from "../../assets/img/portada.jpg";
 //        import imgfull from "../../assets/img/img.jpeg";
 
 export default function Header() {
@@ -13,7 +13,7 @@ export default function Header() {
         className="bg-cover bg-center absolute top-0 w-full h-full object-cover"
         style={{
           //backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9)), url(${rocket})`,
-          backgroundImage: `linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url(https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/background%2FDSC_0960.JPG?alt=media&token=2aef9900-6141-4f2a-9d99-7843b35ecee6)`,
+          backgroundImage: `linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url(${wallpaper})`,
           height: `100vh`,
           backgroundSize: `cover`,
         }}
@@ -32,23 +32,23 @@ export default function Header() {
               <div className="flex justify-center mt-10">
                 <TypeAnimation
                   sequence={[
-                    "Un cowork con propósito 🎃",
+                    "Un cowork con propósito",
                     9000,
-                    "Un ecosistema para el emprendedor 🎃",
+                    "Un ecosistema para el emprendedor",
                     5000,
-                    "Sistema colaborativo & Co Creación 🎃",
+                    "Sistema colaborativo & Co Creación",
                     5000,
-                    "Comunidad & Networking 🎃",
+                    "Comunidad & Networking",
                     5000,
-                    "Mitigar Riegos del emprendedor 🎃",
+                    "Mitigar Riegos del emprendedor",
                     5000,
-                    "Imagen corporativa 🎃",
+                    "Imagen corporativa",
                     5000,
-                    "Equipo, Contención y apoyo 🎃",
+                    "Equipo, Contención y apoyo",
                     5000,
-                    "Resiliencia, Flexibilidad y adaptabilidad 🎃",
+                    "Resiliencia, Flexibilidad y adaptabilidad",
                     5000,
-                    "Innovación  y mejora continua 🎃",
+                    "Innovación  y mejora continua",
                     5000,
                   ]}
                   wrapper="div"

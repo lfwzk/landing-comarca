@@ -3,14 +3,14 @@ import LeadText from "@material-tailwind/react/LeadText";
 import { Button } from "@material-tailwind/react";
 import Events from "./Events";
 import Footer from "components/DefaultFooter";
-//import { useState } from "react";
-//import backend from "../../env/Main";
+import { useState } from "react";
+import backend from "../../env/Main";
 
 const Blog = () => {
-  // const [cart, SetData] = useState([]);
-  // fetch(backend.api + "/blog")
-  //   .then((res) => res.json())
-  //   .then((res) => SetData(res.data));
+  const [cart, SetData] = useState([]);
+  fetch(backend.api + "/blog")
+    .then((res) => res.json())
+    .then((res) => SetData(res.data));
   return (
     <>
       <div className=" w-full z-20 fixed">
@@ -57,7 +57,7 @@ const Blog = () => {
         </div>
         <Events />
 
-        {/* <section className="font-exo ">
+        <section className="font-exo ">
           {cart.map((blog) => (
             <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
               <a
@@ -80,7 +80,7 @@ const Blog = () => {
               </a>
             </div>
           ))}
-        </section> */}
+        </section>
       </main>
       <Footer />
     </>

@@ -10,15 +10,18 @@ import {
 import Nav from "../../../../Nav";
 import Footer from "../../../../DefaultFooter";
 import React from "react";
+// import backend from "../../../../../env/Main";
+// import { useState } from "react";
+import ProductsCp from "./ProductsCp";
+
 const CPrivate = () => {
-  const [showModal, setShowModal] = React.useState(false);
   return (
     <div>
       <div className=" w-full z-20 fixed ">
         <Nav />
       </div>
-      <section className="py-6 bg-white text-gray-900">
-        <div className="container max-w-7xl mx-1 px-1 lg:pt-8">
+      <section className="py-6 bg-white">
+        <div className="container mx-1 px-1 lg:pt-8">
           <div className="flex items-center -mx-4 overflow-x-auto overflow-y-hidden sm:justify-center flex-nowrap font-exo ">
             <a
               href="/services"
@@ -72,10 +75,10 @@ const CPrivate = () => {
       </section>
       <section className="py-6 bg-gray-100 text-gray-900 font-exo">
         <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
-          <div className="py-6 md:py-0 md:px-6">
+          <div className="py-6 md:py-0 md:px-6 px-6">
             <h1 className="text-4xl font-bold p-3">Co Privado </h1>
             <h2 className="text-2xl font-bold">Descripción </h2>
-            <p className="pt-2 pb-4 text-justify">
+            <p className="pt-2 pb-4 text-justify text-sm">
               Un espacio de trabajo individual y confortable privado para
               desarrollar actividades profesionales multidisciplinarias con
               acceso a herramientas de trabajo{" "}
@@ -86,6 +89,7 @@ const CPrivate = () => {
               Alquiler por hora, día, semana y mes.
             </p>
             <ul className="list-disc list-inside">
+              <p className="text-comarca font-bold p-4"> Escencial:</p>
               <li>Espacio de trabajo equipado para dos (2) personas</li>
               <li>
                 Internet Ilimitado velocidad de 120 MB cableado LAN y router
@@ -96,6 +100,11 @@ const CPrivate = () => {
               <li>Estante</li>
               <li>Pizarras</li>
               <li>Lámparas</li>
+            </ul>
+          </div>
+          <div className=" md:py-0 md:px-6 px-6">
+            <ul className="list-disc list-inside">
+              <p className="text-comarca font-bold p-4"> Bonus:</p>
               <li>Llave e independencia</li>
               <li>Actividades de Networking </li>
               <li>Espacios de recreación</li>
@@ -118,7 +127,6 @@ const CPrivate = () => {
               <li>Medidas de Bioseguridad</li>
               <li>Acceso a sala de yoga</li>
             </ul>
-
             <div className="container max-w-7xl mx-auto px-4 lg:pt-8 flex flex-row font-exo font-semibold">
               Compartir en:
               <br />
@@ -131,7 +139,7 @@ const CPrivate = () => {
             </div>
           </div>
 
-          <form
+          {/* <form
             novalidate=""
             className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid"
           >
@@ -194,7 +202,7 @@ const CPrivate = () => {
                           1590
                         </p>
                       </div>
-                      {/*footer*/}
+         
                       <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
                         <button
                           className="text-comarca background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
@@ -258,9 +266,13 @@ const CPrivate = () => {
                 />
               </svg>
             </button>
-          </form>
+          </form> */}
         </div>
       </section>
+      <section className="bg-white">
+        <ProductsCp />
+      </section>
+
       <Footer />
     </div>
   );
