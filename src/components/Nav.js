@@ -16,12 +16,17 @@ export default function Navbar(props) {
 
   return (
     <>
-      <header className="border-b border-gray-100 bg-white fixed-top font-exo">
-        <div className="flex items-center justify-between h-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8 ">
-          <a className="block" href="/">
+      <header className=" bg-white fixed-top font-exo">
+        <div className="flex items-center justify-between h-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-4 ">
+          <a className="block flex flex-row" href="/">
             <span className="sr-only">Home</span>
 
             <img src={logo} alt="logo" className="h-12 hidden  md:block" />
+            <img
+              src="https://i.pinimg.com/originals/62/9b/80/629b8098f130fdaf061a22bbe9d7d379.png"
+              alt="logo"
+              className="h-12 hidden  md:block"
+            />
           </a>
           <div className="flex items-center">
             <div className="p-2 sm:mr-4 lg:hidden">
@@ -76,28 +81,28 @@ export default function Navbar(props) {
                 href="/"
                 className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-comarca hover:border-current"
               >
-                Home
+                Home⚽
               </a>
 
               <a
                 href="/services"
                 className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-comarcaBlue hover:border-current"
               >
-                Servicios
+                Servicios⚽
               </a>
 
               <a
                 href="/group"
                 className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-comarcaYellow hover:border-current"
               >
-                Grupo
+                Grupo⚽
               </a>
 
               <a
                 href="/blog"
                 className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-comarcaPurple hover:border-current"
               >
-                Blog
+                Blog⚽
               </a>
               <a
                 className="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-comarcaPurple hover:border-current"
@@ -111,33 +116,65 @@ export default function Navbar(props) {
             </nav>
 
             <div className="flex items-center ml-8">
-              <div className="flex items-center border-gray-100 divide-x divide-gray-100 border-x">
+              <div className="flex items-center border-gray-100  ">
+                <span>
+                  <div className="flex flex-row ">
+                    {" "}
+                    <button
+                      className="block p-2 border-b-4 border-transparent hover:border-current"
+                      onClick={notify}
+                      href="/"
+                    >
+                      <img
+                        src="https://flagcdn.com/us.svg"
+                        width="30"
+                        alt="United States"
+                        className="mr-2"
+                      ></img>
+                    </button>
+                    <button
+                      className="block p-2 border-b-4 border-transparent hover:border-current"
+                      onClick={notify}
+                      href="/"
+                    >
+                      <img
+                        src="https://flagcdn.com/mx.svg"
+                        width="30"
+                        alt="Mexico"
+                        className="mr-2"
+                      ></img>
+                    </button>
+                  </div>
+                  {/* <span className="sr-only"> Language </span> */}
+
+                  <Toaster />
+                </span>
+
                 <span className="relative inline-block">
                   <button onClick={() => setShowModal(true)}>
-                    <a className="block p-6 border-b-4 border-transparent hover:border-comarcaBlue hover:text-current ">
+                    <a className="block p-2 border-b-4 border-transparent ">
                       {/* <span className="absolute top-2 right-0 px-2 py-1 text-xs font-bold leading-none text-white transform bg-comarca rounded-full">
                             0
                           </span> */}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
                         fill="none"
-                        stroke="#000000"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
                       >
-                        <circle cx="10" cy="20.5" r="1" />
-                        <circle cx="18" cy="20.5" r="1" />
-                        <path d="M2.5 2.5h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6l1.6-8.4H7.1" />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                        />
                       </svg>
 
                       <span className="sr-only">Cart</span>
                       {props.countCartItems ? (
                         <button className="absolute top-2 right-0 px-2 py-1 text-xs font-bold leading-none text-white transform bg-comarca rounded-full">
-                          {props.countCartItems}
+                          1
                         </button>
                       ) : (
                         ""
@@ -193,11 +230,10 @@ export default function Navbar(props) {
                   </>
                 ) : null}
 
-                <span>
-                  <button
-                    className="block p-6 border-b-4 border-transparent hover:border-comarcaPurple hover:border-current"
-                    onClick={notify}
-                    href="/"
+                <span className="relative inline-block">
+                  <a
+                    href="/login"
+                    className="block p-2 border-b-4 border-transparent "
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -210,25 +246,12 @@ export default function Navbar(props) {
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64"
+                        d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                     </svg>
 
-                    <span className="sr-only"> Language </span>
-                  </button>
-                  <Toaster />
-                </span>
-
-                <span className="hidden sm:block">
-                  <div className="sm:gap-4 sm:flex">
-                    <a
-                      className="block px-5 py-2.5 text-sm font-medium text-white bg-teal-600 hover:bg-comarca transition rounded-md shadow bg-comarcaBlack"
-                      href="/login"
-                      onClick={notify}
-                    >
-                      Login
-                    </a>
-                  </div>
+                    <span className="sr-only"> Account </span>
+                  </a>
                 </span>
               </div>
             </div>

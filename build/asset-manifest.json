@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.646e27b3.chunk.css",
-    "main.js": "/static/js/main.cc550212.chunk.js",
-    "main.js.map": "/static/js/main.cc550212.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b4ae8b81.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b4ae8b81.js.map",
+    "main.css": "/static/css/main.bbafb428.chunk.css",
+    "main.js": "/static/js/main.4d8f3904.chunk.js",
+    "main.js.map": "/static/js/main.4d8f3904.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.24111b0d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.24111b0d.js.map",
     "static/css/2.900b0201.chunk.css": "/static/css/2.900b0201.chunk.css",
-    "static/js/2.6f7e7d23.chunk.js": "/static/js/2.6f7e7d23.chunk.js",
-    "static/js/2.6f7e7d23.chunk.js.map": "/static/js/2.6f7e7d23.chunk.js.map",
-    "static/js/3.5ce55290.chunk.js": "/static/js/3.5ce55290.chunk.js",
-    "static/js/3.5ce55290.chunk.js.map": "/static/js/3.5ce55290.chunk.js.map",
+    "static/js/2.5a2b7906.chunk.js": "/static/js/2.5a2b7906.chunk.js",
+    "static/js/2.5a2b7906.chunk.js.map": "/static/js/2.5a2b7906.chunk.js.map",
+    "static/js/3.12b33397.chunk.js": "/static/js/3.12b33397.chunk.js",
+    "static/js/3.12b33397.chunk.js.map": "/static/js/3.12b33397.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.900b0201.chunk.css.map": "/static/css/2.900b0201.chunk.css.map",
-    "static/css/main.646e27b3.chunk.css.map": "/static/css/main.646e27b3.chunk.css.map",
-    "static/js/2.6f7e7d23.chunk.js.LICENSE.txt": "/static/js/2.6f7e7d23.chunk.js.LICENSE.txt",
+    "static/css/main.bbafb428.chunk.css.map": "/static/css/main.bbafb428.chunk.css.map",
+    "static/js/2.5a2b7906.chunk.js.LICENSE.txt": "/static/js/2.5a2b7906.chunk.js.LICENSE.txt",
     "static/media/CoLaborativo(5).2d7d3326.png": "/static/media/CoLaborativo(5).2d7d3326.png",
     "static/media/CoLaborativo.851ed161.png": "/static/media/CoLaborativo.851ed161.png",
     "static/media/tailwind.css": "/static/media/background-1920x1280.20a2d875.jpg",
-    "static/media/background-comarca.8a1a0ae4.jpg": "/static/media/background-comarca.8a1a0ae4.jpg",
     "static/media/cashflow.74626f97.jpeg": "/static/media/cashflow.74626f97.jpeg",
     "static/media/cw11.ced1b347.png": "/static/media/cw11.ced1b347.png",
     "static/media/cw15.1c63adec.png": "/static/media/cw15.1c63adec.png",
@@ -30,10 +29,10 @@
     "static/media/whitelogo.e9a6f817.png": "/static/media/whitelogo.e9a6f817.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b4ae8b81.js",
+    "static/js/runtime-main.24111b0d.js",
     "static/css/2.900b0201.chunk.css",
-    "static/js/2.6f7e7d23.chunk.js",
-    "static/css/main.646e27b3.chunk.css",
-    "static/js/main.cc550212.chunk.js"
+    "static/js/2.5a2b7906.chunk.js",
+    "static/css/main.bbafb428.chunk.css",
+    "static/js/main.4d8f3904.chunk.js"
   ]
 }

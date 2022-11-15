@@ -3,7 +3,7 @@
 import { Button } from "@material-tailwind/react";
 import imgtyp from "../../assets/img/whitelogo.png";
 import { TypeAnimation } from "react-type-animation";
-import wallpaper from "../../assets/img/portada.jpg";
+//import wallpaper from "../../assets/img/portada.jpg"
 //        import imgfull from "../../assets/img/img.jpeg";
 
 export default function Header() {
@@ -13,7 +13,8 @@ export default function Header() {
         className="bg-cover bg-center absolute top-0 w-full h-full object-cover"
         style={{
           //backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9)), url(${rocket})`,
-          backgroundImage: `linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url(${wallpaper})`,
+          backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 25%, rgba(86,4,44,1) 95%), url(https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/background%2Fworldcup.JPG?alt=media&token=3542bd23-7042-4d09-ae86-00122009ea5c)`,
+          // backgroundImage: `linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url(https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/background%2Fworldcup.JPG?alt=media&token=3542bd23-7042-4d09-ae86-00122009ea5c)`,
           height: `100vh`,
           backgroundSize: `cover`,
         }}

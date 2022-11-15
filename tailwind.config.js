@@ -4,15 +4,18 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
-      comarca: "#f03648",
+      comarca: "#56042C",
       comarcaGray: "#EAEAEA",
       comarcaPurple: "#663282",
-      comarcaBlue: "#03989E",
-      comarcaYellow: "#EBFC20",
+      comarcaBlue: "#49BCE3",
+      comarcaYellow: "#FEC310",
       comarcaOrange: "#FAB328",
       comarcaBlack: "#000000",
       academiaazul: "#043f8f",
       academiaceleste: "#069be1",
+      qatar: "#f03648",
+      qatar2: "#EBFC20",
+      qatar3: "#03989E",
     },
     fontFamily: {
       exo: ["Exo"],
@@ -20,7 +23,8 @@ module.exports = {
     extend: {
       backgroundImage: () => ({
         "login-background":
-          "linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url('/src/assets/img/background-1920x1280.jpg')",
+          "linear-gradient(180deg, rgba(0,0,0,0) 12%, rgba(86,4,44,1) 41%, rgba(0,0,0,1) 90%), url('/src/assets/img/background-1920x1280.jpg')",
+        // "linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url('/src/assets/img/background-1920x1280.jpg')",
         "landing-background":
           "linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url('https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
         "profile-background":

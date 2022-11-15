@@ -58,8 +58,8 @@ const Blog = () => {
         <Events />
 
         <section className="font-exo ">
-          {cart.map((blog) => (
-            <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
+          <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
+            {cart.map((blog) => (
               <a
                 rel="noopener noreferrer"
                 href="#"
@@ -78,8 +78,8 @@ const Blog = () => {
                   <p className="text-justify">{blog.introduccion}</p>
                 </div>
               </a>
-            </div>
-          ))}
+            ))}
+          </div>
         </section>
       </main>
       <Footer />

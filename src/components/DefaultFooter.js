@@ -52,6 +52,14 @@ export default function DefaultFooter() {
                 >
                   <Icon family="font-awesome" name="fab fa-tiktok " />
                 </a>
+                <a
+                  href="https://www.tiktok.com/@co_marca"
+                  className="grid place-items-center bg-white text-indigo-500 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Icon family="font-awesome" name="fab fa-spotify " />
+                </a>
 
                 {/* <a
                   href="https://www.tiktok.com/@co_marca"
