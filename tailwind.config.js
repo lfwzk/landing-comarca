@@ -4,14 +4,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
-      comarca: "#56042C",
+      comarca: "#f03648",
       comarcaGray: "#EAEAEA",
       comarcaPurple: "#663282",
-      comarcaBlue: "#49BCE3",
-      comarcaYellow: "#FEC310",
+      comarcaBlue: "#03989E",
+      comarcaYellow: "#EBFC20",
       comarcaOrange: "#FAB328",
       comarcaBlack: "#000000",
-      academiaazul: "#043f8f",
+      academiaazul: "#03989E",
       academiaceleste: "#069be1",
       qatar: "#f03648",
       qatar2: "#EBFC20",

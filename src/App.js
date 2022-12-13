@@ -39,11 +39,11 @@ import Emprende from "components/group/Emprende";
 import Podcast from "components/group/Podcast";
 import Estudiante from "components/services/spaces/offers/Student";
 import Corp from "components/services/spaces/offers/Corp";
+import Paga from "./Paga";
 
 function App() {
   return (
     <Router>
-      <Route exact path="/checkout" component={Checkout} />
       <Route exact path="/" component={Landing} />
       <Route exact path="/profile" component={Profile} />
       <Route exact path="/login" component={Login} />
@@ -59,6 +59,10 @@ function App() {
       <Route exact path="/coworker" component={Coworker} />
 
       <Route exact path="/coprivado" component={CPrivate} />
+      <Route exact path="/checkout/:id" component={Checkout}>
+        <Paga />
+      </Route>
+
       <Route exact path="/comunidad" component={Cmmunity} />
       <Route exact path="/cocreativo" component={Ccreative} />
 

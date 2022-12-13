@@ -10,15 +10,53 @@ import {
 import Nav from "../../../../Nav";
 import Footer from "../../../../DefaultFooter";
 import React from "react";
-// import backend from "../../../../../env/Main";
+import backend from "../../../../../env/Main";
 // import { useState } from "react";
 import ProductsCp from "./ProductsCp";
+import { useEffect } from "react";
+import { useState } from "react";
 
 const CPrivate = () => {
+  const [cart, SetData] = useState([]);
+  const { space } = backend.api + "space";
+  const onAdd = (space) => {
+    const exist = cart.find((x) => x.id === space.id);
+    if (exist) {
+      let NewItems = cart.map((x) =>
+        x.id === space.id ? { ...exist, qty: exist.qty + 1 } : x
+      );
+
+      SetData(NewItems);
+    } else {
+      const NewItems = [...cart, { ...space, qty: 1 }];
+      // SetData([...cart, { ...space, qty: 1 }]);
+      SetData(NewItems);
+    }
+  };
+  const onRemove = (space) => {
+    const exist = cart.find((x) => x.id === space.id);
+    if (exist.qty === 1) {
+      SetData(cart.filter((x) => x.id !== space.id));
+    } else {
+      SetData(
+        cart.map((x) =>
+          x.id === space.id ? { ...exist, qty: exist.qty - 1 } : x
+        )
+      );
+    }
+  };
+
+  // useEffect(() => {
+  //   //console.log(cart);
+  //   fetch(backend.api + "space")
+  //     .then((res) => res.json())
+  //     .then((res) => SetData(res.data));
+  // }, [cart]);
+
   return (
     <div>
       <div className=" w-full z-20 fixed ">
-        <Nav />
+        <Nav countItems={cart.length} />
       </div>
       <section className="py-6 bg-white">
         <div className="container mx-1 px-1 lg:pt-8">
@@ -270,7 +308,7 @@ const CPrivate = () => {
         </div>
       </section>
       <section className="bg-white">
-        <ProductsCp />
+        <ProductsCp space={space} onAdd={onAdd} onRemove={onRemove} />
       </section>
 
       <Footer />

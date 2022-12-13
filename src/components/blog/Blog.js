@@ -8,7 +8,7 @@ import backend from "../../env/Main";
 
 const Blog = () => {
   const [cart, SetData] = useState([]);
-  fetch(backend.api + "/blog")
+  fetch(backend.api + "blog")
     .then((res) => res.json())
     .then((res) => SetData(res.data));
   return (
@@ -59,26 +59,28 @@ const Blog = () => {
 
         <section className="font-exo ">
           <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
-            {cart.map((blog) => (
-              <a
-                rel="noopener noreferrer"
-                href="#"
-                className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 bg-gray-50"
-              >
-                <img
-                  src={blog.img_blog}
-                  alt=""
-                  className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 bg-gray-500"
-                />
-                <div className="p-6 space-y-2 lg:col-span-5">
-                  <h3 className="text-2xl font-semibold sm:text-4xl  group-focus:underline">
-                    {blog.titulo}
-                  </h3>
-                  <span className="text-xs text-gray-600">{blog.fecha}</span>
-                  <p className="text-justify">{blog.introduccion}</p>
-                </div>
-              </a>
-            ))}
+            {cart
+              .filter((blog) => blog.estado === "true")
+              .map((blog) => (
+                <a
+                  rel="noopener noreferrer"
+                  href="/"
+                  className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 bg-gray-50"
+                >
+                  <img
+                    src={blog.img_blog}
+                    alt=""
+                    className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 bg-gray-500"
+                  />
+                  <div className="p-6 space-y-2 lg:col-span-5">
+                    <h3 className="text-2xl font-semibold sm:text-4xl  group-focus:underline">
+                      {blog.titulo}
+                    </h3>
+                    <span className="text-xs text-gray-600">{blog.fecha}</span>
+                    <p className="text-justify">{blog.introduccion}</p>
+                  </div>
+                </a>
+              ))}
           </div>
         </section>
       </main>

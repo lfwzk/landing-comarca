@@ -3,12 +3,8 @@ import Nav from "components/Nav";
 import Products from "./Products";
 import DefaultFooter from "components/DefaultFooter";
 import LeadText from "@material-tailwind/react/LeadText";
-//import { Button } from "@material-tailwind/react";
-//import img from "assets/img/bg-landing-background.jpg";
-//import { Route, Router } from "react-router-dom";
-//import Colaborativo from "./spaces/Colaborativo";
-//import Booking from "./Booking";
-//import background from "../../assets/img/background-comarca.jpg";
+
+import background from "../../assets/img/background-comarca.jpg";
 
 export default function Services() {
   return (
@@ -22,8 +18,8 @@ export default function Services() {
           <div
             className="bg-cover bg-center absolute top-0 w-full h-full object-cover"
             style={{
-              //backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9)), url(${rocket})`,
-              backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 25%, rgba(86,4,44,1) 95%), url(https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/background%2Freally.jpeg?alt=media&token=01694248-babf-4411-9514-e8217a7b8083)`,
+              backgroundImage: `linear-gradient(180deg, rgba(0,0,0, 0) 12%, rgba(0,0,0, 0) 16%, rgba(0.0.0.1) 80% ), url(${background})`,
+              //  backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 25%, rgba(86,4,44,1) 95%), url(https://firebasestorage.googleapis.com/v0/b/landing-comarca-storage.appspot.com/o/background%2Freally.jpeg?alt=media&token=01694248-babf-4411-9514-e8217a7b8083)`,
               height: `100vh`,
               backgroundSize: `cover`,
             }}

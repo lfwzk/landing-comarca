@@ -3,30 +3,6 @@ import img4 from "../../assets/img/web/CoLaborativo.png";
 //import { useState } from "react";
 
 const Products = () => {
-  // const [cart, SetData] = useState([]);
-
-  // fetch(backend.api + "/space")
-
-  //   .then((res) => res.json())
-  //   .then((res) => SetData(res.data));
-
-  //   <tbody>
-  //   {cart.map(categoria=> (
-  //           <tr key={categoria.id}>
-  //               <td>{categoria.id}</td>
-  //               <td>{categoria.categspace_name}</td>
-  //               <td>{categoria.categspace_state}</td>
-  //               <td>
-  //                   <button className='btn btn-warning' onClick={() => {console.log(categoria.id);}} >next</button>
-  //                   {"  "}
-  //                   <button className='btn btn-primary' onClick={() => {setModal(true);}} > <Lucide icon="Edit" className="w-4 h-4 mr-1" /></button>
-  //                   {"  "}
-  //                   <button className='btn btn-danger' > <Lucide icon="Delete" className="w-4 h-4 mr-1" /></button>
-  //               </td>
-  //           </tr>
-  //       ))}
-  // </tbody>
-
   return (
     <>
       <section className="font-exo ">
@@ -86,22 +62,22 @@ const Products = () => {
                   >
                     <a href="/coprivado">
                       <span className="text-sm font-medium text-white">
-                        Reservar
+                        Detalles
                       </span>
                     </a>
                     <svg
-                      className="w-5 h-5 ml-1.5"
                       xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
+                      width="16"
+                      height="16"
                       viewBox="0 0 24 24"
+                      fill="none"
                       stroke="#ffffff"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
-                      />
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z" />
+                      <path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" />
                     </svg>
                   </button>
                 </footer>
@@ -138,22 +114,23 @@ const Products = () => {
                   >
                     <a href="/comunidad">
                       <span className="text-sm font-medium text-white">
-                        Reservar
+                        Detalles
                       </span>
                     </a>
+
                     <svg
-                      className="w-5 h-5 ml-1.5"
                       xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
+                      width="16"
+                      height="16"
                       viewBox="0 0 24 24"
+                      fill="none"
                       stroke="#ffffff"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
-                      />
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z" />
+                      <path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" />
                     </svg>
                   </button>
                 </footer>
@@ -189,22 +166,23 @@ const Products = () => {
                   >
                     <a href="/cocreativo">
                       <span className="text-sm font-medium text-white">
-                        Reservar
+                        Detalles
                       </span>
                     </a>
+
                     <svg
-                      className="w-5 h-5 ml-1.5"
                       xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
+                      width="16"
+                      height="16"
                       viewBox="0 0 24 24"
+                      fill="none"
                       stroke="#ffffff"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
-                      />
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z" />
+                      <path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" />
                     </svg>
                   </button>
                 </footer>
@@ -254,22 +232,23 @@ const Products = () => {
                   >
                     <a href="/colaborativo">
                       <span className="text-sm font-medium text-white">
-                        Reservar
+                        Detalles
                       </span>
                     </a>
+
                     <svg
-                      className="w-5 h-5 ml-1.5"
                       xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
+                      width="16"
+                      height="16"
                       viewBox="0 0 24 24"
+                      fill="none"
                       stroke="#ffffff"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
-                      />
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z" />
+                      <path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" />
                     </svg>
                   </button>
                 </footer>
@@ -306,22 +285,23 @@ const Products = () => {
                   >
                     <a href="/coemprende">
                       <span className="text-sm font-medium text-white">
-                        Reservar
+                        Detalles
                       </span>
                     </a>
+
                     <svg
-                      className="w-5 h-5 ml-1.5"
                       xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
+                      width="16"
+                      height="16"
                       viewBox="0 0 24 24"
+                      fill="none"
                       stroke="#ffffff"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
-                      />
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z" />
+                      <path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" />
                     </svg>
                   </button>
                 </footer>
@@ -358,22 +338,23 @@ const Products = () => {
                   >
                     <a href="/taller">
                       <span className="text-sm font-medium text-white">
-                        Reservar
+                        Detalles
                       </span>
                     </a>
+
                     <svg
-                      className="w-5 h-5 ml-1.5"
                       xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
+                      width="16"
+                      height="16"
                       viewBox="0 0 24 24"
+                      fill="none"
                       stroke="#ffffff"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
-                      />
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z" />
+                      <path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" />
                     </svg>
                   </button>
                 </footer>
@@ -585,7 +566,7 @@ const Products = () => {
                     className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarcaYellow rounded-xl"
                   >
                     <span className="text-sm font-medium text-white">
-                      Reservar
+                      Detalles
                     </span>
 
                     <svg
@@ -636,7 +617,7 @@ const Products = () => {
                     className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarcaYellow rounded-xl"
                   >
                     <span className="text-sm font-medium text-white">
-                      Reservar
+                      Detalles
                     </span>
 
                     <svg

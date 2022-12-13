@@ -10,8 +10,8 @@ import {
 import Nav from "../../../../Nav";
 import Footer from "../../../../DefaultFooter";
 import React from "react";
+import Products from "./ProductsColab";
 const Colab = () => {
-  const [showModal, setShowModal] = React.useState(false);
   return (
     <div>
       <div className=" w-full z-20 fixed ">
@@ -93,6 +93,10 @@ const Colab = () => {
                 Internet Ilimitado velocidad de 90 MB cableado LAN y router
                 dedicado.
               </li>
+            </ul>
+          </div>
+          <div className=" md:py-0 md:px-6 px-6">
+            <ul className="list-disc list-inside">
               <li>Actividades de Networking</li>
               <li>Espacios de recreación</li>
               <li>Pizarras</li>
@@ -121,138 +125,10 @@ const Colab = () => {
               <PinterestIcon size={32} round={true} />
             </div>
           </div>
-          <form
-            novalidate=""
-            className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid"
-          >
-            <button
-              type="button"
-              onClick={() => setShowModal(true)}
-              className="inline-flex items-center justify-center space-x-2 py-3 px-4 border border-transparent text-sm font-medium rounded-xl text-white hover:text-white bg-comarcaBlue hover:bg-comarcaBlue transition-colors"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-              <div>Detalles</div>
-            </button>{" "}
-            {showModal ? (
-              <>
-                <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
-                  <div className="relative w-auto my-6 mx-auto max-w-3xl">
-                    <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                      <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                        <h3 className="text-3xl font-semibold">Precios</h3>
-                        <button
-                          className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                          onClick={() => setShowModal(false)}
-                        >
-                          <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                            ×
-                          </span>
-                        </button>
-                      </div>
-
-                      <div className="relative p-6 flex-auto">
-                        <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                          <strong className="text-comarcaBlue">Por hora</strong>{" "}
-                          Bs. 75
-                          <br />
-                          <strong className="text-comarcaBlue">
-                            Mas de 4 horas
-                          </strong>{" "}
-                          Bs. 65
-                          <br />
-                          <strong className="text-comarcaBlue">
-                            Por dia
-                          </strong>{" "}
-                          Bs. 400
-                          <br />
-                          <strong className="text-comarcaBlue">
-                            Por semana
-                          </strong>{" "}
-                          Bs 1300
-                          <br />
-                          <strong className="text-comarcaBlue">
-                            Por mes
-                          </strong>{" "}
-                          Bs 3500
-                        </p>
-                      </div>
-                      {/*footer*/}
-                      <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
-                        <button
-                          className="text-comarcaBlue background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                          type="button"
-                          onClick={() => setShowModal(false)}
-                        >
-                          Close
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
-              </>
-            ) : null}
-            <div className="flex flex-col space-y-2">
-              <span>Hora Entrada</span>
-
-              <input type="time" required />
-              <br />
-
-              <span className="form-label rounded-xl">Hora Salida</span>
-
-              <input type="time" required />
-            </div>
-            <label className="block">
-              <span className="mb-1">Llegada</span>
-              <input
-                type="date"
-                placeholder="Leroy Jenkins"
-                className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-yellow-600 bg-gray-100"
-              />
-            </label>
-            <label className="block">
-              <span className="mb-1">Salida</span>
-              <input
-                type="date"
-                className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-yellow-600 bg-gray-100"
-              />
-            </label>
-            <button
-              name="add"
-              type="button"
-              className="flex items-center justify-center w-full px-8 py-4 mt-4 bg-comarcaBlue rounded-xl"
-            >
-              <a href="/checkout">
-                <span className="text-sm font-medium text-white">Reservar</span>
-              </a>
-              <svg
-                className="w-5 h-5 ml-1.5"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="#ffffff"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
-                />
-              </svg>
-            </button>
-          </form>
         </div>
+      </section>
+      <section className="bg-white">
+        <Products />
       </section>
       <Footer />
     </div>
